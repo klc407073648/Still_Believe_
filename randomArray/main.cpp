@@ -7,7 +7,7 @@ int main()
 
 
  	randomArray<int>* m_randomArray1=new randomArray<int>(true);
-	randomArray<double>* m_randomArray2=new randomArray<double>(20,30);
+	randomArray<double>* m_randomArray2=new randomArray<double>(20,50,100);
 
 	vector<int>  	m1=m_randomArray1->getResultArray();
 	vector<double>  m2=m_randomArray2->getResultArray();

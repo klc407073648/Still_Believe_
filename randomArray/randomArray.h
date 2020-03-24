@@ -27,7 +27,7 @@ namespace algorithm
 		{
 		public:
 			randomArray(bool isTypeInt=false);
-			randomArray(int size,T maxValue,bool isTypeInt=false);
+			randomArray(int size,T minValue,T maxValue,bool isTypeInt=false);
 			~randomArray();
 
 			void generateRandomArray();
@@ -35,6 +35,8 @@ namespace algorithm
 		private:
 			/// 数组大小
 			int m_size ;
+			///最小值
+			T m_minValue ;
 			///最大值
 			T m_maxValue ;
 			bool m_isTypeInt;

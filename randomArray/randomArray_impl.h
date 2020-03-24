@@ -12,15 +12,17 @@ namespace algorithm
 		randomArray<T>::randomArray(bool isTypeInt)
 		{
 			m_size=10;
+			m_minValue =0 ;
 			m_maxValue =40 ;
 			m_isTypeInt=isTypeInt;
 			generateRandomArray();
 		}
 
 		template<class T>
-		randomArray<T>::randomArray(int size,T maxValue,bool isTypeInt)
+		randomArray<T>::randomArray(int size,T minValue,T maxValue,bool isTypeInt)
 		{
 			m_size=size;
+			m_minValue =minValue ;
 			m_maxValue =maxValue ;
 			m_isTypeInt=isTypeInt;
 			generateRandomArray();
@@ -48,7 +50,7 @@ namespace algorithm
 				{
 					//T random[i] = rand() % (N + 1) / (float)(N + 1)
 					//b.push_back((int)(rand() % value)- (int)(rand() % value));
-					generateResult.push_back(((T)((rand()%10000))/10000)*m_maxValue);
+					generateResult.push_back(((T)((rand()%10000))/10000)*(m_maxValue-m_minValue)+m_minValue);
 				}
 			}
 			else
@@ -57,7 +59,7 @@ namespace algorithm
 				{
 					//T random[i] = rand() % (N + 1) / (float)(N + 1)
 					//b.push_back((int)(rand() % value)- (int)(rand() % value));
-					generateResult.push_back((rand()%(int)m_maxValue));
+					generateResult.push_back((rand()%(int)(m_maxValue-m_minValue))+m_minValue);
 				}
 			}
 			
