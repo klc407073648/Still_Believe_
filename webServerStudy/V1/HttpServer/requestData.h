@@ -100,6 +100,8 @@ public:
     void handleError(int fd, int err_num, std::string short_msg);
 };
 
+/*1、当const在函数名前面的时候修饰的是函数 返回值
+2、const在函数名后面表示是类的常成员函数，该函数不能修改对象内的任何成员，只能发生读操作，不能发生写操作。 */
 struct mytimer
 {
     bool deleted;
@@ -115,6 +117,7 @@ struct mytimer
     bool isDeleted() const;
     size_t getExpTime() const;
 };
+
 
 struct timerCmp
 {

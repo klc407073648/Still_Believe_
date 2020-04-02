@@ -35,7 +35,14 @@ threadpool_t *threadpool_create(int thread_count, int queue_size, int flags)
             break;
         }
     
-        /* Start worker threads */
+        /* Start worker threads 
+        int pthread_create(pthread_t *thread, const pthread_attr_t *attr, void *(*start_routine) (void *), void *arg);
+        参数1：传出参数，保存系统为我们分配好的线程ID
+	    参数2：通常传NULL，表示使用线程默认属性。若想使用具体属性也可以修改该参数。
+	    参数3：函数指针，指向线程主函数(线程体)，该函数运行结束，则线程结束。
+	    参数4：线程主函数执行期间所使用的参数。
+        */
+
         for(i = 0; i < thread_count; i++) {
             if(pthread_create(&(pool->threads[i]), NULL, threadpool_thread, (void*)pool) != 0) 
             {
@@ -190,7 +197,15 @@ static void *threadpool_thread(void *threadpool)
         pthread_mutex_lock(&(pool->lock));
 
         /* Wait on condition variable, check for spurious wakeups.
-           When returning from pthread_cond_wait(), we own the lock. */
+           When returning from pthread_cond_wait(), we own the lock.
+        int pthread_cond_wait(pthread_cond_t *restrict cond, pthread_mutex_t *restrict mutex);
+        函数作用：
+        1.	阻塞等待条件变量cond（参1）满足	
+        2.	释放已掌握的互斥锁（解锁互斥量）相当于pthread_mutex_unlock(&mutex);
+        1.2.两步为一个原子操作。
+        3.	当被唤醒，pthread_cond_wait函数返回时，解除阻塞并重新申请获取互斥锁pthread_mutex_lock(&mutex);
+         */
+
         while((pool->count == 0) && (!pool->shutdown)) 
         {
             pthread_cond_wait(&(pool->notify), &(pool->lock));

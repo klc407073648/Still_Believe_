@@ -33,6 +33,16 @@ extern pthread_mutex_t qlock;
 extern struct epoll_event* events;
 void acceptConnection(int listen_fd, int epoll_fd, const string &path);
 
+/*
+使用函数对象greater<int>来生成小根堆
+
+注意：这里的大于号>规定了优先级，表示优先队列后面的元素都要大于优先队列前面的元素。
+因为优先队列队首的元素优先级最高，优先队列队尾元素的优先级最低，
+所以大于号>就规定了优先队列后面的元素都要大于优先队列前面的元素
+（尾部优先级小于首部优先级），也就是形成一个小根堆，升序排序，每次权值最小的会被弹出来。
+
+*/
+
 extern priority_queue<mytimer*, deque<mytimer*>, timerCmp> myTimerQueue;
 
 int socket_bind_listen(int port)
@@ -124,7 +134,7 @@ void handle_events(int epoll_fd, int listen_fd, struct epoll_event* events, int 
 {
     for(int i = 0; i < events_num; i++)
     {
-        // 获取有事件产生的描述符
+        // 获取有事件产生的描述符，通过epoll_add注册的事件 event.data.ptr = request;
         requestData* request = (requestData*)(events[i].data.ptr);
         int fd = request->getFd();
 

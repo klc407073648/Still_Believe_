@@ -124,6 +124,7 @@ void requestData::seperateTimer()
     }
 }
 
+
 void requestData::handleRequest()
 {
     char buff[MAX_BUFF];
@@ -133,14 +134,15 @@ void requestData::handleRequest()
         int read_num = readn(fd, buff, MAX_BUFF);
         if (read_num < 0)
         {
-            perror("1");
+            perror("1:read_num < 0  ");
+            //perror("1");
             isError = true;
             break;
         }
         else if (read_num == 0)
         {
             // 有请求出现但是读不到数据，可能是Request Aborted，或者来自网络的数据没有达到等原因
-            perror("read_num == 0");
+            perror("read_num == 0   ");
             if (errno == EAGAIN)
             {
                 if (againTimes > AGAIN_MAX_TIMES)
@@ -152,8 +154,11 @@ void requestData::handleRequest()
                 isError = true;
             break;
         }
+
+        //正常有读取到数据，开始解析读取到的内容
         string now_read(buff, buff + read_num);
         content += now_read;
+        printf("content: %s\n",content.c_str());
 
         if (state == STATE_PARSE_URI)
         {
@@ -164,7 +169,7 @@ void requestData::handleRequest()
             }
             else if (flag == PARSE_URI_ERROR)
             {
-                perror("2");
+                perror("2:PARSE_URI_ERROR   ");
                 isError = true;
                 break;
             }
@@ -178,10 +183,14 @@ void requestData::handleRequest()
             }
             else if (flag == PARSE_HEADER_ERROR)
             {
-                perror("3");
+                perror("3:PARSE_HEADER_ERROR    ");
                 isError = true;
                 break;
             }
+
+            /*GET和POST是HTTP请求的两种基本方法
+            GET把参数包含在URL中，POST通过request body传递参数
+            */
             if(method == METHOD_POST)
             {
                 state = STATE_RECV_BODY;
@@ -193,6 +202,7 @@ void requestData::handleRequest()
         }
         if (state == STATE_RECV_BODY)
         {
+            //headers为unordered_map
             int content_length = -1;
             if (headers.find("Content-length") != headers.end())
             {
@@ -315,6 +325,7 @@ int requestData::parse_URI()
         {
             if (_pos - pos > 1)
             {
+                //请求头一般为https://movie.douban.com/top250?start=25&filter=
                 file_name = request_line.substr(pos + 1, _pos - pos - 1);
                 int __pos = file_name.find('?');
                 if (__pos >= 0)
@@ -377,6 +388,9 @@ int requestData::parse_Headers()
             }
             case h_key:
             {
+                /*Connection: keep-alive\r\n
+                找到Connection的前后位置key_start，key_end
+                */
                 if (str[i] == ':')
                 {
                     key_end = i;
@@ -519,7 +533,7 @@ int requestData::analysisRequest()
             keep_alive = true;
             sprintf(header, "%sConnection: keep-alive\r\n", header);
             sprintf(header, "%sKeep-Alive: timeout=%d\r\n", header, EPOLL_WAIT_TIME);
-        }
+        }file_name
 		//file_name="test.html";
 		//cout << "test file_name: " << file_name << endl;
 		//sprintf(header, "%sfile_name: %s\r\n", header, "test.html");
@@ -557,6 +571,11 @@ int requestData::analysisRequest()
             return ANALYSIS_ERROR;
         }
         int src_fd = open(file_name.c_str(), O_RDONLY, 0);
+        /*mmap将一个文件或者其它对象映射进内存:
+        void* mmap(void* start,size_t length,int prot,int flags,int fd,off_t offset);
+        PROT_READ //页内容可以被读取 
+        MAP_PRIVATE //建立一个写入时拷贝的私有映射。内存区域的写入不会影响到原文件。
+        */
         char *src_addr = static_cast<char*>(mmap(NULL, sbuf.st_size, PROT_READ, MAP_PRIVATE, src_fd, 0));
         close(src_fd);
     
