@@ -533,7 +533,7 @@ int requestData::analysisRequest()
             keep_alive = true;
             sprintf(header, "%sConnection: keep-alive\r\n", header);
             sprintf(header, "%sKeep-Alive: timeout=%d\r\n", header, EPOLL_WAIT_TIME);
-        }file_name
+        }
 		//file_name="test.html";
 		//cout << "test file_name: " << file_name << endl;
 		//sprintf(header, "%sfile_name: %s\r\n", header, "test.html");
