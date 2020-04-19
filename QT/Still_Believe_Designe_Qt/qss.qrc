@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>qss/coffee.qss</file>
+        <file>qss/default.qss</file>
+        <file>qss/application.qss</file>
+        <file>qss/transparent.qss</file>
+        <file>qss/bluestyle.qss</file>
+        <file>qss/orange.qss</file>
+        <file>qss/white.qss</file>
+        <file>qss/xieti.qss</file>
+    </qresource>
+</RCC>

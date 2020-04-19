@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>res/doc-camera.png</file>
+        <file>res/doc-flieseach.png</file>
+        <file>res/doc-init.png</file>
+        <file>res/doc-measure.png</file>
+        <file>res/doc-new.png</file>
+        <file>res/doc-quit.png</file>
+        <file>res/doc-seach.png</file>
+        <file>res/doc-start.png</file>
+        <file>res/file-open.png</file>
+        <file>res/file-save.png</file>
+        <file>res/stop.png</file>
+        <file>res/help.png</file>
+        <file>res/tishi.png</file>
+        <file>res/warn.png</file>
+        <file>res/robot.png</file>
+        <file>res/jiesu.png</file>
+        <file>res/kaishi.png</file>
+        <file>res/add.png</file>
+        <file>res/delete.png</file>
+        <file>res/qingkong.png</file>
+        <file>res/save.png</file>
+        <file>res/search.png</file>
+        <file>res/break.png</file>
+        <file>res/link.png</file>
+        <file>res/reset.png</file>
+        <file>res/green.png</file>
+        <file>res/red.png</file>
+    </qresource>
+</RCC>
