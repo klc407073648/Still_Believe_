@@ -1,0 +1,39 @@
+Libevent安装
+
+1. 在官网上下载对应版本的包 http://libevent.org/
+2. tar -zxvf /your path/libevent-xxxx-stable.tar.gz解压
+3. cd libevent-xxxx-stable
+4. ./configure
+5. make && make install
+
+
+
+cd sample/  ./hello-world     nc 127.0.0.1 9995 
+
+
+myprj1
+gcc server.c -o server -levent
+gcc client.c -o client -levent
+
+
+[root@192 ~]# netstat -anp |grep server
+
+netstat -anp命令简单说明：
+
+-a，显示所有
+-n，不用别名显示，只用数字显示
+-p，显示进程号和进程名
+
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+
+
+Active Internet connections (servers and established)
+tcp        0      0 0.0.0.0:9876            0.0.0.0:*               LISTEN      22004/./server
+tcp        0      0 127.0.0.1:9876          127.0.0.1:45580         ESTABLISHED 22004/./server
+tcp        0      0 127.0.0.1:9876          127.0.0.1:45582         ESTABLISHED 22004/./server
+Active UNIX domain sockets (servers and established)
+[root@192 ~]# netstat -anp |grep client
+tcp        0      0 127.0.0.1:45582         127.0.0.1:9876          ESTABLISHED 22510/./client
+tcp        0      0 127.0.0.1:45580         127.0.0.1:9876          ESTABLISHED 22133/./client
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           892/d client
+unix  2      [ ]         DGRAM                    22957    892/dhclient
