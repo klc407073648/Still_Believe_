@@ -1,0 +1,8 @@
+[root@localhost funTest]# ./main
+port: 8080
+thread_num: 10
+myStr: testStr
+[root@localhost funTest]# ./main -p 8888 -t 20 -s hello_world
+port: 8888
+thread_num: 20
+myStr: hello_world
