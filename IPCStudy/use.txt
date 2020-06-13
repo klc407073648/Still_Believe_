@@ -1,0 +1,13 @@
+base_use:
+进程间通信的基础使用，msgsend负责发送，msgreceive负责接收
+
+double_chat：
+双端通信，定义了MSG_TYPE1和MSG_TYPE2，msgsend父进程负责读消息2，子进程负责写消息1；
+msgreceive父进程负责读消息1，子进程负责写消息2。
+
+double_chat_plus：
+对应的key生成方法进行优化
+
+msg_register：
+第一版基础的消息注册机制实现，FsmTest负责读消息（如果是注册的，调用对应函数处理）；
+msgsend用于发送消息。消息体中带有例如EVENT1,EVENT2,EVENT3。
