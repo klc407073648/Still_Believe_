@@ -11,3 +11,6 @@ double_chat_plus：
 msg_register：
 第一版基础的消息注册机制实现，FsmTest负责读消息（如果是注册的，调用对应函数处理）；
 msgsend用于发送消息。消息体中带有例如EVENT1,EVENT2,EVENT3。
+
+MsgService：
+第一版基础服务框架，可以完成消息事件的注册与处理
