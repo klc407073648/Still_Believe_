@@ -1,0 +1,338 @@
+2020-01-27,15:34:16: INFO  :LoggerManager created!
+2020-01-27,15:34:16: ERROR  :hello allen,func() called ##/home/cmakeTest1/myprj/source/main.cpp:main:34##
+2020-01-27,17:10:01: INFO klc :LoggerManager created!
+2020-01-27,17:10:01: ERROR klc :hello allen,func() called ##/home/cmakeTest1/myprj/source/main.cpp:main:36##
+2020-01-27,17:55:57: INFO null :LoggerManager created!
+2020-01-27,17:55:57: ERROR null :hello allen,func() called ##/home/cmakeTest1/myprj/source/main.cpp:main:43##
+2020-01-27,19:56:22: INFO null :LoggerManager created!
+2020-01-27,19:56:22: ERROR null :hello allen,func() called ##/home/cmakeTest1/myprj/source/main.cpp:main:47##
+2020-01-27,19:56:52: INFO null :LoggerManager created!
+2020-01-27,19:56:52: ERROR null :Sort ##/home/cmakeTest1/myprj/source/sort.cpp:Sort:21##
+2020-01-27,19:56:52: ERROR null :hello allen,func() called ##/home/cmakeTest1/myprj/source/main.cpp:main:47##
+2020-01-27,20:00:38: INFO  :LoggerManager created!
+2020-01-27,20:00:38: ERROR  :Sort ##/home/cmakeTest1/myprj/source/sort.cpp:Sort:21##
+2020-01-27,20:00:38: ERROR  :hello allen,func() called ##/home/cmakeTest1/myprj/source/main.cpp:main:47##
+2020-01-27,20:29:12: INFO  :LoggerManager created!
+2020-01-27,20:29:12: ERROR  :Sort ##/home/cmakeTest1/myprj/source/sort.cpp:Sort:21##
+2020-01-27,20:29:12: ERROR  :hello allen,func() called ##/home/cmakeTest1/myprj/source/main.cpp:main:47##
+2020-01-27,20:47:20: INFO  :LoggerManager created!
+2020-01-27,20:47:20: ERROR  :Sort Func Test(/sort.:Sort:21)
+2020-01-27,20:47:20: ERROR  :main Func Test(/main.:main:17)
+2020-01-27,20:48:08: INFO  :LoggerManager created!
+2020-01-27,20:48:08: ERROR  :Sort Func Test(sort.:Sort:21)
+2020-01-27,20:48:08: ERROR  :main Func Test(main.:main:17)
+2020-01-27,20:49:01: INFO  :LoggerManager created!
+2020-01-27,20:49:01: ERROR  :Sort Func Test(sort:Sort:21)
+2020-01-27,20:49:01: ERROR  :main Func Test(main:main:17)
+2020-01-27,21:19:42: INFO :LoggerManager created!
+2020-01-27,21:19:42: ERROR :Sort Func Test(sort:Sort:21)
+2020-01-27,21:19:42: ERROR :main Func Test(main:main:18)
+2020-03-01,14:20:34: INFO :LoggerManager created!
+2020-03-01,14:20:34: ERROR :Sort Func Test(sort:Sort:21)
+2020-03-01,14:20:34: ERROR :main Func Test(main:main:18)
+2020-03-01,14:21:47: INFO null:LoggerManager created!
+2020-03-01,14:21:47: ERROR null:Sort Func Test(sort:Sort:21)
+2020-03-01,14:21:47: ERROR null:main Func Test(main:main:18)
+2020-03-01,14:23:14: INFO SORT:LoggerManager created!
+2020-03-01,14:23:14: ERROR SORT:Sort Func Test(sort:Sort:21)
+2020-03-01,14:23:14: ERROR SORT:main Func Test(main:main:18)
+2020-03-01,14:24:02: INFO SORT:LoggerManager created!
+2020-03-01,14:24:02: ERROR SORT:Sort Func Test(sort:Sort:21)
+2020-03-01,14:24:02: ERROR SORT:main Func Test(main:main:18)
+2020-03-01,14:24:36: INFO SORT:LoggerManager created!
+2020-03-01,14:24:36: ERROR SORT:Sort Func Test(sort:Sort:21)
+2020-03-01,14:24:36: ERROR SORT:main Func Test(main:main:18)
+2020-03-01,14:24:53: INFO SORT:LoggerManager created!
+2020-03-01,14:24:53: ERROR SORT:Sort Func Test(sort:Sort:21)
+2020-03-01,14:24:53: ERROR SORT:main Func Test(main:main:18)
+2020-03-01,14:25:33: INFO XXXXXX:LoggerManager created!
+2020-03-01,14:25:33: ERROR XXXXXX:main Func Test(main:main:18)
+2020-03-01,14:26:06: INFO SORT:LoggerManager created!
+2020-03-01,14:26:06: ERROR SORT:Sort Func Test(sort:Sort:21)
+2020-03-01,14:26:06: ERROR SORT:main Func Test(main:main:18)
+2020-03-01,15:02:26: INFO SORT:LoggerManager created!
+2020-03-01,15:02:26: ERROR SORT:Sort Func Test(sort:Sort:23)
+2020-03-01,15:02:26: ERROR SORT:main Func Test(main:main:18)
+2020-03-01,15:35:29: INFO SORT:LoggerManager created!
+2020-03-01,15:35:29: ERROR SORT:Sort Func Test(sort:Sort:21)
+2020-03-01,15:36:25: INFO SORT:LoggerManager created!
+2020-03-01,15:36:25: ERROR SORT:Sort Func Test(sort:Sort:21)
+2020-03-01,15:36:25: ERROR SORT:main Func Test(main:main:17)
+2020-03-01,16:08:06: INFO /home/log4cpp_MutiFileUse/myprj/source/sort.cpp:LoggerManager created!
+2020-03-01,16:08:06: ERROR /home/log4cpp_MutiFileUse/myprj/source/sort.cpp:Sort Func Test(sort:Sort:19)
+2020-03-01,16:08:06: ERROR /home/log4cpp_MutiFileUse/myprj/source/sort.cpp:main Func Test(main:main:17)
+2020-03-01,16:13:43: INFO /home/log4cpp_MutiFileUse/myprj/source/sort.cpp:LoggerManager created!
+2020-03-01,16:13:43: ERROR /home/log4cpp_MutiFileUse/myprj/source/sort.cpp:Sort Func Test(sort:Sort:19)
+2020-03-01,16:13:43: ERROR /home/log4cpp_MutiFileUse/myprj/source/sort.cpp:main Func Test(main:main:17)
+2020-03-01,17:35:37: INFO :LoggerManager created!
+2020-03-01,17:35:37: INFO /home/log4cpp_MutiFileUse11/myprj/source/sort.cpp:LoggerManager created!
+2020-03-01,17:35:37: INFO /home/log4cpp_MutiFileUse11/myprj/source/sort.cpp:LoggerManager created!
+2020-03-01,17:35:37: INFO null:LoggerManager created!
+2020-03-01,17:35:37: INFO null:LoggerManager created!
+2020-03-01,17:35:37: ERROR :Sort Func Test(sort:Sort:19)
+2020-03-01,17:35:37: INFO /home/log4cpp_MutiFileUse11/myprj/source/main.cpp:LoggerManager created!
+2020-03-01,17:35:37: INFO /home/log4cpp_MutiFileUse11/myprj/source/main.cpp:LoggerManager created!
+2020-03-01,17:35:37: ERROR :main Func Test(main:main:17)
+2020-03-01,17:36:55: INFO :LoggerManager created!
+2020-03-01,17:36:55: INFO /home/log4cpp_MutiFileUse11/myprj/source/sort.cpp:LoggerManager created!
+2020-03-01,17:36:55: INFO /home/log4cpp_MutiFileUse11/myprj/source/sort.cpp:LoggerManager created!
+2020-03-01,17:36:55: INFO null:LoggerManager created!
+2020-03-01,17:36:55: INFO null:LoggerManager created!
+2020-03-01,17:36:55: ERROR :Sort Func Test(sort:Sort:19)
+2020-03-01,17:36:55: INFO MAIN:LoggerManager created!
+2020-03-01,17:36:55: INFO MAIN:LoggerManager created!
+2020-03-01,17:36:55: ERROR :main Func Test(main:main:17)
+2020-03-01,17:39:53: INFO :LoggerManager created!
+2020-03-01,17:39:53: INFO SORT:LoggerManager created!
+2020-03-01,17:39:53: INFO SORT:LoggerManager created!
+2020-03-01,17:39:53: INFO null:LoggerManager created!
+2020-03-01,17:39:53: INFO null:LoggerManager created!
+2020-03-01,17:39:53: ERROR :Sort Func Test(sort:Sort:19)
+2020-03-01,17:39:53: INFO MAIN:LoggerManager created!
+2020-03-01,17:39:53: INFO MAIN:LoggerManager created!
+2020-03-01,17:39:53: ERROR :main Func Test(main:main:17)
+2020-03-01,17:47:00: INFO :LoggerManager created!
+2020-03-01,17:47:00: INFO SORT:LoggerManager created!
+2020-03-01,17:47:00: INFO SORT:LoggerManager created!
+2020-03-01,17:47:00: INFO null:LoggerManager created!
+2020-03-01,17:47:00: INFO null:LoggerManager created!
+2020-03-01,17:47:00: ERROR :Sort Func Test(sort:Sort:20)
+2020-03-01,17:47:00: INFO MAIN:LoggerManager created!
+2020-03-01,17:47:00: INFO MAIN:LoggerManager created!
+2020-03-01,17:47:00: ERROR :main Func Test(main:main:17)
+2020-03-01,19:17:00: INFO :LoggerManager created!
+2020-03-01,19:17:00: INFO SORT:LoggerManager created!
+2020-03-01,19:17:00: INFO SORT:LoggerManager created!
+2020-03-01,19:17:00: INFO null:LoggerManager created!
+2020-03-01,19:17:00: INFO null:LoggerManager created!
+2020-03-01,19:17:00: ERROR :Sort Func Test(sort:Sort:20)
+2020-03-01,19:17:00: INFO MAIN:LoggerManager created!
+2020-03-01,19:17:00: INFO MAIN:LoggerManager created!
+2020-03-01,19:17:00: ERROR :main Func Test(main:main:17)
+2020-03-01,19:42:53: INFO :LoggerManager created!
+2020-03-01,19:42:53: INFO /home/log4cpp_MutiFileUse11/myprj/source/sort.cpp:LoggerManager created!
+2020-03-01,19:42:53: INFO /home/log4cpp_MutiFileUse11/myprj/source/sort.cpp:LoggerManager created!
+2020-03-01,19:42:53: INFO null:LoggerManager created!
+2020-03-01,19:42:53: INFO null:LoggerManager created!
+2020-03-01,19:42:53: ERROR :Sort Func Test(sort:Sort:19)
+2020-03-01,19:42:53: INFO /home/log4cpp_MutiFileUse11/myprj/source/main.cpp:LoggerManager created!
+2020-03-01,19:42:53: INFO /home/log4cpp_MutiFileUse11/myprj/source/main.cpp:LoggerManager created!
+2020-03-01,19:42:53: ERROR :main Func Test(main:main:17)
+2020-03-01,20:47:27: INFO :LoggerManager created!
+2020-03-01,20:47:27: INFO SORT:LoggerManager created!
+2020-03-01,20:47:27: INFO SORT:LoggerManager created!
+2020-03-01,20:47:27: INFO MAIN11:LoggerManager created!
+2020-03-01,20:47:27: INFO MAIN11:LoggerManager created!
+2020-03-01,21:03:28: INFO :LoggerManager created!
+2020-03-01,21:03:28: INFO SORT:LoggerManager created!
+2020-03-01,21:03:28: INFO SORT:LoggerManager created!
+2020-03-01,21:03:28: INFO MAIN11:LoggerManager created!
+2020-03-01,21:03:28: INFO MAIN11:LoggerManager created!
+2020-03-01,21:15:36: INFO :LoggerManager created!
+2020-03-01,21:15:36: INFO SORT:LoggerManager created!
+2020-03-01,21:15:36: INFO SORT:LoggerManager created!
+2020-03-01,21:15:36: INFO MAIN11:LoggerManager created!
+2020-03-01,21:15:36: INFO MAIN11:LoggerManager created!
+2020-03-01,21:16:42: INFO :LoggerManager created!
+2020-03-01,21:16:42: INFO SORT:LoggerManager created!
+2020-03-01,21:16:42: INFO SORT:LoggerManager created!
+2020-03-01,21:16:42: INFO null:LoggerManager created!
+2020-03-01,21:16:42: INFO null:LoggerManager created!
+2020-03-01,21:16:42: ERROR SORT:Sort Func Test(sort:Sort:25)
+2020-03-01,21:16:42: ERROR SORT:Sort Func Test(sort:Sort:25)
+2020-03-01,21:17:45: INFO :LoggerManager created!
+2020-03-01,21:17:45: INFO SORT:LoggerManager created!
+2020-03-01,21:17:45: INFO SORT:LoggerManager created!
+2020-03-01,21:17:45: INFO null:LoggerManager created!
+2020-03-01,21:17:45: INFO null:LoggerManager created!
+2020-03-01,21:17:45: ERROR SORT:Sort Func Test(sort:Sort:25)
+2020-03-01,21:17:45: ERROR SORT:Sort Func Test(sort:Sort:25)
+2020-03-01,21:18:48: INFO :LoggerManager created!
+2020-03-01,21:18:48: INFO SORT:LoggerManager created!
+2020-03-01,21:18:48: INFO SORT:LoggerManager created!
+2020-03-01,21:18:48: INFO null:LoggerManager created!
+2020-03-01,21:18:48: INFO null:LoggerManager created!
+2020-03-01,21:18:48: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:18:48: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:18:48: INFO MAIN11:LoggerManager created!
+2020-03-01,21:18:48: INFO MAIN11:LoggerManager created!
+2020-03-01,21:19:49: INFO :LoggerManager created!
+2020-03-01,21:19:49: INFO SORT:LoggerManager created!
+2020-03-01,21:19:49: INFO SORT:LoggerManager created!
+2020-03-01,21:19:49: INFO null:LoggerManager created!
+2020-03-01,21:19:49: INFO null:LoggerManager created!
+2020-03-01,21:19:49: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:19:49: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:20:34: INFO :LoggerManager created!
+2020-03-01,21:20:34: INFO SORT:LoggerManager created!
+2020-03-01,21:20:34: INFO SORT:LoggerManager created!
+2020-03-01,21:20:34: INFO null:LoggerManager created!
+2020-03-01,21:20:34: INFO null:LoggerManager created!
+2020-03-01,21:20:34: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:20:34: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:21:40: INFO :LoggerManager created!
+2020-03-01,21:21:40: INFO SORT:LoggerManager created!
+2020-03-01,21:21:40: INFO SORT:LoggerManager created!
+2020-03-01,21:21:40: INFO null:LoggerManager created!
+2020-03-01,21:21:40: INFO null:LoggerManager created!
+2020-03-01,21:21:40: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:21:40: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:22:18: INFO :LoggerManager created!
+2020-03-01,21:22:18: INFO SORT:LoggerManager created!
+2020-03-01,21:22:18: INFO SORT:LoggerManager created!
+2020-03-01,21:22:18: INFO null:LoggerManager created!
+2020-03-01,21:22:18: INFO null:LoggerManager created!
+2020-03-01,21:22:18: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:22:18: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:22:18: INFO MAIN11:LoggerManager created!
+2020-03-01,21:22:18: INFO MAIN11:LoggerManager created!
+2020-03-01,21:22:18: ERROR MAIN11:Sort Func Test(main:main:24)
+2020-03-01,21:22:18: ERROR MAIN11:Sort Func Test(main:main:24)
+2020-03-01,21:45:43: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:45:43: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:45:43: ERROR MAIN11:Sort Func Test(main:main:24)
+2020-03-01,21:45:43: ERROR MAIN11:Sort Func Test(main:main:24)
+2020-03-01,21:47:00: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:47:00: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,21:47:00: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,21:47:00: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:01:39: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,22:01:39: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,22:01:39: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:01:39: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:01:40: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,22:01:40: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,22:01:40: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:01:40: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:02:11: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,22:02:11: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,22:02:11: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:02:11: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:02:13: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,22:02:13: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,22:02:13: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:02:13: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:03:49: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:03:49: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:03:49: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:03:49: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:04:23: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:04:23: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:04:28: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:04:28: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:05:04: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:05:04: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:09:40: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:09:40: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:09:40: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:09:40: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:17:00: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:17:00: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:17:00: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:17:00: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,22:18:38: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,22:18:38: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,23:06:56: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,23:06:56: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,23:13:23: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,23:13:23: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,23:49:45: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-01,23:49:45: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,23:50:45: ERROR SORT:Sort Func Test(sort:Sort:25)
+2020-03-01,23:52:13: ERROR SORT:Sort Func Test(sort:Sort:25)
+2020-03-01,23:52:36: ERROR SORT:Sort Func Test(sort:Sort:25)
+2020-03-01,23:53:21: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,23:53:21: ERROR MAIN11:main Func Test(main:main:24)
+2020-03-01,23:53:46: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,23:54:47: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,23:55:31: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-01,23:55:31: ERROR MAIN11:main Func Test(main:main:25)
+2020-03-01,23:56:47: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-02,00:00:23: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-02,00:00:23: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-03,21:12:27: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-03,21:12:27: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-03,21:14:31: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-03,21:14:31: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-03,21:51:49: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-03,21:51:49: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-03,21:54:30: ERROR SORT:Sort Func Test(sort:Sort:26)
+2020-03-03,21:54:30: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-08,10:13:07: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,10:13:07: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-08,10:13:07: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,10:27:42: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,10:27:42: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-08,10:27:42: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,10:27:46: ERROR SORT:Sort1 Func Test(sort:Sort:27)
+2020-03-08,10:27:46: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-08,10:27:46: ERROR SORT:Sort1 Func END(sort:~Sort:41)
+2020-03-08,11:12:42: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,11:12:42: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-08,11:12:42: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,11:27:26: ERROR SORT:Sort1 Func Test(sort:Sort:27)
+2020-03-08,11:27:26: ERROR SORT:Sort1 Func END(sort:~Sort:41)
+2020-03-08,11:27:31: ERROR SORT:Sort1 Func Test(sort:Sort:27)
+2020-03-08,11:27:31: ERROR SORT:Sort1 Func END(sort:~Sort:41)
+2020-03-08,11:27:46: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,11:27:46: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-08,11:27:46: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,11:28:09: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,11:28:09: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-08,11:28:09: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,17:20:34: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,17:20:34: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,17:22:49: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,17:22:49: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,17:23:42: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,17:23:42: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,17:27:47: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,17:27:47: ERROR MAIN11:main Func Test(main:main:47)
+2020-03-08,17:27:47: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,17:28:41: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,17:28:41: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,17:29:14: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,17:29:14: ERROR MAIN11:main Func Test(main:main:48)
+2020-03-08,17:29:14: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,17:30:21: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,17:30:21: ERROR MAIN11:main Func Test(main:main:50)
+2020-03-08,17:30:21: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,17:34:43: ERROR SORT:Sort Func Test(sort:Sort:27)
+2020-03-08,17:34:43: ERROR SORT:Sort Func END(sort:~Sort:41)
+2020-03-08,19:08:09: ERROR SORT:Sort Func Test(sort:Sort:29)
+2020-03-08,19:08:09: ERROR SORT:Sort Func END(sort:~Sort:43)
+2020-03-08,19:08:09: ERROR SORT:Sort Func END11(sort:~Sort:47)
+2020-03-08,19:08:09: ERROR SORT:Sort Func END22(sort:~Sort:48)
+2020-03-08,19:10:39: ERROR SORT:Sort Func Test(sort:Sort:29)
+2020-03-08,19:10:39: ERROR SORT:Sort Func END(sort:~Sort:43)
+2020-03-08,19:10:39: ERROR SORT:Sort Func END11(sort:~Sort:47)
+2020-03-08,19:10:39: ERROR SORT:Sort Func END22(sort:~Sort:48)
+2020-03-08,19:11:20: ERROR SORT:Sort Func Test(sort:Sort:29)
+2020-03-08,19:11:20: ERROR SORT:Sort Func END(sort:~Sort:43)
+2020-03-08,19:11:20: ERROR SORT:Sort Func END11(sort:~Sort:47)
+2020-03-08,19:11:20: ERROR SORT:Sort Func END22(sort:~Sort:48)
+2020-03-08,19:12:53: ERROR SORT:Sort Func Test(sort:Sort:30)
+2020-03-08,19:12:53: ERROR SORT:Sort Func END(sort:~Sort:44)
+2020-03-08,19:12:53: ERROR SORT:Sort Func END11(sort:~Sort:48)
+2020-03-08,19:12:53: ERROR SORT:Sort Func END22(sort:~Sort:49)
+2020-03-08,19:15:26: ERROR SORT:Sort Func Test(sort:Sort:30)
+2020-03-08,19:15:26: ERROR SORT:Sort Func END(sort:~Sort:44)
+2020-03-08,19:15:26: ERROR SORT:Sort Func END11(sort:~Sort:48)
+2020-03-08,19:15:26: ERROR SORT:Sort Func END22(sort:~Sort:49)
+2020-03-08,19:16:02: ERROR SORT:Sort Func Test(sort:Sort:30)
+2020-03-08,19:16:02: ERROR SORT:Sort Func END(sort:~Sort:44)
+2020-03-08,19:16:02: ERROR SORT:Sort Func END11(sort:~Sort:48)
+2020-03-08,19:16:02: ERROR SORT:Sort Func END22(sort:~Sort:49)
+2020-03-08,19:16:05: ERROR SORT:Sort1 Func Test(sort:Sort:27)
+2020-03-08,19:16:05: ERROR MAIN11:main Func Test(main:main:26)
+2020-03-08,19:16:05: ERROR SORT:Sort1 Func END(sort:~Sort:41)
+2020-03-15,19:49:36: ERROR Sort:Sort Test
+2020-03-15,19:49:49: ERROR Sort:Sort Test
+2020-03-15,19:49:53: WARN randomArray:randomArray Test
+2020-03-15,19:49:53: ERROR Sort:Sort Test
+2020-03-15,19:52:08: WARN randomArray:randomArray Test
+2020-03-15,19:52:08: ERROR Sort:Sort Test
+2020-03-15,19:52:10: WARN randomArray:randomArray Test
+2020-03-15,19:52:10: ERROR Sort:Sort Test
+2020-06-14,03:47:56: WARN randomArray:randomArray Test
+2020-06-14,03:47:56: ERROR Sort:Sort Test

@@ -1,0 +1,10 @@
+CODEDIR=`pwd`
+
+cd $CODEDIR
+
+if [ -f ./comlib/3part/log4cpp/lib/liblog4cpp.so.5.0.6 ];then
+   cd  ./comlib/3part/log4cpp/lib
+   ln -s  liblog4cpp.so.5.0.6 liblog4cpp.so
+   #ln -s  liblog4cpp.so.5.0.6 liblog4cpp.so.5
+   echo "link log4cpp success"
+fi

@@ -1,0 +1,17 @@
+#头文件目录
+INCLUDE_DIRECTORIES( ${LOG4CPP_INCLUDE} ${JSONCPP_INCLUDE} ${MINILOG_INCLUDE} ./include )
+
+#目录源码路径
+SET( MSG_SRC_DIR ./source )
+
+#代码列表
+FILE (GLOB MSG_FILES ${MSG_SRC_DIR}/*.cpp)
+
+#依赖的LIB
+SET(MSG_LIB ${LIB_LOG4CPP} ${LIB_PTHREAD} ${LIB_MINILOG} ${LIB_JSONCPP})
+
+#生成msgservice 
+ADD_EXECUTABLE( msgservice ${MSG_FILES})
+
+#连接生成相关库
+TARGET_LINK_LIBRARIES( msgservice ${MSG_LIB} )
