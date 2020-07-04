@@ -1,0 +1,33 @@
+1.libfastcommon的安装
+cd /home/believe123/myproject/fastDFS/libfastcommon/
+git clone https://github.com/happyfish100/libfastcommon
+cd libfastcommon/
+./make.sh
+./make.sh install
+ 
+2.FastDFS的安装
+cd /home/believe123/myproject/fastDFS/libfastcommon/fastDFS/
+git clone https://github.com/happyfish100/fastdfs.git
+cd ./fastdfs/
+./make.sh
+./make.sh  install
+
+3.修改配置文件，见doc，修改后文件见fdfs
+
+4.上传下载文件测试
+[root@192 fdfs]# cd /etc/fdfs/
+[root@192 fdfs]# echo "hello world" >> abc.txt
+[root@192 fdfs]# fdfs_upload_file /etc/fdfs/client.conf abc.txt   group1/M00/00/00/wKgC5l76hMaAaSnFAAAADK8IOy0792.txt
+[root@192 fdfs]# fdfs_download_file /etc/fdfs/client.conf group1/M00/00/00/wKgC5l76hMaAaSnFAAAADK8IOy0792.txt
+[root@192 fdfs]# fdfs_delete_file /etc/fdfs/client.conf group1/M00/00/00/wKgC5l76hMaAaSnFAAAADK8IOy0792.txt
+[root@192 fdfs]#
+
+
+
+cd usr/local/nginx/sbin
+./nginx  -s reload
+
+systemctl stop httpd
+systemctl stop firewalld.service
+
+

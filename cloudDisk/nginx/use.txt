@@ -1,0 +1,33 @@
+1.首先需要修改C:\Windows\System32\drivers\etc 下的hosts文件，使得IP和主机名成映射关系
+192.168.2.230  myprj.com
+192.168.2.231  myweb.com
+
+Hosts文件主要作用是定义IP地址和主机名的映射关系，是一个映射IP地址和主机名的规定。
+可以用文本文件打开！当用户在浏览器中输入一个需要登录的网址时，系统会首先自动从Hosts文件中
+寻找对应的IP地址，一旦找到，浏览器会立即打开对应网页，如果没有找到，则浏览器会将网址提交
+DNS服务器进行IP地址解析。这也是提高快速打开网页的方法！
+
+2.在window上启动nginx反向代理服务器，设置文件nginx.conf：
+格式例如：
+ 	#设置反向代理
+	upstream myprj.test{
+	   server 192.168.2.230:80;  
+	}
+	
+	
+	#要配置代理的服务器信息
+	# myprj.com - 192.168.2.230 
+    server {
+        listen       80;
+        server_name  myprj.com;
+
+        location / {
+            #设置代理
+            proxy_pass http://myprj.test;
+        }
+	}
+
+3.远程登录192.168.2.230和192.168.2.231虚机
+/usr/local/nginx/sbin/nginx 启动nginx服务器
+
+4.测试，直接在windows机器上输入myprj.com和myweb.com可以访问到对应nginx服务器的资源
