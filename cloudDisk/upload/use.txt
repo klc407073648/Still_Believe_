@@ -1,0 +1,15 @@
+test: 实现图片上传（默认test.png）
+test1: 获取filename文件名，进行图片上传
+test2: 获取filename文件名，并存储到fastDFS节点上
+
+
+g++ echo.c -o echo -lfcgi -std=c++11
+
+spawn-fcgi  -a 127.0.0.1 -p 8002 -f ./echo
+
+./fastdfs.sh  all
+
+
+
+存储位置：
+/usr/fastdfs/fastdfs0/data/00/00/wKgC5l8BQ-iAGpelAAFzSMx7YHI345.png

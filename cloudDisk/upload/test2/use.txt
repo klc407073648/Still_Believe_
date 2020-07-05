@@ -1,0 +1,16 @@
+
+注意需要先开启fastDFS服务
+./fastdfs.sh  all
+
+[root@192 test]# g++ upload.c -o upload -lfcgi -std=c++11
+[root@192 test]# spawn-fcgi  -a 127.0.0.1 -p 8002 -f ./upload
+spawn-fcgi: child spawned successfully: PID: 6273
+[root@192 test]#
+
+
+
+FastCGI echo
+Request number 1, Process ID: 6273
+boundary =[-----------------------------7e421918308c8] content_text =[Content-Disposition: form-data; name="file"; filename="IMG_20161218_103728.png"] 
+mystr= IMG_20161218_103728.png 
+retStr=group1/M00/00/00/wKgC5l8BRoGAR1B5AARdiNw7AJI375.png 

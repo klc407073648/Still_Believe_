@@ -1,0 +1,22 @@
+2020/07/03 21:09:32 [notice] 13748#22580: signal process started
+2020/07/03 21:10:27 [notice] 10824#17508: signal process started
+2020/07/03 21:11:45 [notice] 15116#8152: signal process started
+2020/07/03 21:13:42 [notice] 13868#11744: signal process started
+2020/07/03 21:53:48 [notice] 22068#5236: signal process started
+2020/07/03 21:59:10 [notice] 7332#1504: signal process started
+2020/07/03 22:40:06 [notice] 11744#11504: signal process started
+2020/07/03 22:59:27 [notice] 1532#4924: signal process started
+2020/07/03 23:05:52 [notice] 20912#21948: signal process started
+2020/07/04 07:34:40 [notice] 19144#5416: signal process started
+2020/07/04 08:00:53 [notice] 12244#18408: signal process started
+2020/07/04 08:01:29 [warn] 20932#14756: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/04 08:01:29 [notice] 20932#14756: signal process started
+2020/07/04 08:01:29 [warn] 22916#11448: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/04 08:01:40 [warn] 14796#12476: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/04 08:01:40 [notice] 14796#12476: signal process started
+2020/07/04 08:01:40 [warn] 13772#2072: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2020/07/04 08:03:01 [notice] 2084#21740: signal process started
+2020/07/04 08:03:56 [notice] 23796#9116: signal process started
+2020/07/04 08:08:20 [notice] 8272#20352: signal process started
+2020/07/04 09:22:02 [alert] 12860#19804: worker process 15408 exited with code C0000142
+2020/07/04 09:22:02 [alert] 12860#19804: could not respawn worker
