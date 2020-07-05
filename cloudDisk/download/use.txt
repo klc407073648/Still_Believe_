@@ -1,0 +1,34 @@
+主要配置如下：
+nginx.conf
+
+location /group1/M00 {
+	root /usr/fastdfs/fastdfs0/data;
+	ngx_fastdfs_module;
+     }
+
+mod_fastdfs.conf
+
+[group1]
+group_name=group1
+storage_server_port=23000
+store_path_count=1
+store_path0=/usr/fastdfs/fastdfs0
+
+storage.conf
+
+group_name = group1
+bind_addr = 192.168.2.230
+store_path0 = /usr/fastdfs/fastdfs0
+tracker_server = 192.168.2.230:22122
+
+上传结果如下：
+FastCGI echo
+Request number 8, Process ID: 6273
+boundary =[-----------------------------7e43024308c8] 
+content_text =[Content-Disposition: form-data; name="file"; filename="mmexport1447545864993.jpg"] 
+mystr= mmexport1447545864993.jpg 
+retStr=group1/M00/00/00/wKgC5l8Bx-2AXqqOAA5Gqm_FAbs348.jpg 
+
+直接输入地址访问图片资源
+http://192.168.2.230/group1/M00/00/00/wKgC5l8Bx-2AXqqOAA5Gqm_FAbs348.jpg
+
