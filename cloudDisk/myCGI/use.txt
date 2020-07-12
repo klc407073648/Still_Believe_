@@ -1,0 +1,52 @@
+nginx.conf 设置如下：
+
+ location / {
+            root   test;
+            index  judge.html;
+        }
+		
+		location /register.html {
+            root   test;
+            index  register.html;
+        }
+		
+		location /login.html {
+            root   test;
+            index  login.html;
+        }
+		
+		location /upload.html {
+            root   test;
+            index  upload.html;
+        }
+
+location /group1/M00 {
+			root /usr/fastdfs/fastdfs0/data;
+			ngx_fastdfs_module;
+		}
+		
+	
+		
+		location /register {
+			fastcgi_pass 127.0.0.1:8050;
+			include fastcgi.conf;
+		}
+		
+		location /login {
+			fastcgi_pass 127.0.0.1:8051;
+			include fastcgi.conf;
+		}
+		
+		location /upload {
+			fastcgi_pass 127.0.0.1:8052;
+			include fastcgi.conf;
+		}
+
+2.执行build.sh 生成三个cgi可执行程序
+spawn-fcgi  -a 127.0.0.1 -p 8050 -f ./register
+spawn-fcgi  -a 127.0.0.1 -p 8051 -f ./login
+spawn-fcgi  -a 127.0.0.1 -p 8052 -f ./upload
+
+
+
+
