@@ -1,0 +1,1 @@
+直接cd 切换到当前路径下，执行buildMyPrj.sh即可
