@@ -1,0 +1,254 @@
+body {
+  padding:0;
+  margin:0;
+ background-color:whitesmoke;
+}
+
+
+ /*background:url('./image/portfolio8.jpg') no-repeat ;
+  background-size: 100%;*/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top: 30px;
+  border-bottom:#07083a 3px solid;
+}
+.three-column-wrapper {
+  display: flex;
+}
+
+.personal-info {
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  width:20%;
+}
+
+.personal-info .my-logo{
+ 
+}
+
+.personal-info .my-name{
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+
+.nav-page {
+  padding-top: 20px;
+  width:55%;
+}
+
+.nav-page li{
+    display: inline; 
+    padding-left: 20px; 
+    font-size: 1.1rem;
+}
+.search-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding-top: 40px;
+  width:20%;
+}
+.search-content input[type="text"]{
+  height:20px;
+  width:150px;
+}
+.search-content button{
+  height:28px;
+}
+
+.my-website-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1.5fr;
+  padding: 30px;
+}
+/*border:3px solid black;*/
+.brief-introduce {
+  position: relative;
+  top: 100px;
+  width:300px;
+  height:200px;
+  border: #e1e1e1 solid 1px;
+  padding: 10px;
+  border-radius:20px;
+  background-color: white;
+}
+.brief-introduce h1{
+  color: lightseagreen;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+
+.brief-introduce p{
+  color: black;
+  font-family:SimSun;
+  font-weight: bolder;
+  font-size: 15px;
+  text-indent: 20%;
+}
+
+.main-content li{
+    width: 80%;
+    list-style: none;
+    padding:15px;
+    border: #cccccc solid 2px;
+    margin-bottom:5px;
+    background:#e6e6e6;
+}
+
+#services a{
+  text-decoration: none;
+  color: blue;
+}
+
+
+.my-ariticle-link {
+  width: 100%;
+}
+
+.my-notice {
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:lightskyblue;
+  border-radius:20px;
+}
+
+.my-notice h1{
+  color: lightseagreen;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+
+.my-notice p{
+  color: black;
+  font-family:SimSun;
+  font-size: 20;
+  text-indent: 20%;
+}
+
+.new-article h1{
+  padding-top: 20px;
+}
+
+.new-article li{
+  list-style: square;
+  color: grey;
+}
+
+.new-article li:hover{
+  color: black;
+}
+
+.new-article a{
+  text-decoration: none;
+}
+
+
+
+.nav-page div{
+    margin-right: 20px;
+    font-size: 0.9rem;
+}
+
+.nav-page a{
+    color: grey;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-page a:hover{
+  color: #ffffff;
+  border-bottom: 1px solid  #ffffff;
+}
+
+.my-picture{
+  padding-top: 20px;
+}
+
+.my-picture img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 100%;
+}
+
+
+.aside .my-notice {
+  background-color: #38B7EA;
+  padding: 15px;
+  margin: 0px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+}
+
+#footer p{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  font-size: 1.2rem;
+  background-color:#35424a;
+  text-align: center;
+}
+
+#video-RADWIMPS {
+  width: 500px;
+  height: 100%;
+}
+
+.my-photo-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+.my-photo-list img{
+  
+  height: 350px;
+  width: 100%;
+}
+
+.my-article {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr ;
+  padding-top: 20px;
+  
+  text-decoration: none;
+  
+}
+
+.my-article h3
+{
+  color: #35424a;
+  text-align: center;
+}
+
+.my-article p
+{
+  color: #35424a;
+  text-align: center;
+  
+}
+
+.input_info {
+  text-align: center;
+}
+ .my_input{
+   margin-top: 10px;
+   border: none;
+   text-align: center;
+   font-size: 15px;
+  
+}
+
+
+input::-webkit-input-placeholder{
+  color: lightblue;
+}
+
+
+.my_sumbit {
+  border: none;
+  background: lightblue;
+  color: red;
+  margin-top: 10px;
+  width : 100px;
+}
