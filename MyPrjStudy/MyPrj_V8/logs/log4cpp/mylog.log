@@ -1,0 +1,45 @@
+2020-07-29,05:23:50: DEBUG Sort:Sort Test
+2020-07-29,05:23:50: DEBUG Sort:Sort Test
+[2020-07-29 05:26:00 DEBUG] (Sort): Sort Test
+[2020-07-29 05:26:00 DEBUG] (Sort): Sort Test
+[2020-07-29 05:28:08 -DEBUG ] (Sort): Sort Test
+[2020-07-29 05:28:08 -DEBUG ] (Sort): Sort Test
+[2020-07-29 05:29:05 DEBUG](Sort):Sort Test
+[2020-07-29 05:29:05 DEBUG](Sort):Sort Test
+[2020-07-29 05:33:22 DEBUG](Sort):Sort Test
+[2020-07-29 05:33:22 DEBUG](Sort):Sort Test
+[2020-07-29 05:33:22 INFO](randomArray):randomArray Test
+[2020-07-29 05:33:22 WARN](randomArray):randomArray Test
+[2020-07-29 05:33:22 ERROR](randomArray):randomArray Test
+[2020-07-29 05:49:16 DEBUG](Sort):Sort Test
+[2020-07-29 05:49:16 DEBUG](Sort):Sort Test
+[2020-07-29 05:49:16 INFO](randomArray):randomArray Test
+[2020-07-29 05:49:16 WARN](randomArray):randomArray Test
+[2020-07-29 05:49:16 ERROR](randomArray):randomArray Test
+[2020-07-29 05:50:23 DEBUG](Sort):Sort Test
+[2020-07-29 05:50:23 DEBUG](Sort):Sort Test
+[2020-07-29 05:50:23 INFO](randomArray):randomArray Test
+[2020-07-29 05:50:23 WARN](randomArray):randomArray Test
+[2020-07-29 05:50:23 ERROR](randomArray):randomArray Test
+[2020-07-29 05:55:10 DEBUG](Sort):Sort Test
+[2020-07-29 05:55:10 DEBUG](Sort):Sort Test
+[2020-07-29 05:55:10 INFO](randomArray):randomArray Test
+[2020-07-29 05:55:10 WARN](randomArray):randomArray Test
+[2020-07-29 05:55:10 ERROR](randomArray):randomArray Test
+[2020-07-29 05:55:11 DEBUG](Sort):Sort Test
+[2020-07-29 05:55:11 DEBUG](Sort):Sort Test
+[2020-07-29 05:55:11 INFO](randomArray):randomArray Test
+[2020-07-29 05:55:11 WARN](randomArray):randomArray Test
+[2020-07-29 05:55:11 ERROR](randomArray):randomArray Test
+[2020-07-29 05:55:16 DEBUG](Sort):Sort Test
+[2020-07-29 05:55:16 DEBUG](Sort):Sort Test
+[2020-07-29 05:55:16 INFO](randomArray):randomArray Test
+[2020-07-29 05:55:16 WARN](randomArray):randomArray Test
+[2020-07-29 05:55:16 ERROR](randomArray):randomArray Test
+[2020-07-29 05:59:24 DEBUG](Sort):Sort Test
+[2020-07-29 05:59:24 DEBUG](Sort):Sort Test
+[2020-07-29 05:59:24 INFO](randomArray):randomArray Test
+[2020-07-29 05:59:24 WARN](randomArray):randomArray Test
+[2020-07-29 05:59:24 ERROR](randomArray):randomArray Test
+2020-07-29 16:27:25,215 [INFO] - LoggerManager created!
+2020-07-29 16:27:25,216 [ERROR] - hello allen,func() called ##/home/MyPrj_V7.1/myprj/log4cppTest/source/log4cpp_ConfigFile.cpp:main:11##
