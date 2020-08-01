@@ -1,0 +1,3 @@
+MyPrj_V9： log4cppTest 修改完毕，能正常打印日志
+MyPrj_V9.1：对 log4cppTest  下的LoggerManager类函数进行优化
+MyPrj_V10： 修改 redisTest,加入封装类，同时修改fastcgiTest，整合加入CMyRedis CErrorMsg相关内容

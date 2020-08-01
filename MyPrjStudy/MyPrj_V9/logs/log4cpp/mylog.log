@@ -1,0 +1,27 @@
+[2020-07-30 16:33:46 - DEBUG](Sort):Sort Create
+[2020-07-30 16:33:46 - INFO](randomArray):randomArray create
+[2020-07-30 16:33:46 - WARN](Sort):Sort End
+[2020-07-30 16:33:46 - ERROR](randomArray):randomArray End
+[2020-07-30 16:44:14 - DEBUG](Sort):Sort Create
+[2020-07-30 16:44:14 - INFO](randomArray):randomArray create
+[2020-07-30 16:44:14 - WARN](Sort):Sort End
+[2020-07-30 16:44:14 - ERROR](randomArray):randomArray End
+[2020-07-30 16:50:42 - INFO](Sort):LoggerManager created, name is Sort
+[2020-07-30 16:50:42 - INFO](randomArray):LoggerManager created, name is randomArray
+[2020-07-30 16:50:42 - DEBUG](Sort):Sort Create
+[2020-07-30 16:50:42 - INFO](randomArray):randomArray create
+[2020-07-30 16:50:42 - WARN](Sort):Sort End
+[2020-07-30 16:50:42 - ERROR](randomArray):randomArray End
+[2020-07-30 16:54:15 - INFO](Sort):LoggerManager created, name is Sort
+[2020-07-30 16:54:15 - INFO](randomArray):LoggerManager created, name is randomArray
+[2020-07-30 16:54:15 - DEBUG](Sort):Sort Create
+[2020-07-30 16:54:15 - INFO](randomArray):randomArray create
+[2020-07-30 16:54:15 - WARN](Sort):Sort End
+[2020-07-30 16:54:15 - ERROR](randomArray):randomArray End
+[2020-07-30 16:56:09 - ERROR](randomArray):randomArray End
+[2020-07-30 17:13:46 - INFO](Sort):LoggerManager created, name is Sort
+[2020-07-30 17:13:46 - INFO](randomArray):LoggerManager created, name is randomArray
+[2020-07-30 17:13:46 - DEBUG](Sort):Sort Create
+[2020-07-30 17:13:46 - INFO](randomArray):randomArray create
+[2020-07-30 17:13:46 - WARN](Sort):Sort End
+[2020-07-30 17:13:46 - ERROR](randomArray):randomArray End

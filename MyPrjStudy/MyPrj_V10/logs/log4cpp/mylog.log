@@ -1,0 +1,19 @@
+[2020-08-01 08:04:11 - INFO](Sort):LoggerManager created, name is Sort
+[2020-08-01 08:04:11 - INFO](randomArray):LoggerManager created, name is randomArray
+[2020-08-01 08:04:11 - DEBUG](Sort):Sort Create
+[2020-08-01 08:04:11 - INFO](randomArray):randomArray create
+[2020-08-01 08:04:11 - WARN](Sort):Sort End
+[2020-08-01 08:04:11 - ERROR](randomArray):randomArray End
+[2020-08-01 08:05:12 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 08:05:12 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 08:05:12 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 08:05:12 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 08:05:12 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 08:05:12 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 08:05:12 - INFO](CMyRedis):check connect: 1
+[2020-08-01 08:05:12 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 08:05:12 - ERROR](Config):Error opening file
+[2020-08-01 08:05:12 - INFO](Event):add /register to m_EventMap
+[2020-08-01 08:05:12 - INFO](Event):add /login to m_EventMap
+[2020-08-01 08:05:12 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 08:05:12 - INFO](Event):add /upload to m_EventMap

@@ -1,0 +1,74 @@
+[2020-07-31 16:54:24 - INFO](Event):LoggerManager created, name is Event
+[2020-07-31 16:54:24 - INFO](Event):add /register to m_EventMap
+[2020-07-31 16:54:24 - INFO](Event):add /login to m_EventMap
+[2020-07-31 16:54:24 - INFO](Event):add /logout to m_EventMap
+[2020-07-31 16:54:24 - INFO](Event):add /upload to m_EventMap
+[2020-07-31 16:54:29 - INFO](Event):find Event: /register
+[2020-07-31 17:41:49 - INFO](Login):LoggerManager created, name is Login
+[2020-07-31 17:41:49 - INFO](Register):LoggerManager created, name is Register
+[2020-07-31 17:41:49 - INFO](Upload):LoggerManager created, name is Upload
+[2020-07-31 17:41:49 - INFO](Event):LoggerManager created, name is Event
+[2020-07-31 17:41:49 - INFO](Event):add /register to m_EventMap
+[2020-07-31 17:41:49 - INFO](Event):add /login to m_EventMap
+[2020-07-31 17:41:49 - INFO](Event):add /logout to m_EventMap
+[2020-07-31 17:41:49 - INFO](Event):add /upload to m_EventMap
+[2020-07-31 17:42:00 - INFO](Event):find Event: /login
+[2020-07-31 17:42:00 - DEBUG](Login):login begin
+[2020-07-31 17:42:00 - DEBUG](Login):Method is POST
+[2020-07-31 17:42:00 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'kkk' for key 'user'
+[2020-07-31 17:42:03 - DEBUG](Login):login end
+[2020-07-31 17:42:17 - INFO](Event):find Event: /register
+[2020-07-31 17:42:17 - DEBUG](Register):reg begin
+[2020-07-31 17:42:17 - DEBUG](Register):Method is POST
+[2020-07-31 17:42:17 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-07-31 17:42:17 - DEBUG](Register):reg end
+[2020-07-31 17:42:20 - INFO](Event):find Event: /login
+[2020-07-31 17:42:20 - DEBUG](Login):login begin
+[2020-07-31 17:42:20 - DEBUG](Login):Method is POST
+[2020-07-31 17:42:20 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry '112233' for key 'user'
+[2020-07-31 17:42:20 - DEBUG](Login):login end
+[2020-07-31 18:29:56 - INFO](Login):LoggerManager created, name is Login
+[2020-07-31 18:29:56 - INFO](Register):LoggerManager created, name is Register
+[2020-07-31 18:29:56 - INFO](Upload):LoggerManager created, name is Upload
+[2020-07-31 18:29:56 - INFO](Event):LoggerManager created, name is Event
+[2020-07-31 18:29:56 - INFO](Config):LoggerManager created, name is Config
+[2020-07-31 18:29:56 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-07-31 18:29:56 - INFO](Config):Reading Complete!
+[2020-07-31 18:29:56 - INFO](Event):add /register to m_EventMap
+[2020-07-31 18:29:56 - INFO](Event):add /login to m_EventMap
+[2020-07-31 18:29:56 - INFO](Event):add /logout to m_EventMap
+[2020-07-31 18:29:56 - INFO](Event):add /upload to m_EventMap
+[2020-07-31 18:30:37 - INFO](Login):LoggerManager created, name is Login
+[2020-07-31 18:30:37 - INFO](Register):LoggerManager created, name is Register
+[2020-07-31 18:30:37 - INFO](Upload):LoggerManager created, name is Upload
+[2020-07-31 18:30:37 - INFO](Event):LoggerManager created, name is Event
+[2020-07-31 18:30:37 - INFO](Config):LoggerManager created, name is Config
+[2020-07-31 18:30:37 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-07-31 18:30:37 - INFO](Config):Reading Complete!
+[2020-07-31 18:30:37 - INFO](Event):add /register to m_EventMap
+[2020-07-31 18:30:37 - INFO](Event):add /login to m_EventMap
+[2020-07-31 18:30:37 - INFO](Event):add /logout to m_EventMap
+[2020-07-31 18:30:37 - INFO](Event):add /upload to m_EventMap
+[2020-07-31 18:32:34 - INFO](Event):find Event: /login
+[2020-07-31 18:32:34 - DEBUG](Login):login begin
+[2020-07-31 18:32:34 - DEBUG](Login):Method is POST
+[2020-07-31 18:32:34 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'kkk' for key 'user'
+[2020-07-31 18:32:34 - DEBUG](Login):login end
+[2020-07-31 18:32:42 - INFO](Event):find Event: /register
+[2020-07-31 18:32:42 - DEBUG](Register):reg begin
+[2020-07-31 18:32:42 - DEBUG](Register):Method is POST
+[2020-07-31 18:32:42 - ERROR](Register):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'kkk' for key 'user'
+[2020-07-31 18:32:42 - DEBUG](Register):reg end
+[2020-08-01 07:52:15 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 07:52:15 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 07:52:15 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 07:52:15 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 07:52:15 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 07:52:15 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 07:52:15 - INFO](CMyRedis):check connect: 1
+[2020-08-01 07:52:15 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 07:52:15 - ERROR](Config):Error opening file
+[2020-08-01 07:52:15 - INFO](Event):add /register to m_EventMap
+[2020-08-01 07:52:15 - INFO](Event):add /login to m_EventMap
+[2020-08-01 07:52:15 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 07:52:15 - INFO](Event):add /upload to m_EventMap
