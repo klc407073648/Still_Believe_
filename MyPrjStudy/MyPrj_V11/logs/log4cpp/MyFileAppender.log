@@ -1,0 +1,522 @@
+[2020-08-01 17:24:14:925 ERROR](CMyRedis):error code = 1, errmsg=Connection refused
+
+[2020-08-01 17:24:14:926 ERROR](Config):Error opening file
+[2020-08-01 17:24:14:926 INFO](Event):add /register to m_EventMap
+[2020-08-01 17:24:14:926 INFO](Event):add /login to m_EventMap
+[2020-08-01 17:24:14:926 INFO](Event):add /logout to m_EventMap
+[2020-08-01 17:24:14:926 INFO](Event):add /upload to m_EventMap
+[2020-08-01 18:10:50:589 - ERROR](CMyRedis):error code = 1, errmsg=Connection refused
+
+[2020-08-01 18:10:50:590 - ERROR](Config):Error opening file
+[2020-08-01 18:10:50:590 - INFO](Event):add /register to m_EventMap
+[2020-08-01 18:10:50:590 - INFO](Event):add /login to m_EventMap
+[2020-08-01 18:10:50:590 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 18:10:50:590 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 18:12:07:083 - ERROR](CMyRedis):error code = 1, errmsg=Connection refused
+
+[2020-08-01 18:12:07:084 - ERROR](Config):Error opening file
+[2020-08-01 18:15:17:128 - ERROR](CMyRedis):error code = 1, errmsg=Connection refused
+
+[2020-08-01 18:15:17:129 - ERROR](Config):Error opening file
+[2020-08-01 18:18:09:059 - ERROR](CMyRedis):error code = 1, errmsg=Connection refused
+
+[2020-08-01 18:43:54:165 - ERROR](CMyRedis):error code = 1, errmsg=Connection refused
+
+[2020-08-01 18:44:32:601 - ERROR](CMyRedis):error code = 1, errmsg=Connection refused
+
+[2020-08-01 19:07:29:994 - INFO]():LoggerManager created, name is Login
+[2020-08-01 19:07:29:994 - INFO]():LoggerManager created, name is Register
+[2020-08-01 19:07:29:994 - INFO]():LoggerManager created, name is Upload
+[2020-08-01 19:07:29:995 - INFO]():LoggerManager created, name is Event
+[2020-08-01 19:07:29:995 - INFO]():LoggerManager created, name is Config
+[2020-08-01 19:07:29:995 - INFO]():LoggerManager created, name is CMyRedis
+[2020-08-01 19:07:29:996 - ERROR](CMyRedis):error code = 1, errmsg=Connection refused
+
+[2020-08-01 19:08:22:857 - INFO]():LoggerManager created, name is Login
+[2020-08-01 19:08:22:858 - INFO]():LoggerManager created, name is Register
+[2020-08-01 19:08:22:858 - INFO]():LoggerManager created, name is Upload
+[2020-08-01 19:08:22:858 - INFO]():LoggerManager created, name is Event
+[2020-08-01 19:08:22:858 - INFO]():LoggerManager created, name is Config
+[2020-08-01 19:08:22:858 - INFO]():LoggerManager created, name is CMyRedis
+[2020-08-01 19:08:22:858 - INFO](CMyRedis):check connect: 1
+[2020-08-01 19:08:22:859 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 19:09:30:641 - INFO]():LoggerManager created, name is Login
+[2020-08-01 19:09:30:641 - INFO]():LoggerManager created, name is Register
+[2020-08-01 19:09:30:641 - INFO]():LoggerManager created, name is Upload
+[2020-08-01 19:09:30:641 - INFO]():LoggerManager created, name is Event
+[2020-08-01 19:09:30:641 - INFO]():LoggerManager created, name is Config
+[2020-08-01 19:09:30:642 - INFO]():LoggerManager created, name is CMyRedis
+[2020-08-01 19:09:30:642 - INFO](CMyRedis):check connect: 1
+[2020-08-01 19:09:30:642 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 19:10:06:518 - INFO]():LoggerManager created, name is Login
+[2020-08-01 19:10:06:518 - INFO]():LoggerManager created, name is Register
+[2020-08-01 19:10:06:519 - INFO]():LoggerManager created, name is Upload
+[2020-08-01 19:10:06:519 - INFO]():LoggerManager created, name is Event
+[2020-08-01 19:10:06:519 - INFO]():LoggerManager created, name is Config
+[2020-08-01 19:10:06:519 - INFO]():LoggerManager created, name is CMyRedis
+[2020-08-01 19:10:06:520 - INFO](CMyRedis):check connect: 1
+[2020-08-01 19:10:06:520 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 19:10:06:520 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 19:10:06:520 - INFO](Config):Reading Complete!
+[2020-08-01 19:10:06:520 - DEBUG](Config):Config()
+[2020-08-01 19:10:06:520 - INFO](Event):add /register to m_EventMap
+[2020-08-01 19:10:06:520 - INFO](Event):add /login to m_EventMap
+[2020-08-01 19:10:06:520 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 19:10:06:520 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 19:14:14:493 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 19:14:14:494 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 19:14:14:494 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 19:14:14:494 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 19:14:14:494 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 19:14:14:494 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 19:14:14:495 - INFO](CMyRedis):check connect: 1
+[2020-08-01 19:14:14:496 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 19:14:14:496 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 19:14:14:496 - INFO](Config):Reading Complete!
+[2020-08-01 19:14:14:496 - DEBUG](Config):Config()
+[2020-08-01 19:14:14:496 - INFO](Event):add /register to m_EventMap
+[2020-08-01 19:14:14:496 - INFO](Event):add /login to m_EventMap
+[2020-08-01 19:14:14:496 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 19:14:14:496 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 19:19:41:746 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 19:19:41:746 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 19:19:41:746 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 19:19:41:746 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 19:19:41:747 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 19:19:41:747 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 19:19:41:747 - INFO](CMyRedis):check connect: 1
+[2020-08-01 19:19:41:747 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 19:19:41:747 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 19:19:41:747 - INFO](Config):Reading Complete!
+[2020-08-01 19:19:41:747 - DEBUG](Config):Config()
+[2020-08-01 19:19:41:747 - INFO](Event):add /register to m_EventMap
+[2020-08-01 19:19:41:747 - INFO](Event):add /login to m_EventMap
+[2020-08-01 19:19:41:747 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 19:19:41:747 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 20:08:49:982 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 20:08:49:983 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 20:08:49:983 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 20:08:49:983 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 20:08:49:983 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 20:08:49:983 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 20:08:49:983 - INFO](CMyRedis):check connect: 1
+[2020-08-01 20:08:49:984 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 20:08:49:984 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 20:08:49:984 - INFO](Config):Reading Complete!
+[2020-08-01 20:08:49:984 - DEBUG](Config):Config()
+[2020-08-01 20:08:49:984 - INFO](Event):add /register to m_EventMap
+[2020-08-01 20:08:49:984 - INFO](Event):add /login to m_EventMap
+[2020-08-01 20:08:49:984 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 20:08:49:984 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 20:09:14:738 - INFO](Event):find Event: /register
+[2020-08-01 20:09:14:738 - DEBUG](Register):reg begin
+[2020-08-01 20:09:14:738 - DEBUG](Register):Method is POST
+[2020-08-01 20:09:15:230 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-01 20:09:15:244 - DEBUG](Register):reg end
+[2020-08-01 20:09:26:010 - INFO](Event):find Event: /login
+[2020-08-01 20:09:26:010 - DEBUG](Login):method : POST,  url: /login,  params: user=kkk&passwd=kkk, token: klc123
+[2020-08-01 20:09:26:107 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'kkk' for key 'user'
+[2020-08-01 20:09:26:109 - DEBUG](Login):login end
+[2020-08-01 20:36:04:644 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 20:36:04:644 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 20:36:04:644 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 20:36:04:645 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 20:36:04:645 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 20:36:04:645 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 20:36:04:645 - INFO](CMyRedis):check connect: 1
+[2020-08-01 20:36:04:645 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 20:36:04:646 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 20:36:04:646 - INFO](Config):Reading Complete!
+[2020-08-01 20:36:04:646 - DEBUG](Config):Config()
+[2020-08-01 20:36:04:646 - INFO](Event):add /register to m_EventMap
+[2020-08-01 20:36:04:646 - INFO](Event):add /login to m_EventMap
+[2020-08-01 20:36:04:646 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 20:36:04:646 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 20:36:51:152 - INFO](Event):find Event: /register
+[2020-08-01 20:36:51:152 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=aabbcc&passwd=aabbcc, token: klc123
+[2020-08-01 20:36:51:152 - DEBUG](Register):Method is POST
+[2020-08-01 20:36:51:159 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-01 20:36:51:159 - DEBUG](Register):reg end
+[2020-08-01 20:37:08:370 - INFO](Event):find Event: /login
+[2020-08-01 20:37:08:370 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=aabbcc&passwd=aabbcc, token: klc123
+[2020-08-01 20:37:08:475 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'aabbcc' for key 'user'
+[2020-08-01 20:37:08:475 - DEBUG](Login):login end
+[2020-08-01 20:37:45:197 - INFO](Event):find Event: /login
+[2020-08-01 20:37:45:197 - DEBUG](Login):Login::login() method : GET,  url: /login,  params: , token: klc123
+[2020-08-01 20:37:45:197 - DEBUG](Login):login end
+[2020-08-01 20:40:24:348 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 20:40:24:348 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 20:40:24:348 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 20:40:24:348 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 20:40:24:349 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 20:40:24:349 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 20:40:24:349 - INFO](CMyRedis):check connect: 1
+[2020-08-01 20:40:24:349 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 20:40:24:350 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 20:40:24:350 - INFO](Config):Reading Complete!
+[2020-08-01 20:40:24:350 - DEBUG](Config):Config()
+[2020-08-01 20:40:24:350 - INFO](Event):add /register to m_EventMap
+[2020-08-01 20:40:24:350 - INFO](Event):add /login to m_EventMap
+[2020-08-01 20:40:24:350 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 20:40:24:350 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 20:40:59:299 - INFO](Event):find Event: /register
+[2020-08-01 20:40:59:299 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=aabbdd&passwd=aabbdd, token: klc123
+[2020-08-01 20:40:59:299 - DEBUG](Register):Method is POST
+[2020-08-01 20:40:59:305 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-01 20:40:59:306 - DEBUG](Register):reg end
+[2020-08-01 20:41:04:916 - INFO](Event):find Event: /login
+[2020-08-01 20:41:04:917 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=aabbdd&passwd=aabbdd, token: klc123
+[2020-08-01 20:41:04:919 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'aabbdd' for key 'user'
+[2020-08-01 20:41:04:919 - DEBUG](Login):login end
+[2020-08-01 20:41:13:069 - INFO](Event):find Event: /login
+[2020-08-01 20:41:13:069 - DEBUG](Login):Login::login() method : GET,  url: /login,  params: , token: klc123
+[2020-08-01 20:41:13:069 - DEBUG](Login):login end
+[2020-08-01 20:43:58:982 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 20:43:58:982 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 20:43:58:982 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 20:43:58:982 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 20:43:58:982 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 20:43:58:982 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 20:43:58:983 - INFO](CMyRedis):check connect: 1
+[2020-08-01 20:43:58:983 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 20:43:58:983 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 20:43:58:983 - INFO](Config):Reading Complete!
+[2020-08-01 20:43:58:983 - DEBUG](Config):Config()
+[2020-08-01 20:43:58:983 - INFO](Event):add /register to m_EventMap
+[2020-08-01 20:43:58:983 - INFO](Event):add /login to m_EventMap
+[2020-08-01 20:43:58:983 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 20:43:58:983 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 20:44:18:849 - INFO](Event):find Event: /register
+[2020-08-01 20:44:18:849 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=aassdd&passwd=aassdd, token: klc123
+[2020-08-01 20:44:18:849 - DEBUG](Register):Method is POST
+[2020-08-01 20:44:18:856 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-01 20:44:18:856 - DEBUG](Register):reg end
+[2020-08-01 20:44:25:938 - INFO](Event):find Event: /login
+[2020-08-01 20:44:25:938 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=aassdd&passwd=aassdd, token: klc123
+[2020-08-01 20:44:25:941 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'aassdd' for key 'user'
+[2020-08-01 20:44:25:941 - DEBUG](Login):login end
+[2020-08-01 20:44:33:270 - INFO](Event):find Event: /login
+[2020-08-01 20:44:33:271 - DEBUG](Login):Login::login() method : GET,  url: /login,  params: , token: klc123
+[2020-08-01 20:44:33:271 - DEBUG](Login):login GETin
+[2020-08-01 20:44:33:271 - DEBUG](Login):login GETout
+[2020-08-01 20:44:33:271 - DEBUG](Login):login end
+[2020-08-01 20:45:56:287 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 20:45:56:288 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 20:45:56:288 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 20:45:56:288 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 20:45:56:288 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 20:45:56:288 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 20:45:56:288 - INFO](CMyRedis):check connect: 1
+[2020-08-01 20:45:56:289 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 20:45:56:289 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 20:45:56:289 - INFO](Config):Reading Complete!
+[2020-08-01 20:45:56:289 - DEBUG](Config):Config()
+[2020-08-01 20:45:56:289 - INFO](Event):add /register to m_EventMap
+[2020-08-01 20:45:56:289 - INFO](Event):add /login to m_EventMap
+[2020-08-01 20:45:56:289 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 20:45:56:289 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 20:46:14:980 - INFO](Event):find Event: /login
+[2020-08-01 20:46:14:980 - DEBUG](Login):Login::login() method : GET,  url: /login,  params: , token: klc123
+[2020-08-01 20:46:14:980 - DEBUG](Login):login GETin
+[2020-08-01 20:46:15:062 - DEBUG](Login):login GETout
+[2020-08-01 20:46:15:062 - DEBUG](Login):login end
+[2020-08-01 23:27:47:533 - INFO](Login):LoggerManager created, name is Login
+[2020-08-01 23:27:47:533 - INFO](Register):LoggerManager created, name is Register
+[2020-08-01 23:27:47:534 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-01 23:27:47:534 - INFO](Config):LoggerManager created, name is Config
+[2020-08-01 23:27:47:534 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-01 23:27:47:535 - INFO](Event):LoggerManager created, name is Event
+[2020-08-01 23:27:47:535 - INFO](CMyRedis):check connect: 1
+[2020-08-01 23:27:47:535 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-01 23:27:47:536 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-01 23:27:47:536 - INFO](Config):Reading Complete!
+[2020-08-01 23:27:47:536 - DEBUG](Config):Config()
+[2020-08-01 23:27:47:536 - INFO](Event):add /register to m_EventMap
+[2020-08-01 23:27:47:536 - INFO](Event):add /login to m_EventMap
+[2020-08-01 23:27:47:536 - INFO](Event):add /logout to m_EventMap
+[2020-08-01 23:27:47:536 - INFO](Event):add /upload to m_EventMap
+[2020-08-01 23:28:20:096 - INFO](Event):find Event: /register
+[2020-08-01 23:28:20:096 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=abcd&passwd=abcd, token: klc123
+[2020-08-01 23:28:20:096 - DEBUG](Register):Method is POST
+[2020-08-01 23:28:20:126 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-01 23:28:20:126 - DEBUG](Register):reg end
+[2020-08-01 23:29:03:167 - INFO](Event):find Event: /login
+[2020-08-01 23:29:03:167 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=cccc&passwd=cccc, token: klc123
+[2020-08-01 23:29:03:194 - ERROR](Login):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-01 23:29:03:194 - DEBUG](Login):login end
+[2020-08-01 23:29:59:702 - INFO](Event):find Event: /login
+[2020-08-01 23:29:59:702 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=cccc&passwd=cccc, token: klc123
+[2020-08-01 23:29:59:704 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'cccc' for key 'user'
+[2020-08-01 23:29:59:704 - DEBUG](Login):login end
+[2020-08-01 23:32:40:089 - INFO](Event):find Event: /login
+[2020-08-01 23:32:40:089 - DEBUG](Login):Login::login() method : GET,  url: /login,  params: , token: klc123
+[2020-08-01 23:32:40:089 - DEBUG](Login):login GETin
+[2020-08-01 23:32:40:090 - DEBUG](Login):login GETout
+[2020-08-01 23:32:40:090 - DEBUG](Login):login end
+[2020-08-01 23:34:18:982 - INFO](Event):find Event: /login
+[2020-08-01 23:34:18:982 - DEBUG](Login):Login::login() method : GET,  url: /login,  params: user=klc, token: klc123
+[2020-08-01 23:34:18:982 - DEBUG](Login):login GETin
+[2020-08-01 23:34:18:982 - DEBUG](Login):login GETout
+[2020-08-01 23:34:18:982 - DEBUG](Login):login end
+[2020-08-02 00:26:06:764 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 00:26:06:764 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 00:26:06:764 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 00:26:06:765 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 00:26:06:765 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 00:26:06:765 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 00:26:06:765 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 00:26:06:765 - INFO](Config):Reading Complete!
+[2020-08-02 00:26:06:765 - DEBUG](Config):Config()
+[2020-08-02 00:26:06:765 - INFO](Event):add /register to m_EventMap
+[2020-08-02 00:26:06:765 - INFO](Event):add /login to m_EventMap
+[2020-08-02 00:26:06:765 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 00:26:06:765 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 00:26:50:433 - INFO](Event):find Event: /register
+[2020-08-02 00:30:17:397 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 00:30:17:397 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 00:30:17:397 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 00:30:17:397 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 00:30:17:397 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 00:30:17:397 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 00:30:17:398 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 00:30:17:398 - INFO](Config):Reading Complete!
+[2020-08-02 00:30:17:398 - DEBUG](Config):Config()
+[2020-08-02 00:30:17:398 - INFO](Event):add /register to m_EventMap
+[2020-08-02 00:30:17:398 - INFO](Event):add /login to m_EventMap
+[2020-08-02 00:30:17:398 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 00:30:17:398 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 00:30:27:705 - INFO](Event):find Event: /register
+[2020-08-02 00:30:27:705 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=dcdsc&passwd=sdcds, token: 
+[2020-08-02 00:30:27:813 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-02 00:30:27:813 - DEBUG](Register):reg end
+[2020-08-02 00:30:38:667 - INFO](Event):find Event: /login
+[2020-08-02 00:30:38:667 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=kkk&passwd=kkk, token: 
+[2020-08-02 00:30:38:669 - ERROR](Login):mysql->getAffectedRows(): -1 ,mysql->getErrStr(): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+[2020-08-02 00:30:38:670 - DEBUG](Login):login end
+[2020-08-02 00:45:22:110 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 00:45:22:110 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 00:45:22:110 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 00:45:22:110 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 00:45:22:110 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 00:45:22:111 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 00:45:22:111 - INFO](CMyRedis):check connect: 1
+[2020-08-02 00:45:22:111 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 00:45:22:112 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 00:45:22:112 - INFO](Config):Reading Complete!
+[2020-08-02 00:45:22:112 - DEBUG](Config):Config()
+[2020-08-02 00:45:22:112 - INFO](Event):add /register to m_EventMap
+[2020-08-02 00:45:22:112 - INFO](Event):add /login to m_EventMap
+[2020-08-02 00:45:22:112 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 00:45:22:112 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 00:54:33:886 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 00:54:33:887 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 00:54:33:887 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 00:54:33:887 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 00:54:33:887 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 00:54:33:887 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 00:54:33:887 - INFO](CMyRedis):check connect: 1
+[2020-08-02 00:54:33:887 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 00:54:33:888 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 00:54:33:888 - INFO](Config):Reading Complete!
+[2020-08-02 00:54:33:888 - DEBUG](Config):Config()
+[2020-08-02 00:54:33:888 - INFO](Event):add /register to m_EventMap
+[2020-08-02 00:54:33:888 - INFO](Event):add /login to m_EventMap
+[2020-08-02 00:54:33:888 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 00:54:33:888 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 00:57:40:179 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 00:57:40:179 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 00:57:40:179 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 00:57:40:179 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 00:57:40:179 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 00:57:40:179 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 00:57:40:180 - INFO](CMyRedis):check connect: 1
+[2020-08-02 00:57:40:180 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 00:57:40:180 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 00:57:40:180 - INFO](Config):Reading Complete!
+[2020-08-02 00:57:40:180 - DEBUG](Config):Config()
+[2020-08-02 00:57:40:180 - INFO](Event):add /register to m_EventMap
+[2020-08-02 00:57:40:180 - INFO](Event):add /login to m_EventMap
+[2020-08-02 00:57:40:180 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 00:57:40:180 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 00:58:06:334 - INFO](Event):find Event: /register
+[2020-08-02 00:58:06:334 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=dcsdc&passwd=dscsvd, token: klc123
+[2020-08-02 00:58:06:334 - DEBUG](Register):Method is POST
+[2020-08-02 00:58:06:369 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-02 00:58:06:369 - DEBUG](Register):reg end
+[2020-08-02 00:58:23:548 - INFO](Event):find Event: /login
+[2020-08-02 00:58:23:548 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=kkk&passwd=kkk, token: klc123
+[2020-08-02 00:58:23:651 - ERROR](Login):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'kkk' for key 'user'
+[2020-08-02 00:58:23:651 - DEBUG](Login):login end
+[2020-08-02 01:03:27:199 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 01:03:27:200 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 01:03:27:200 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 01:03:27:200 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 01:03:27:200 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 01:03:27:200 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 01:03:27:200 - INFO](CMyRedis):check connect: 1
+[2020-08-02 01:03:27:200 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 01:03:27:201 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 01:03:27:201 - INFO](Config):Reading Complete!
+[2020-08-02 01:03:27:201 - DEBUG](Config):Config()
+[2020-08-02 01:03:27:201 - INFO](Event):add /register to m_EventMap
+[2020-08-02 01:03:27:201 - INFO](Event):add /login to m_EventMap
+[2020-08-02 01:03:27:201 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 01:03:27:201 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 01:04:08:471 - INFO](Event):find Event: /register
+[2020-08-02 01:04:08:472 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=AABBCC&passwd=AABBCC, token: AABBCC123456
+[2020-08-02 01:04:08:472 - DEBUG](Register):Method is POST
+[2020-08-02 01:04:08:665 - ERROR](Register):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'AABBCC' for key 'user'
+[2020-08-02 01:04:08:699 - DEBUG](Register):reg end
+[2020-08-02 01:04:35:929 - INFO](Event):find Event: /register
+[2020-08-02 01:04:35:930 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=AACCBB&passwd=AACCBB, token: AACCBB123456
+[2020-08-02 01:04:35:930 - DEBUG](Register):Method is POST
+[2020-08-02 01:04:35:932 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:04:35:933 - DEBUG](Register):reg end
+[2020-08-02 01:06:10:155 - INFO](Event):find Event: /login
+[2020-08-02 01:06:10:156 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=FVSVDFVSFV&passwd=VSVSF, token: FVSVDFVSFV123456
+[2020-08-02 01:06:10:159 - ERROR](Login):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:06:10:160 - DEBUG](Login):login end
+[2020-08-02 01:08:33:714 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 01:08:33:714 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 01:08:33:714 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 01:08:33:715 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 01:08:33:715 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 01:08:33:715 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 01:08:33:715 - INFO](CMyRedis):check connect: 1
+[2020-08-02 01:08:33:716 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 01:08:33:716 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 01:08:33:716 - INFO](Config):Reading Complete!
+[2020-08-02 01:08:33:716 - DEBUG](Config):Config()
+[2020-08-02 01:08:33:716 - INFO](Event):add /register to m_EventMap
+[2020-08-02 01:08:33:716 - INFO](Event):add /login to m_EventMap
+[2020-08-02 01:08:33:716 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 01:08:33:716 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 01:09:11:228 - INFO](Event):find Event: /register
+[2020-08-02 01:09:11:229 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=AAZZXX&passwd=AAZZXX, token: AAZZXX123456
+[2020-08-02 01:09:11:229 - DEBUG](Register):Method is POST
+[2020-08-02 01:09:11:333 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:09:11:334 - DEBUG](Register):reg end
+[2020-08-02 01:11:10:128 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 01:11:10:128 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 01:11:10:128 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 01:11:10:128 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 01:11:10:128 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 01:11:10:128 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 01:11:10:128 - INFO](CMyRedis):check connect: 1
+[2020-08-02 01:11:10:129 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 01:11:10:129 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 01:11:10:129 - INFO](Config):Reading Complete!
+[2020-08-02 01:11:10:129 - DEBUG](Config):Config()
+[2020-08-02 01:11:10:129 - INFO](Event):add /register to m_EventMap
+[2020-08-02 01:11:10:129 - INFO](Event):add /login to m_EventMap
+[2020-08-02 01:11:10:129 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 01:11:10:129 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 01:11:32:541 - INFO](Event):find Event: /register
+[2020-08-02 01:11:32:541 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=aabbcc&passwd=aabbcc, token: aabbcc123456
+[2020-08-02 01:11:32:541 - DEBUG](Register):Method is POST
+[2020-08-02 01:11:32:547 - ERROR](Register):mysql->getErrno(): 1062 ,mysql->getErrStr(): Duplicate entry 'aabbcc' for key 'user'
+[2020-08-02 01:11:32:548 - DEBUG](Register):reg end
+[2020-08-02 01:11:52:180 - INFO](Event):find Event: /register
+[2020-08-02 01:11:52:181 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=cdslcblsdc&passwd=cdslcblsdc, token: cdslcblsdc123456
+[2020-08-02 01:11:52:181 - DEBUG](Register):Method is POST
+[2020-08-02 01:11:52:183 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:11:52:183 - DEBUG](Register):reg end
+[2020-08-02 01:12:05:597 - INFO](Event):find Event: /login
+[2020-08-02 01:12:05:597 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=cdscsd&passwd=dcscsd, token: cdscsd123456
+[2020-08-02 01:12:05:689 - ERROR](Login):mysql->getAffectedRows(): -1 ,mysql->getErrStr(): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+[2020-08-02 01:12:05:689 - DEBUG](Login):login end
+[2020-08-02 01:13:16:099 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 01:13:16:099 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 01:13:16:099 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 01:13:16:099 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 01:13:16:099 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 01:13:16:099 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 01:13:16:100 - INFO](CMyRedis):check connect: 1
+[2020-08-02 01:13:16:101 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 01:13:16:101 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 01:13:16:101 - INFO](Config):Reading Complete!
+[2020-08-02 01:13:16:101 - DEBUG](Config):Config()
+[2020-08-02 01:13:16:101 - INFO](Event):add /register to m_EventMap
+[2020-08-02 01:13:16:101 - INFO](Event):add /login to m_EventMap
+[2020-08-02 01:13:16:101 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 01:13:16:101 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 01:13:41:128 - INFO](Event):find Event: /login
+[2020-08-02 01:13:41:129 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=sdacadc&passwd=dacaca, token: sdacadc123456
+[2020-08-02 01:13:41:136 - ERROR](Login):sql_insert=select * from user where user='sdacadc' AND passwd='dacaca');
+[2020-08-02 01:13:41:136 - ERROR](Login):mysql->getAffectedRows(): -1 ,mysql->getErrStr(): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+[2020-08-02 01:13:41:136 - DEBUG](Login):login end
+[2020-08-02 01:14:22:839 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 01:14:22:839 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 01:14:22:839 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 01:14:22:839 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 01:14:22:839 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 01:14:22:839 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 01:14:22:840 - INFO](CMyRedis):check connect: 1
+[2020-08-02 01:14:22:840 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 01:14:22:840 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 01:14:22:841 - INFO](Config):Reading Complete!
+[2020-08-02 01:14:22:841 - DEBUG](Config):Config()
+[2020-08-02 01:14:22:841 - INFO](Event):add /register to m_EventMap
+[2020-08-02 01:14:22:841 - INFO](Event):add /login to m_EventMap
+[2020-08-02 01:14:22:841 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 01:14:22:841 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 01:14:29:767 - INFO](Event):find Event: /login
+[2020-08-02 01:14:29:767 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=cdscscd&passwd=sdcsdcs, token: cdscscd123456
+[2020-08-02 01:14:29:775 - ERROR](Login):sql_insert=select * from user where user='cdscscd' AND passwd='sdcsdcs';
+[2020-08-02 01:14:29:775 - ERROR](Login):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:14:29:776 - DEBUG](Login):login end
+[2020-08-02 01:14:42:465 - INFO](Event):find Event: /login
+[2020-08-02 01:14:42:465 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=kkk&passwd=kkk, token: kkk123456
+[2020-08-02 01:14:42:466 - ERROR](Login):sql_insert=select * from user where user='kkk' AND passwd='kkk';
+[2020-08-02 01:14:42:466 - ERROR](Login):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-02 01:14:42:466 - DEBUG](Login):login end
+[2020-08-02 01:45:46:322 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 01:45:46:322 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 01:45:46:322 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 01:45:46:322 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 01:45:46:322 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 01:45:46:322 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 01:45:46:323 - INFO](CMyRedis):check connect: 1
+[2020-08-02 01:45:46:324 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 01:45:46:324 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 01:45:46:324 - INFO](Config):Reading Complete!
+[2020-08-02 01:45:46:324 - DEBUG](Config):Config()
+[2020-08-02 01:45:46:324 - INFO](Event):add /register to m_EventMap
+[2020-08-02 01:45:46:324 - INFO](Event):add /login to m_EventMap
+[2020-08-02 01:45:46:324 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 01:45:46:324 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 01:46:01:962 - INFO](Event):find Event: /login
+[2020-08-02 01:46:01:963 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=dcscs&passwd=cdsdc, token: dcscs123456
+[2020-08-02 01:46:01:968 - ERROR](Login):sql_insert=select * from user where user='dcscs' AND passwd='cdsdc';
+[2020-08-02 01:46:01:968 - ERROR](Login):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:46:01:968 - DEBUG](Login):login end
+[2020-08-02 01:47:21:624 - INFO](Event):find Event: /login
+[2020-08-02 01:47:21:624 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=123asd&passwd=123asd, token: 123asd123456
+[2020-08-02 01:47:21:624 - ERROR](Login):sql_insert=select * from user where user='123asd' AND passwd='123asd';
+[2020-08-02 01:47:21:625 - ERROR](Login):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:47:21:625 - DEBUG](Login):login end
+[2020-08-02 01:49:53:002 - INFO](Login):LoggerManager created, name is Login
+[2020-08-02 01:49:53:003 - INFO](Register):LoggerManager created, name is Register
+[2020-08-02 01:49:53:003 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-02 01:49:53:003 - INFO](Event):LoggerManager created, name is Event
+[2020-08-02 01:49:53:003 - INFO](Config):LoggerManager created, name is Config
+[2020-08-02 01:49:53:003 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-02 01:49:53:003 - INFO](CMyRedis):check connect: 1
+[2020-08-02 01:49:53:004 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-02 01:49:53:004 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-02 01:49:53:004 - INFO](Config):Reading Complete!
+[2020-08-02 01:49:53:004 - DEBUG](Config):Config()
+[2020-08-02 01:49:53:004 - INFO](Event):add /register to m_EventMap
+[2020-08-02 01:49:53:004 - INFO](Event):add /login to m_EventMap
+[2020-08-02 01:49:53:004 - INFO](Event):add /logout to m_EventMap
+[2020-08-02 01:49:53:004 - INFO](Event):add /upload to m_EventMap
+[2020-08-02 01:50:03:242 - INFO](Event):find Event: /register
+[2020-08-02 01:50:03:242 - DEBUG](Register):Register::reg() method : POST,  url: /register,  params: user=asss&passwd=sas, token: asss123456
+[2020-08-02 01:50:03:242 - DEBUG](Register):Method is POST
+[2020-08-02 01:50:03:367 - ERROR](Register):mysql->getErrno(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:50:03:368 - DEBUG](Register):reg end
+[2020-08-02 01:50:06:569 - INFO](Event):find Event: /login
+[2020-08-02 01:50:06:569 - DEBUG](Login):Login::login() method : POST,  url: /login,  params: user=sxax&passwd=sxaxa, token: sxax123456
+[2020-08-02 01:50:06:571 - ERROR](Login):sql_insert=select * from user where user='sxax' AND passwd='sxaxa';
+[2020-08-02 01:50:06:571 - ERROR](Login):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-02 01:50:06:572 - DEBUG](Login):login end
