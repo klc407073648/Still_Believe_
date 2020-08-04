@@ -1,0 +1,15 @@
+[2020-08-03 17:18:17:418 - INFO](Login):LoggerManager created, name is Login
+[2020-08-03 17:18:17:419 - INFO](Register):LoggerManager created, name is Register
+[2020-08-03 17:18:17:419 - INFO](Upload):LoggerManager created, name is Upload
+[2020-08-03 17:18:17:419 - INFO](Event):LoggerManager created, name is Event
+[2020-08-03 17:18:17:419 - INFO](Config):LoggerManager created, name is Config
+[2020-08-03 17:18:17:419 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-03 17:18:17:419 - INFO](CMyRedis):check connect: 1
+[2020-08-03 17:18:17:420 - INFO](CMyRedis):myRedis.Get hello is world
+[2020-08-03 17:18:17:420 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=yourdb,m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-03 17:18:17:420 - INFO](Config):Reading Complete!
+[2020-08-03 17:18:17:420 - DEBUG](Config):Config()
+[2020-08-03 17:18:17:420 - INFO](Event):add /register to m_EventMap
+[2020-08-03 17:18:17:420 - INFO](Event):add /login to m_EventMap
+[2020-08-03 17:18:17:420 - INFO](Event):add /logout to m_EventMap
+[2020-08-03 17:18:17:420 - INFO](Event):add /upload to m_EventMap

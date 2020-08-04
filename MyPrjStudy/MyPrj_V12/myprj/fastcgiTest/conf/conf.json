@@ -1,0 +1,11 @@
+{
+   "name" : "conf.json",
+   "mysql" : {
+      "host" : "localhost",
+      "user" : "root",
+      "passwd" : "klczxas789",
+	  "dbname" : "yourdb"
+   },
+   "description" : "This is conf json",
+   "type" : "json"
+}

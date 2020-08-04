@@ -1,5 +1,6 @@
 MyPrj_V9： log4cppTest 修改完毕，能正常打印日志
 MyPrj_V9.1：对 log4cppTest  下的LoggerManager类函数进行优化
 MyPrj_V10： 修改 redisTest,加入封装类，同时修改fastcgiTest，整合加入CMyRedis CErrorMsg相关内容
-MyPrj_V10： 修改mysql和redis为单例模式，便于多次使用，修改登陆login的校验逻辑insert为select,同时
+MyPrj_V11： 修改mysql和redis为单例模式，便于多次使用，修改登陆login的校验逻辑insert为select,同时
 对LoggerManager类整改，可以通过配置文件读取配置。token修改还需要完成
+MyPrj_V12： 规范化类定义，加入shell脚本，统一常量定义在common.h文件
