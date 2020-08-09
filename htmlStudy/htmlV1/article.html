@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" > 
+        <meta name="description" content="This is a website whinch used for sharing website design knowledge">
+        <meta name="keywords" content="personal website , share web knowledge">
+        <meta name="author" content="lingcong kong">
+        <title>lingcong kong Space|Welcome</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="three-column-wrapper">
+                    <div class="personal-info">
+                        <div class="my-logo">
+                            <img src="image/sky.jpeg" width=50 ></img>
+                        </div>
+                        <div class="my-name">
+                            <p>Lingcong Kong</p>
+                        </div>
+                    </div>
+                    <div class="nav-page">
+                        <ul>
+                            <li class="main-page"><a href="index.html">主页</a></li>
+                            <li><a href="article.html" target="_blank">文章</a></li>
+                            <li><a href="photo.html" target="_blank">相册</a></li>
+                            <li><a href="video.html" target="_blank">视频</a></li>
+                        </ul>
+                    </div>
+                    <div class="search-content">
+                        <input type="text" id="SearchItem"placeholder="Search...">    
+                        <button type="submit" value="Click me" onclick="copyText()">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    
+    <article>
+        <div class="my-article">
+            <div class="article1">
+                <h3><a href="https://github.com/klc407073648/my_dev_code/tree/master/algorithm/sort" target="_blank">排序算法总结</a></h3>
+                <p>本文主要提及了各类经典的排序算法，例如快排、堆排、归排等，并同时写了一个随机数生成器用于比较自己编写算法和正确算法是否每次结果都一致</p>
+            </div>
+            <div class="article2">
+                <h3><a href="https://github.com/klc407073648/my_dev_code/tree/master/cmakeTest" target="_blank">Linux下CMakeLists使用方法总结</a></h3>
+                <p>提供了一个测试demo，用于在linux下利用cmake生成可执行文件</p>
+                <p>使用说明：关于cmake使用方法的介绍 cd ./build 下 cmake .. --> make
+                  // cmake .. 中..表示上层目录，正好对应CMakelists.txt中${PROJECT_SOURCE_DIR} 为build的上层目录 cd ../deploy 下 ./myprj</p>
+            </div>
+            <div class="article3">
+                <h3><a href="https://github.com/klc407073648/my_dev_code/tree/master/thread" target="_blank">多线程的使用方法学习</a></h3>
+                <p>调用windows下的thread库，实现多线程操作</p>
+             </div>
+        </div>   
+    </article>
+    <footer id="footer">
+           <p>Lingcong Kong, Copyright &copy; 2019</p>
+    </footer>
+</html>

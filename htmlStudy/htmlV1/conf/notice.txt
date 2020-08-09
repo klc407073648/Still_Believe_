@@ -1,0 +1,2 @@
+common.h 里标注const string HTML_PATH = "/usr/local/nginx/test/";
+使用时，整个文件夹命名成test 放置到 /usr/local/nginx/下
