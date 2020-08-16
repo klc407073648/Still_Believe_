@@ -1,0 +1,6 @@
+[2020-08-16 07:13:26 - INFO](Sort):LoggerManager created, name is Sort
+[2020-08-16 07:13:26 - INFO](randomArray):LoggerManager created, name is randomArray
+[2020-08-16 07:13:26 - DEBUG](Sort):Sort Create
+[2020-08-16 07:13:26 - INFO](randomArray):randomArray create
+[2020-08-16 07:13:26 - WARN](Sort):Sort End
+[2020-08-16 07:13:26 - ERROR](randomArray):randomArray End

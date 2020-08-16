@@ -1,1 +1,2 @@
 V1：第一版fastcgi程序的修改，实现login的C++程序编写
+V2:去除不需要的文件，简化版logincgi
