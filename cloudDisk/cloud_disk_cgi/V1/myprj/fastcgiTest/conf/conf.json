@@ -1,0 +1,15 @@
+{
+   "name" : "conf.json",
+   "mysql" : {
+      "host" : "localhost",
+      "user" : "root",
+      "passwd" : "klczxas789",
+	  "dbname" : "cloud_disk"
+   },
+   "redis" : {
+      "ip" : "127.0.0.1",
+      "port" : "6379"
+   },
+   "description" : "This is conf json",
+   "type" : "json"
+}
