@@ -1,0 +1,92 @@
+[2020-08-14 17:24:06]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "1f7d880c6e1bc882969550443cac9c71",
+    "nickName": "believe",
+    "phone": "11111111111",
+    "userName": "klc456"
+}
+
+[2020-08-14 17:24:43]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "0bbbbacc0451147a2a45f146bc136352",
+    "nickName": "believe",
+    "phone": "11111111111",
+    "userName": "klc456456"
+}
+
+[2020-08-14 17:26:08]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "kevin"
+}
+
+[2020-08-14 17:26:46]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "58abfbc3094788f61ed3a4d44a931e9a",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "kkk123456"
+}
+
+[2020-08-14 17:26:50]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "58abfbc3094788f61ed3a4d44a931e9a",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "kkk123456"
+}
+
+[2020-08-14 17:31:16]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "75eefdb7794d8b1abd17dfea0a8b7875",
+    "nickName": "gsc123",
+    "phone": "11111111111",
+    "userName": "gsc123"
+}
+
+[2020-08-14 17:33:28]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "75eefdb7794d8b1abd17dfea0a8b7875",
+    "nickName": "gsc1234",
+    "phone": "11111111111",
+    "userName": "gsc1234"
+}
+
+[2020-08-14 17:37:13]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "75eefdb7794d8b1abd17dfea0a8b7875",
+    "nickName": "gsc12345",
+    "phone": "11111111111",
+    "userName": "gsc12345"
+}
+
+[2020-08-14 17:43:43]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "75eefdb7794d8b1abd17dfea0a8b7875",
+    "nickName": "gsc12345",
+    "phone": "11111111111",
+    "userName": "gsc12345"
+}
+
+[2020-08-14 17:44:21]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "75eefdb7794d8b1abd17dfea0a8b7875",
+    "nickName": "gsc12345",
+    "phone": "11111111111",
+    "userName": "gsc12345"
+}
+
+[2020-08-14 17:44:21]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 17:44:21]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:141]--user = gsc12345, nick_name = gsc12345, pwd = 75eefdb7794d8b1abd17dfea0a8b7875, tel = 11111111111, email = abc@qq.com
+[2020-08-14 17:52:29]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "68db889a0567d9aa7f119683df507e98",
+    "nickName": "believe123",
+    "phone": "11111111111",
+    "userName": "believe123"
+}
+
+[2020-08-14 17:52:29]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 17:52:29]--[/home/MyPrj_V13/myprj/register/source/reg_cgi.c:141]--user = believe123, nick_name = believe123, pwd = 68db889a0567d9aa7f119683df507e98, tel = 11111111111, email = abc@qq.com

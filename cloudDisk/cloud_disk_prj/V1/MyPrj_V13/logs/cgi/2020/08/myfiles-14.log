@@ -1,0 +1,126 @@
+[2020-08-14 17:15:58]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:40]--mysql:[user=,pwd=,database=][2020-08-14 17:22:06]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:40]--mysql:[user=,pwd=,database=][2020-08-14 17:30:25]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:40]--mysql:[user=,pwd=,database=][2020-08-14 17:32:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:40]--mysql:[user=,pwd=,database=][2020-08-14 17:44:16]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:48:54]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:49:46]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:50:00]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 17:50:00]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:528]--buf = {
+    "token": "a478f84300d22572211cb4b11e61008b",
+    "user": "gsc12345"
+}
+
+[2020-08-14 17:50:00]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:164]--select count from user_file_count where user="gsc12345" 操作失败
+[2020-08-14 17:50:00]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:176]--line = 0
+[2020-08-14 17:51:28]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:52:31]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 17:52:31]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:528]--buf = {
+    "token": "5aa6b6e531b57b3bd6218bed0de90c0f",
+    "user": "believe123"
+}
+
+[2020-08-14 17:52:31]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:164]--select count from user_file_count where user="believe123" 操作失败
+[2020-08-14 17:52:31]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:176]--line = 0
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:528]--buf = {
+    "token": "5aa6b6e531b57b3bd6218bed0de90c0f",
+    "user": "believe123"
+}
+
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:176]--line = 1
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "5aa6b6e531b57b3bd6218bed0de90c0f",
+    "user": "believe123"
+}
+
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:548]--user = believe123, token = 5aa6b6e531b57b3bd6218bed0de90c0f, start = 0, count = 1
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'believe123' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"believe123",
+			"md5":	"8f46e6450c54ae3604ee4ae8a7dfa861",
+			"time":	"2020-08-14 17:52:42",
+			"filename":	"1450013406184.jpeg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg",
+			"size":	74434,
+			"type":	"jpeg"
+		}]
+}
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:528]--buf = {
+    "token": "5aa6b6e531b57b3bd6218bed0de90c0f",
+    "user": "believe123"
+}
+
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:176]--line = 2
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "5aa6b6e531b57b3bd6218bed0de90c0f",
+    "user": "believe123"
+}
+
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:548]--user = believe123, token = 5aa6b6e531b57b3bd6218bed0de90c0f, start = 0, count = 2
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'believe123' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"believe123",
+			"md5":	"8f46e6450c54ae3604ee4ae8a7dfa861",
+			"time":	"2020-08-14 17:52:42",
+			"filename":	"1450013406184.jpeg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg",
+			"size":	74434,
+			"type":	"jpeg"
+		}, {
+			"user":	"believe123",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-14 17:52:53",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}]
+}
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:528]--buf = {
+    "token": "a1f97a86fca8f3f8850a51002d8a124b",
+    "user": "believe123"
+}
+
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:176]--line = 2
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "a1f97a86fca8f3f8850a51002d8a124b",
+    "user": "believe123"
+}
+
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:548]--user = believe123, token = a1f97a86fca8f3f8850a51002d8a124b, start = 0, count = 2
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'believe123' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/myprj/myfiles/source/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"believe123",
+			"md5":	"8f46e6450c54ae3604ee4ae8a7dfa861",
+			"time":	"2020-08-14 17:52:42",
+			"filename":	"1450013406184.jpeg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg",
+			"size":	74434,
+			"type":	"jpeg"
+		}, {
+			"user":	"believe123",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-14 17:52:53",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}]
+}

@@ -1,0 +1,17 @@
+[2020-08-14 17:15:58]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:42]--mysql:[user=,pwd=,database=][2020-08-14 17:15:58]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:47]--redis:[ip=,port=]
+[2020-08-14 17:22:06]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:42]--mysql:[user=,pwd=,database=][2020-08-14 17:22:06]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:47]--redis:[ip=,port=]
+[2020-08-14 17:30:25]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:42]--mysql:[user=,pwd=,database=][2020-08-14 17:30:25]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:47]--redis:[ip=,port=]
+[2020-08-14 17:32:47]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:42]--mysql:[user=,pwd=,database=][2020-08-14 17:32:47]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:47]--redis:[ip=,port=]
+[2020-08-14 17:44:16]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:44:16]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-08-14 17:48:55]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:48:55]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-08-14 17:49:46]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:49:46]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-08-14 17:51:29]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:51:29]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:598]--cmd = count
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:85]--line = 0
+[2020-08-14 17:53:14]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:598]--cmd = count
+[2020-08-14 17:53:14]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2020-08-14 17:53:14]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:85]--line = 0
+[2020-08-14 17:53:14]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:598]--cmd = count
+[2020-08-14 17:53:14]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2020-08-14 17:53:14]--[/home/MyPrj_V13/myprj/sharefiles/source/sharefiles_cgi.c:85]--line = 0

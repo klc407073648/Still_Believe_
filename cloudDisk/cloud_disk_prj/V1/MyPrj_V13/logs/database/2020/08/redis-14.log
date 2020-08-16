@@ -1,0 +1,29 @@
+[2020-08-14 17:44:23]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:363]--[-][GMS_REDIS]Connect 127.0.0.1:6379 Error:Connection refused
+[2020-08-14 17:44:43]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:363]--[-][GMS_REDIS]Connect 127.0.0.1:6379 Error:Connection refused
+[2020-08-14 17:49:59]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:49:59]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:50:00]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:50:00]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:52:31]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:52:31]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:52:31]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:52:31]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:52:42]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:52:42]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:52:47]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:52:53]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:52:53]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:52:57]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:53:02]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:363]--[-][GMS_REDIS]Connect :0 Error:Name or service not known
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2020-08-14 17:53:12]--[/home/MyPrj_V13/comlib/common/fastcgi/source/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
