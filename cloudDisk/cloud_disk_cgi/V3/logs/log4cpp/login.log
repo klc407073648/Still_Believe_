@@ -1,0 +1,49 @@
+[2020-08-17 06:25:25:194 - INFO](Config):LoggerManager created, name is Config
+[2020-08-17 06:25:25:194 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-17 06:25:25:194 - INFO](LoginCgi):LoggerManager created, name is LoginCgi
+[2020-08-17 06:25:25:195 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-17 06:25:25:195 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-17 06:25:25:195 - INFO](Config):log4cpp_path=./conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-17 06:25:25:195 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-17 06:25:25:195 - INFO](Config):Reading Complete!
+[2020-08-17 06:25:25:195 - DEBUG](Config):Config()
+[2020-08-17 06:25:25:195 - INFO](LoginCgi):mysql_host=localhost
+[2020-08-17 06:25:25:195 - INFO](LoginCgi):redis_ip=127.0.0.1
+[2020-08-17 06:26:16:183 - INFO](LoginCgi):buf = {
+    "pwd": "53c1a2cba70a5fdceded1bb2a70103f5",
+    "user": "k1zxc1233"
+}
+
+[2020-08-17 06:26:16:183 - INFO](LoginCgi):user=k1zxc1233,pwd=53c1a2cba70a5fdceded1bb2a70103f5
+[2020-08-17 06:26:16:183 - INFO](LoginCgi):Reading Complete!
+[2020-08-17 06:26:16:183 - INFO](LoginCgi):user = k1zxc1233, pwd = 53c1a2cba70a5fdceded1bb2a70103f5
+[2020-08-17 06:26:16:186 - DEBUG](LoginCgi):sql_query=select * from user where name='k1zxc1233' AND password='53c1a2cba70a5fdceded1bb2a70103f5';
+[2020-08-17 06:26:16:186 - ERROR](LoginCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-17 06:26:16:186 - INFO](LoginCgi):tmp = ÈyN162507891814
+[2020-08-17 06:26:16:186 - INFO](LoginCgi):base64 = AAAAAJsuHFvsItAMLy61zA==
+[2020-08-17 06:26:16:186 - INFO](LoginCgi):expire_time = 86400
+[2020-08-17 06:26:16:187 - INFO](LoginCgi):token = 855dc1186a39e284ce769a0fcc5ef33e
+[2020-08-17 06:26:16:187 - INFO](LoginCgi):out = {
+   "code" : "000",
+   "token" : "855dc1186a39e284ce769a0fcc5ef33e"
+}
+
+[2020-08-17 06:26:55:521 - INFO](LoginCgi):buf = {
+    "pwd": "53c1a2cba70a5fdceded1bb2a70103f5",
+    "user": "k1zxc1233"
+}
+
+[2020-08-17 06:26:55:521 - INFO](LoginCgi):user=k1zxc1233,pwd=53c1a2cba70a5fdceded1bb2a70103f5
+[2020-08-17 06:26:55:521 - INFO](LoginCgi):Reading Complete!
+[2020-08-17 06:26:55:521 - INFO](LoginCgi):user = k1zxc1233, pwd = 53c1a2cba70a5fdceded1bb2a70103f5
+[2020-08-17 06:26:55:522 - DEBUG](LoginCgi):sql_query=select * from user where name='k1zxc1233' AND password='53c1a2cba70a5fdceded1bb2a70103f5';
+[2020-08-17 06:26:55:522 - ERROR](LoginCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-17 06:26:55:522 - INFO](LoginCgi):tmp = Ø“N3673703325
+[2020-08-17 06:26:55:522 - INFO](LoginCgi):base64 = AAAAADqz4MQn+2c7UeT9xw==
+[2020-08-17 06:26:55:522 - INFO](LoginCgi):expire_time = 86400
+[2020-08-17 06:26:55:522 - INFO](LoginCgi):token = 12dfa2b52548d07aa61364349bb38b30
+[2020-08-17 06:26:55:523 - INFO](LoginCgi):out = {
+   "code" : "000",
+   "token" : "12dfa2b52548d07aa61364349bb38b30"
+}
+
