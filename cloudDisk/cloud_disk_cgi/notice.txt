@@ -1,3 +1,4 @@
 V1：第一版fastcgi程序的修改，实现login的C++程序编写
 V2:去除不需要的文件，简化版logincgi
 V3:进一步精简版，仅保存logincgi且考虑从json配置文件读取变量
+V4:段错误修改，是common.h文件引起，同时修改代码逻辑，加入register
