@@ -1,0 +1,20 @@
+[2020-08-13 16:42:40]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "ac6811030ba695c04503709ad9cf246a",
+    "nickName": "klc123",
+    "phone": "11111111111",
+    "userName": "klc123"
+}
+
+[2020-08-13 16:42:40]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-13 16:42:40]--[src_cgi/reg_cgi.c:141]--user = klc123, nick_name = klc123, pwd = ac6811030ba695c04503709ad9cf246a, tel = 11111111111, email = abc@qq.com
+[2020-08-13 16:43:44]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "123@qq.com",
+    "firstPwd": "7436569ae8a000ed53e25a41e67da025",
+    "nickName": "klc123456",
+    "phone": "15222222222",
+    "userName": "klc123456"
+}
+
+[2020-08-13 16:43:44]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-13 16:43:44]--[src_cgi/reg_cgi.c:141]--user = klc123456, nick_name = klc123456, pwd = 7436569ae8a000ed53e25a41e67da025, tel = 15222222222, email = 123@qq.com

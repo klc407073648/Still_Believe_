@@ -1,0 +1,566 @@
+[2020-08-14 04:01:38]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 04:24:38]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 04:24:38]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ba096f846c9aabfe9db8762dcb9ef1e8",
+    "user": "klc123456"
+}
+
+[2020-08-14 04:24:38]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc123456" 操作失败
+[2020-08-14 04:24:38]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 04:55:47]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 05:03:47]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 05:26:39]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:26:39]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "387a06044c4623acf5c03e281bfc5c99",
+    "user": "klc112233"
+}
+
+[2020-08-14 05:26:39]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc112233" 操作失败
+[2020-08-14 05:26:39]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:26:55]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:26:55]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "387a06044c4623acf5c03e281bfc5c99",
+    "user": "klc112233"
+}
+
+[2020-08-14 05:26:55]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc112233" 操作失败
+[2020-08-14 05:26:55]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:27:12]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:27:12]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a702a06288008188407263659c13a4bc",
+    "user": "klc112233"
+}
+
+[2020-08-14 05:27:12]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-08-14 05:27:13]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:27:13]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "a702a06288008188407263659c13a4bc",
+    "user": "klc112233"
+}
+
+[2020-08-14 05:27:13]--[src_cgi/myfiles_cgi.c:548]--user = klc112233, token = a702a06288008188407263659c13a4bc, start = 0, count = 1
+[2020-08-14 05:27:13]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc112233' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-08-14 05:27:13]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc112233",
+			"md5":	"73289abdbc1abf9e790628a4a384d471",
+			"time":	"2020-08-14 05:26:59",
+			"filename":	"logininfoinstance.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82gxOAOIDUAAdZGJBVQY461885.o",
+			"size":	481560,
+			"type":	"o"
+		}]
+}
+[2020-08-14 05:27:15]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:27:15]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a702a06288008188407263659c13a4bc",
+    "user": "klc112233"
+}
+
+[2020-08-14 05:27:15]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-08-14 05:27:15]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:27:15]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "a702a06288008188407263659c13a4bc",
+    "user": "klc112233"
+}
+
+[2020-08-14 05:27:15]--[src_cgi/myfiles_cgi.c:548]--user = klc112233, token = a702a06288008188407263659c13a4bc, start = 0, count = 1
+[2020-08-14 05:27:15]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc112233' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-08-14 05:27:15]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc112233",
+			"md5":	"73289abdbc1abf9e790628a4a384d471",
+			"time":	"2020-08-14 05:26:59",
+			"filename":	"logininfoinstance.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82gxOAOIDUAAdZGJBVQY461885.o",
+			"size":	481560,
+			"type":	"o"
+		}]
+}
+[2020-08-14 05:30:10]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:30:10]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:10]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc741789" 操作失败
+[2020-08-14 05:30:10]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:30:13]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:30:13]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:13]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc741789" 操作失败
+[2020-08-14 05:30:13]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:30:24]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:30:24]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:24]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-08-14 05:30:24]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:30:24]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:24]--[src_cgi/myfiles_cgi.c:548]--user = klc741789, token = a155f739ed5c9b581a51723020822390, start = 0, count = 1
+[2020-08-14 05:30:24]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc741789' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-08-14 05:30:24]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc741789",
+			"md5":	"3c4a23f730e3c94bf6b2df035f1c76f7",
+			"time":	"2020-08-14 05:30:16",
+			"filename":	"dataprogress.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o",
+			"size":	723688,
+			"type":	"o"
+		}]
+}
+[2020-08-14 05:30:30]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:30:30]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:30]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-08-14 05:30:30]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:30:30]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:30]--[src_cgi/myfiles_cgi.c:548]--user = klc741789, token = a155f739ed5c9b581a51723020822390, start = 0, count = 1
+[2020-08-14 05:30:30]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc741789' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-08-14 05:30:30]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc741789",
+			"md5":	"3c4a23f730e3c94bf6b2df035f1c76f7",
+			"time":	"2020-08-14 05:30:16",
+			"filename":	"dataprogress.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o",
+			"size":	723688,
+			"type":	"o"
+		}]
+}
+[2020-08-14 05:30:45]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:30:45]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:45]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2020-08-14 05:30:45]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:30:45]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:45]--[src_cgi/myfiles_cgi.c:548]--user = klc741789, token = a155f739ed5c9b581a51723020822390, start = 0, count = 2
+[2020-08-14 05:30:45]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc741789' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2020-08-14 05:30:45]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc741789",
+			"md5":	"3c4a23f730e3c94bf6b2df035f1c76f7",
+			"time":	"2020-08-14 05:30:16",
+			"filename":	"dataprogress.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o",
+			"size":	723688,
+			"type":	"o"
+		}, {
+			"user":	"klc741789",
+			"md5":	"5f2a390a60cb3d51355469fea61efa0b",
+			"time":	"2020-08-14 05:30:43",
+			"filename":	"main.cpp",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g_OAZFauAAAAxnRgnrY424.cpp",
+			"size":	198,
+			"type":	"cpp"
+		}]
+}
+[2020-08-14 05:30:49]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:30:49]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:49]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2020-08-14 05:30:49]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:30:49]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "a155f739ed5c9b581a51723020822390",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:49]--[src_cgi/myfiles_cgi.c:548]--user = klc741789, token = a155f739ed5c9b581a51723020822390, start = 0, count = 2
+[2020-08-14 05:30:49]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc741789' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2020-08-14 05:30:49]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc741789",
+			"md5":	"3c4a23f730e3c94bf6b2df035f1c76f7",
+			"time":	"2020-08-14 05:30:16",
+			"filename":	"dataprogress.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o",
+			"size":	723688,
+			"type":	"o"
+		}, {
+			"user":	"klc741789",
+			"md5":	"5f2a390a60cb3d51355469fea61efa0b",
+			"time":	"2020-08-14 05:30:43",
+			"filename":	"main.cpp",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g_OAZFauAAAAxnRgnrY424.cpp",
+			"size":	198,
+			"type":	"cpp"
+		}]
+}
+[2020-08-14 05:30:54]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:30:54]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "1fc4d257cda61c1dc8f3f343d6b9cfc7",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:54]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2020-08-14 05:30:54]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:30:54]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "1fc4d257cda61c1dc8f3f343d6b9cfc7",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:30:54]--[src_cgi/myfiles_cgi.c:548]--user = klc741789, token = 1fc4d257cda61c1dc8f3f343d6b9cfc7, start = 0, count = 2
+[2020-08-14 05:30:54]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc741789' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2020-08-14 05:30:54]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc741789",
+			"md5":	"3c4a23f730e3c94bf6b2df035f1c76f7",
+			"time":	"2020-08-14 05:30:16",
+			"filename":	"dataprogress.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o",
+			"size":	723688,
+			"type":	"o"
+		}, {
+			"user":	"klc741789",
+			"md5":	"5f2a390a60cb3d51355469fea61efa0b",
+			"time":	"2020-08-14 05:30:43",
+			"filename":	"main.cpp",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g_OAZFauAAAAxnRgnrY424.cpp",
+			"size":	198,
+			"type":	"cpp"
+		}]
+}
+[2020-08-14 05:32:38]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:32:38]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "1fc4d257cda61c1dc8f3f343d6b9cfc7",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:32:38]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2020-08-14 05:32:38]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:32:38]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "1fc4d257cda61c1dc8f3f343d6b9cfc7",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:32:38]--[src_cgi/myfiles_cgi.c:548]--user = klc741789, token = 1fc4d257cda61c1dc8f3f343d6b9cfc7, start = 0, count = 2
+[2020-08-14 05:32:38]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc741789' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2020-08-14 05:32:38]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc741789",
+			"md5":	"3c4a23f730e3c94bf6b2df035f1c76f7",
+			"time":	"2020-08-14 05:30:16",
+			"filename":	"dataprogress.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o",
+			"size":	723688,
+			"type":	"o"
+		}, {
+			"user":	"klc741789",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-14 05:32:36",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}]
+}
+[2020-08-14 05:36:52]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:36:52]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b6868012afc6f0258f92d37cc821006c",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:36:52]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2020-08-14 05:36:52]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:36:52]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "b6868012afc6f0258f92d37cc821006c",
+    "user": "klc741789"
+}
+
+[2020-08-14 05:36:52]--[src_cgi/myfiles_cgi.c:548]--user = klc741789, token = b6868012afc6f0258f92d37cc821006c, start = 0, count = 2
+[2020-08-14 05:36:52]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc741789' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2020-08-14 05:36:52]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc741789",
+			"md5":	"3c4a23f730e3c94bf6b2df035f1c76f7",
+			"time":	"2020-08-14 05:30:16",
+			"filename":	"dataprogress.o",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o",
+			"size":	723688,
+			"type":	"o"
+		}, {
+			"user":	"klc741789",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-14 05:32:36",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}]
+}
+[2020-08-14 05:44:32]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:44:32]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "232a3ed50a7cf62a1af90d30890eb0f7",
+    "user": "klc778899"
+}
+
+[2020-08-14 05:44:32]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc778899" 操作失败
+[2020-08-14 05:44:32]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:45:25]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:45:25]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "232a3ed50a7cf62a1af90d30890eb0f7",
+    "user": "klc778899"
+}
+
+[2020-08-14 05:45:25]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc778899" 操作失败
+[2020-08-14 05:45:25]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:45:44]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:45:44]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "232a3ed50a7cf62a1af90d30890eb0f7",
+    "user": "klc778899"
+}
+
+[2020-08-14 05:45:44]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc778899" 操作失败
+[2020-08-14 05:45:44]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:45:50]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:45:50]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "232a3ed50a7cf62a1af90d30890eb0f7",
+    "user": "klc778899"
+}
+
+[2020-08-14 05:45:50]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc778899" 操作失败
+[2020-08-14 05:45:50]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:45:59]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:45:59]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "66c28fe96cff2a54a064c6e72efeccb0",
+    "user": "klc778899"
+}
+
+[2020-08-14 05:45:59]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc778899" 操作失败
+[2020-08-14 05:45:59]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:46:09]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:46:09]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "66c28fe96cff2a54a064c6e72efeccb0",
+    "user": "klc778899"
+}
+
+[2020-08-14 05:46:09]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-08-14 05:46:09]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:46:09]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "66c28fe96cff2a54a064c6e72efeccb0",
+    "user": "klc778899"
+}
+
+[2020-08-14 05:46:09]--[src_cgi/myfiles_cgi.c:548]--user = klc778899, token = 66c28fe96cff2a54a064c6e72efeccb0, start = 0, count = 1
+[2020-08-14 05:46:09]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc778899' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-08-14 05:46:09]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc778899",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-14 05:46:03",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}]
+}
+[2020-08-14 05:46:49]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:46:49]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9ed71bb72ed96bc8c6929b6c800c3b3d",
+    "user": "klc123456"
+}
+
+[2020-08-14 05:46:49]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="klc123456" 操作失败
+[2020-08-14 05:46:49]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-14 05:47:06]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:47:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9ed71bb72ed96bc8c6929b6c800c3b3d",
+    "user": "klc123456"
+}
+
+[2020-08-14 05:47:06]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-08-14 05:47:06]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:47:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "9ed71bb72ed96bc8c6929b6c800c3b3d",
+    "user": "klc123456"
+}
+
+[2020-08-14 05:47:06]--[src_cgi/myfiles_cgi.c:548]--user = klc123456, token = 9ed71bb72ed96bc8c6929b6c800c3b3d, start = 0, count = 1
+[2020-08-14 05:47:06]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc123456' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-08-14 05:47:06]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc123456",
+			"md5":	"8f46e6450c54ae3604ee4ae8a7dfa861",
+			"time":	"2020-08-14 05:47:00",
+			"filename":	"1450013406184.jpeg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg",
+			"size":	74434,
+			"type":	"jpeg"
+		}]
+}
+[2020-08-14 05:47:14]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:47:14]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9ed71bb72ed96bc8c6929b6c800c3b3d",
+    "user": "klc123456"
+}
+
+[2020-08-14 05:47:14]--[src_cgi/myfiles_cgi.c:176]--line = 2
+[2020-08-14 05:47:14]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:47:14]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 2,
+    "start": 0,
+    "token": "9ed71bb72ed96bc8c6929b6c800c3b3d",
+    "user": "klc123456"
+}
+
+[2020-08-14 05:47:14]--[src_cgi/myfiles_cgi.c:548]--user = klc123456, token = 9ed71bb72ed96bc8c6929b6c800c3b3d, start = 0, count = 2
+[2020-08-14 05:47:14]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc123456' and file_info.md5 = user_file_list.md5 limit 0, 2 在操作
+[2020-08-14 05:47:14]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc123456",
+			"md5":	"8f46e6450c54ae3604ee4ae8a7dfa861",
+			"time":	"2020-08-14 05:47:00",
+			"filename":	"1450013406184.jpeg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg",
+			"size":	74434,
+			"type":	"jpeg"
+		}, {
+			"user":	"klc123456",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-14 05:47:09",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}]
+}
+[2020-08-14 05:47:20]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 05:47:20]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9ed71bb72ed96bc8c6929b6c800c3b3d",
+    "user": "klc123456"
+}
+
+[2020-08-14 05:47:20]--[src_cgi/myfiles_cgi.c:176]--line = 3
+[2020-08-14 05:47:20]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-14 05:47:20]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 3,
+    "start": 0,
+    "token": "9ed71bb72ed96bc8c6929b6c800c3b3d",
+    "user": "klc123456"
+}
+
+[2020-08-14 05:47:20]--[src_cgi/myfiles_cgi.c:548]--user = klc123456, token = 9ed71bb72ed96bc8c6929b6c800c3b3d, start = 0, count = 3
+[2020-08-14 05:47:20]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'klc123456' and file_info.md5 = user_file_list.md5 limit 0, 3 在操作
+[2020-08-14 05:47:20]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"klc123456",
+			"md5":	"8f46e6450c54ae3604ee4ae8a7dfa861",
+			"time":	"2020-08-14 05:47:00",
+			"filename":	"1450013406184.jpeg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg",
+			"size":	74434,
+			"type":	"jpeg"
+		}, {
+			"user":	"klc123456",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-14 05:47:09",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}, {
+			"user":	"klc123456",
+			"md5":	"71a7fd3727f10fd59250ca6fdbf19fb9",
+			"time":	"2020-08-14 05:47:18",
+			"filename":	"cfg.json",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h9aAXY2DAAAA4BkVae402.json",
+			"size":	224,
+			"type":	"json"
+		}]
+}
+[2020-08-14 17:28:26]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 17:29:45]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-14 17:29:45]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "3c68561b8f161caeff0938831aec4700",
+    "user": "cf123"
+}
+
+[2020-08-14 17:29:45]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="cf123" 操作失败
+[2020-08-14 17:29:45]--[src_cgi/myfiles_cgi.c:176]--line = 0

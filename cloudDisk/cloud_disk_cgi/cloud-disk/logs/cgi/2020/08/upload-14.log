@@ -1,0 +1,25 @@
+[2020-08-14 04:01:38]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 04:55:46]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 05:03:47]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-14 05:26:59]--[src_cgi/upload_cgi.c:616]--klc112233成功上传[logininfoinstance.o, 大小：481560, md5码：73289abdbc1abf9e790628a4a384d471]到本地
+[2020-08-14 05:26:59]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgC5l82gxOAOIDUAAdZGJBVQY461885.o] succ!
+[2020-08-14 05:26:59]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82gxOAOIDUAAdZGJBVQY461885.o
+[2020-08-14 05:26:59]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('73289abdbc1abf9e790628a4a384d471', 'group1/M00/00/00/wKgC5l82gxOAOIDUAAdZGJBVQY461885.o', 'http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82gxOAOIDUAAdZGJBVQY461885.o', '481560', 'o', 1) 文件信息插入成功
+[2020-08-14 05:30:16]--[src_cgi/upload_cgi.c:616]--klc741789成功上传[dataprogress.o, 大小：723688, md5码：3c4a23f730e3c94bf6b2df035f1c76f7]到本地
+[2020-08-14 05:30:16]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o] succ!
+[2020-08-14 05:30:16]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o
+[2020-08-14 05:30:16]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('3c4a23f730e3c94bf6b2df035f1c76f7', 'group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o', 'http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g9iAeABxAAsK6DJVzzA28524.o', '723688', 'o', 1) 文件信息插入成功
+[2020-08-14 05:30:43]--[src_cgi/upload_cgi.c:616]--klc741789成功上传[main.cpp, 大小：198, md5码：5f2a390a60cb3d51355469fea61efa0b]到本地
+[2020-08-14 05:30:43]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgC5l82g_OAZFauAAAAxnRgnrY424.cpp] succ!
+[2020-08-14 05:30:43]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g_OAZFauAAAAxnRgnrY424.cpp
+[2020-08-14 05:30:43]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('5f2a390a60cb3d51355469fea61efa0b', 'group1/M00/00/00/wKgC5l82g_OAZFauAAAAxnRgnrY424.cpp', 'http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82g_OAZFauAAAAxnRgnrY424.cpp', '198', 'cpp', 1) 文件信息插入成功
+[2020-08-14 05:32:36]--[src_cgi/upload_cgi.c:616]--klc741789成功上传[img-444aa52aa090a1905366f70b2f3ae91d.jpg, 大小：26764, md5码：d5815d3bef4752412a48b712f702c85d]到本地
+[2020-08-14 05:32:36]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg] succ!
+[2020-08-14 05:32:36]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg
+[2020-08-14 05:32:36]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('d5815d3bef4752412a48b712f702c85d', 'group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg', 'http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg', '26764', 'jpg', 1) 文件信息插入成功
+[2020-08-14 05:47:00]--[src_cgi/upload_cgi.c:616]--klc123456成功上传[1450013406184.jpeg, 大小：74434, md5码：8f46e6450c54ae3604ee4ae8a7dfa861]到本地
+[2020-08-14 05:47:00]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg] succ!
+[2020-08-14 05:47:00]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg
+[2020-08-14 05:47:00]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('8f46e6450c54ae3604ee4ae8a7dfa861', 'group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg', 'http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h8SAOrKfAAEiwhzDGEI89.jpeg', '74434', 'jpeg', 1) 文件信息插入成功
+[2020-08-14 05:47:18]--[src_cgi/upload_cgi.c:616]--klc123456成功上传[cfg.json, 大小：224, md5码：71a7fd3727f10fd59250ca6fdbf19fb9]到本地
+[2020-08-14 05:47:18]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKgC5l82h9aAXY2DAAAA4BkVae402.json] succ!
+[2020-08-14 05:47:18]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h9aAXY2DAAAA4BkVae402.json
+[2020-08-14 05:47:18]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('71a7fd3727f10fd59250ca6fdbf19fb9', 'group1/M00/00/00/wKgC5l82h9aAXY2DAAAA4BkVae402.json', 'http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82h9aAXY2DAAAA4BkVae402.json', '224', 'json', 1) 文件信息插入成功
+[2020-08-14 17:28:26]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk]

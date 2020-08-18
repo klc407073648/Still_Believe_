@@ -1,0 +1,46 @@
+[2020-08-18 06:32:50]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-18 06:49:31]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-18 06:49:31]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "647cd50cfb57d5167c07ebbe6c191ce0",
+    "user": "azasdd123"
+}
+
+[2020-08-18 06:49:31]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="azasdd123" 操作失败
+[2020-08-18 06:49:31]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-18 06:51:47]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-18 06:51:47]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b4316360b628d9087c3ebc87ce16a9c1",
+    "user": "azasdd1235"
+}
+
+[2020-08-18 06:51:47]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="azasdd1235" 操作失败
+[2020-08-18 06:51:47]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-18 06:52:03]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-18 06:52:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b4316360b628d9087c3ebc87ce16a9c1",
+    "user": "azasdd1235"
+}
+
+[2020-08-18 06:52:03]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2020-08-18 06:52:03]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2020-08-18 06:52:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "b4316360b628d9087c3ebc87ce16a9c1",
+    "user": "azasdd1235"
+}
+
+[2020-08-18 06:52:03]--[src_cgi/myfiles_cgi.c:548]--user = azasdd1235, token = b4316360b628d9087c3ebc87ce16a9c1, start = 0, count = 1
+[2020-08-18 06:52:03]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'azasdd1235' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2020-08-18 06:52:03]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"azasdd1235",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-18 06:52:02",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}]
+}

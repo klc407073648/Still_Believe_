@@ -1,0 +1,83 @@
+[2020-08-14 05:04:00]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "f5994d3641c08d8c48384547f47cb68e",
+    "nickName": "klc1234567",
+    "phone": "11111111111",
+    "userName": "klc1234567"
+}
+
+[2020-08-14 05:04:00]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 05:04:00]--[src_cgi/reg_cgi.c:141]--user = klc1234567, nick_name = klc1234567, pwd = f5994d3641c08d8c48384547f47cb68e, tel = 11111111111, email = abc@qq.com
+[2020-08-14 05:26:31]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "586f6b50a45997e5f972e7795b98d950",
+    "nickName": "klc112233",
+    "phone": "11111111111",
+    "userName": "klc112233"
+}
+
+[2020-08-14 05:26:31]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 05:26:31]--[src_cgi/reg_cgi.c:141]--user = klc112233, nick_name = klc112233, pwd = 586f6b50a45997e5f972e7795b98d950, tel = 11111111111, email = abc@qq.com
+[2020-08-14 05:29:46]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "fce94c352ec8f8e2a09cb69a8bf67d1d",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "klc741789"
+}
+
+[2020-08-14 05:29:46]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 05:29:46]--[src_cgi/reg_cgi.c:141]--user = klc741789, nick_name = kevin, pwd = fce94c352ec8f8e2a09cb69a8bf67d1d, tel = 11111111111, email = abc@qq.com
+[2020-08-14 05:29:46]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('klc741789', 'kevin', 'fce94c352ec8f8e2a09cb69a8bf67d1d', '11111111111', '2020-08-14 05:29:46', 'abc@qq.com') 插入失败：Duplicate entry 'kevin' for key 'uq_nickname'
+[2020-08-14 05:30:01]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "7436569ae8a000ed53e25a41e67da025",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "klc741789"
+}
+
+[2020-08-14 05:30:01]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 05:30:01]--[src_cgi/reg_cgi.c:141]--user = klc741789, nick_name = kevin, pwd = 7436569ae8a000ed53e25a41e67da025, tel = 11111111111, email = abc@qq.com
+[2020-08-14 05:30:01]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('klc741789', 'kevin', '7436569ae8a000ed53e25a41e67da025', '11111111111', '2020-08-14 05:30:01', 'abc@qq.com') 插入失败：Duplicate entry 'kevin' for key 'uq_nickname'
+[2020-08-14 05:30:08]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "7436569ae8a000ed53e25a41e67da025",
+    "nickName": "kkkkk",
+    "phone": "11111111111",
+    "userName": "klc741789"
+}
+
+[2020-08-14 05:30:08]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 05:30:08]--[src_cgi/reg_cgi.c:141]--user = klc741789, nick_name = kkkkk, pwd = 7436569ae8a000ed53e25a41e67da025, tel = 11111111111, email = abc@qq.com
+[2020-08-14 05:44:27]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "b47fe11d8f7514f07d0d12919cfa874b",
+    "nickName": "klc778899",
+    "phone": "11111111111",
+    "userName": "klc778899"
+}
+
+[2020-08-14 05:44:27]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 05:44:27]--[src_cgi/reg_cgi.c:141]--user = klc778899, nick_name = klc778899, pwd = b47fe11d8f7514f07d0d12919cfa874b, tel = 11111111111, email = abc@qq.com
+[2020-08-14 17:28:31]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "58abfbc3094788f61ed3a4d44a931e9a",
+    "nickName": "kevin",
+    "phone": "11111111111",
+    "userName": "kkk123456"
+}
+
+[2020-08-14 17:28:31]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 17:28:31]--[src_cgi/reg_cgi.c:141]--user = kkk123456, nick_name = kevin, pwd = 58abfbc3094788f61ed3a4d44a931e9a, tel = 11111111111, email = abc@qq.com
+[2020-08-14 17:28:31]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('kkk123456', 'kevin', '58abfbc3094788f61ed3a4d44a931e9a', '11111111111', '2020-08-14 17:28:31', 'abc@qq.com') 插入失败：Duplicate entry 'kevin' for key 'uq_nickname'
+[2020-08-14 17:29:42]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "d3f864bea4f5c96dce5b84a65466c17f",
+    "nickName": "cf123",
+    "phone": "11111111111",
+    "userName": "cf123"
+}
+
+[2020-08-14 17:29:42]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-14 17:29:42]--[src_cgi/reg_cgi.c:141]--user = cf123, nick_name = cf123, pwd = d3f864bea4f5c96dce5b84a65466c17f, tel = 11111111111, email = abc@qq.com

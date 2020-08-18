@@ -1,0 +1,26 @@
+[2020-08-16 00:18:06]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2020-08-16 00:18:06]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2020-08-16 00:18:06]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2020-08-16 00:18:06]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-08-16 00:18:06]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2020-08-16 00:18:06]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2020-08-16 00:18:09]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"zzk123456",
+			"md5":	"d5815d3bef4752412a48b712f702c85d",
+			"time":	"2020-08-15 18:30:49",
+			"filename":	"img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.2.230:23000/group1/M00/00/00/wKgC5l82hGSALplTAABojPrXj_s666.jpg",
+			"size":	26764,
+			"type":	"jpg"
+		}]
+}
+[2020-08-16 05:41:02]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-16 05:41:02]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-08-16 07:23:23]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-16 07:23:23]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2020-08-16 16:40:25]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-16 16:40:25]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]

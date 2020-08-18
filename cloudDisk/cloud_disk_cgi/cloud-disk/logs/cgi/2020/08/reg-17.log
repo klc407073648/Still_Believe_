@@ -1,0 +1,40 @@
+[2020-08-17 06:14:22]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "3cf0215457191ddeb37484463a790117",
+    "nickName": "zxc123",
+    "phone": "11111111111",
+    "userName": "zxc123"
+}
+
+[2020-08-17 06:14:22]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-17 06:14:22]--[src_cgi/reg_cgi.c:141]--user = zxc123, nick_name = zxc123, pwd = 3cf0215457191ddeb37484463a790117, tel = 11111111111, email = abc@qq.com
+[2020-08-17 06:18:59]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "63a58af2f9e94741a0c1ca120cb291f9",
+    "nickName": "kzxc123",
+    "phone": "11111111111",
+    "userName": "kzxc123"
+}
+
+[2020-08-17 06:18:59]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-17 06:18:59]--[src_cgi/reg_cgi.c:141]--user = kzxc123, nick_name = kzxc123, pwd = 63a58af2f9e94741a0c1ca120cb291f9, tel = 11111111111, email = abc@qq.com
+[2020-08-17 06:21:10]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "6faa11a470de7a22e9d9837f8cdcb35c",
+    "nickName": "k1zxc123",
+    "phone": "11111111111",
+    "userName": "k1zxc123"
+}
+
+[2020-08-17 06:21:10]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-17 06:21:10]--[src_cgi/reg_cgi.c:141]--user = k1zxc123, nick_name = k1zxc123, pwd = 6faa11a470de7a22e9d9837f8cdcb35c, tel = 11111111111, email = abc@qq.com
+[2020-08-17 06:26:04]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "53c1a2cba70a5fdceded1bb2a70103f5",
+    "nickName": "k1zxc1233",
+    "phone": "11111111111",
+    "userName": "k1zxc1233"
+}
+
+[2020-08-17 06:26:04]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = klczxas789, mysql_db = cloud_disk
+[2020-08-17 06:26:04]--[src_cgi/reg_cgi.c:141]--user = k1zxc1233, nick_name = k1zxc1233, pwd = 53c1a2cba70a5fdceded1bb2a70103f5, tel = 11111111111, email = abc@qq.com

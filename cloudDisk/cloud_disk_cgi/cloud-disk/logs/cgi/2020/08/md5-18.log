@@ -1,0 +1,8 @@
+[2020-08-18 06:32:50]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-18 06:52:02]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+    "md5": "d5815d3bef4752412a48b712f702c85d",
+    "token": "b4316360b628d9087c3ebc87ce16a9c1",
+    "user": "azasdd1235"
+}
+
+[2020-08-18 06:52:02]--[src_cgi/md5_cgi.c:361]--user = azasdd1235, token = b4316360b628d9087c3ebc87ce16a9c1, md5 = d5815d3bef4752412a48b712f702c85d, filename = img-444aa52aa090a1905366f70b2f3ae91d.jpg

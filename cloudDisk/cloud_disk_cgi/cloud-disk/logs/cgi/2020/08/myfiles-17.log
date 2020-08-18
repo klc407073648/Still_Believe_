@@ -1,0 +1,49 @@
+[2020-08-17 06:10:51]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-17 06:14:26]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-17 06:14:26]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "006b9a4eb13361b0afa24db9fb43186f",
+    "user": "zxc123"
+}
+
+[2020-08-17 06:14:26]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zxc123" 操作失败
+[2020-08-17 06:14:26]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-17 06:15:42]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-17 06:15:42]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "c31cdbed22b9f3538e9b618448f6ac19",
+    "user": "zxc123"
+}
+
+[2020-08-17 06:15:42]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zxc123" 操作失败
+[2020-08-17 06:15:42]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-17 06:16:41]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-17 06:16:41]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "4e2a5fd0dd6738055bf5807cbedb0770",
+    "user": "zxc123"
+}
+
+[2020-08-17 06:16:41]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zxc123" 操作失败
+[2020-08-17 06:16:41]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-17 06:21:12]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-17 06:21:12]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ff89169b12a4671f74bfca09b0aebb4c",
+    "user": "k1zxc123"
+}
+
+[2020-08-17 06:21:12]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="k1zxc123" 操作失败
+[2020-08-17 06:21:12]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-17 06:26:16]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-17 06:26:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "855dc1186a39e284ce769a0fcc5ef33e",
+    "user": "k1zxc1233"
+}
+
+[2020-08-17 06:26:16]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="k1zxc1233" 操作失败
+[2020-08-17 06:26:16]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-17 06:26:55]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2020-08-17 06:26:55]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "12dfa2b52548d07aa61364349bb38b30",
+    "user": "k1zxc1233"
+}
+
+[2020-08-17 06:26:55]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="k1zxc1233" 操作失败
+[2020-08-17 06:26:55]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2020-08-17 16:25:18]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk][2020-08-17 16:45:07]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=klczxas789,database=cloud_disk]
