@@ -1,0 +1,201 @@
+[2020-08-18 06:36:25:413 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-18 06:36:25:413 - INFO](Config):LoggerManager created, name is Config
+[2020-08-18 06:36:25:413 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-18 06:36:25:413 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-18 06:36:25:413 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-18 06:36:25:413 - INFO](Config):log4cpp_path=./myprj/register/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-18 06:36:25:413 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-18 06:36:25:413 - INFO](Config):Reading Complete!
+[2020-08-18 06:36:25:413 - DEBUG](Config):Config()
+[2020-08-18 06:36:25:413 - INFO](RegisterCgi):mysql_host=localhost
+[2020-08-18 06:36:25:413 - INFO](RegisterCgi):redis_ip=127.0.0.1
+[2020-08-18 06:38:15:051 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "40c4256359a082e75da1e8e7f076bb14",
+    "nickName": "aassdd123",
+    "phone": "11111111111",
+    "userName": "aassdd123"
+}
+
+[2020-08-18 06:38:15:394 - INFO](RegisterCgi):user=aassdd123,nick_name=aassdd123,pwd=40c4256359a082e75da1e8e7f076bb14,tel=11111111111,email=abc@qq.com
+[2020-08-18 06:38:15:394 - INFO](RegisterCgi):Reading Complete!
+[2020-08-18 06:38:15:703 - DEBUG](RegisterCgi):sql_query=select * from user where name='aassdd123';
+[2020-08-18 06:38:15:704 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-18 06:38:15:704 - DEBUG](RegisterCgi):sql_insert=
+[2020-08-18 06:38:15:704 - ERROR](RegisterCgi):mysql->getAffectedRows(): -1 ,mysql->getErrStr(): Query was empty
+[2020-08-18 06:38:15:704 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
+[2020-08-18 06:41:13:812 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-18 06:41:13:812 - INFO](Config):LoggerManager created, name is Config
+[2020-08-18 06:41:13:812 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-18 06:41:13:812 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-18 06:41:13:812 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-18 06:41:13:812 - INFO](Config):log4cpp_path=./myprj/register/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-18 06:41:13:812 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-18 06:41:13:812 - INFO](Config):Reading Complete!
+[2020-08-18 06:41:13:812 - DEBUG](Config):Config()
+[2020-08-18 06:41:13:812 - INFO](RegisterCgi):mysql_host=localhost
+[2020-08-18 06:41:13:812 - INFO](RegisterCgi):redis_ip=127.0.0.1
+[2020-08-18 06:42:10:225 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "d44a0f63f6f8110067e56a2b5bd0f721",
+    "nickName": "aasdd123",
+    "phone": "11111111111",
+    "userName": "aasdd123"
+}
+
+[2020-08-18 06:42:10:228 - INFO](RegisterCgi):user=aasdd123,nick_name=aasdd123,pwd=d44a0f63f6f8110067e56a2b5bd0f721,tel=11111111111,email=abc@qq.com
+[2020-08-18 06:42:10:228 - INFO](RegisterCgi):Reading Complete!
+[2020-08-18 06:42:10:229 - DEBUG](RegisterCgi):sql_query=select * from user where name='aasdd123';
+[2020-08-18 06:42:10:229 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-18 06:42:10:229 - DEBUG](RegisterCgi):sql_insert=insert into user (name, nickname, password, phone, createtime, email) values ('aasdd123' , 'aasdd123' , 'd44a0f63f6f8110067e56a2b5bd0f721' , '2020-08-18 06:42:10' , 'abc@qq.com');
+[2020-08-18 06:42:10:229 - ERROR](RegisterCgi):mysql->getAffectedRows(): -1 ,mysql->getErrStr(): Column count doesn't match value count at row 1
+[2020-08-18 06:42:10:229 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
+[2020-08-18 06:48:33:626 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-18 06:48:33:627 - INFO](Config):LoggerManager created, name is Config
+[2020-08-18 06:48:33:627 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-18 06:48:33:627 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-18 06:48:33:627 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-18 06:48:33:627 - INFO](Config):log4cpp_path=./myprj/register/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-18 06:48:33:627 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-18 06:48:33:627 - INFO](Config):Reading Complete!
+[2020-08-18 06:48:33:627 - DEBUG](Config):Config()
+[2020-08-18 06:48:33:627 - INFO](RegisterCgi):mysql_host=localhost
+[2020-08-18 06:48:33:627 - INFO](RegisterCgi):redis_ip=127.0.0.1
+[2020-08-18 06:49:27:655 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "eecd5d96d71b4963a6a3fe7038dba091",
+    "nickName": "azasdd123",
+    "phone": "11111111111",
+    "userName": "azasdd123"
+}
+
+[2020-08-18 06:49:27:658 - INFO](RegisterCgi):user=azasdd123,nick_name=azasdd123,pwd=eecd5d96d71b4963a6a3fe7038dba091,tel=11111111111,email=abc@qq.com
+[2020-08-18 06:49:27:658 - INFO](RegisterCgi):Reading Complete!
+[2020-08-18 06:49:27:659 - DEBUG](RegisterCgi):sql_query=select * from user where name='azasdd123';
+[2020-08-18 06:49:27:659 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-18 06:49:27:660 - DEBUG](RegisterCgi):sql_insert=insert into user (name, nickname, password, phone, createtime, email) values ('azasdd123' , 'azasdd123' , 'eecd5d96d71b4963a6a3fe7038dba091' , '11111111111' , '2020-08-18 06:49:27' , 'abc@qq.com');
+[2020-08-18 06:49:27:660 - ERROR](RegisterCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-18 06:49:27:660 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
+[2020-08-18 06:50:54:328 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-18 06:50:54:329 - INFO](Config):LoggerManager created, name is Config
+[2020-08-18 06:50:54:329 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-18 06:50:54:329 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-18 06:50:54:329 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-18 06:50:54:329 - INFO](Config):log4cpp_path=./myprj/register/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-18 06:50:54:329 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-18 06:50:54:329 - INFO](Config):Reading Complete!
+[2020-08-18 06:50:54:329 - DEBUG](Config):Config()
+[2020-08-18 06:50:54:329 - INFO](RegisterCgi):mysql_host=localhost
+[2020-08-18 06:50:54:329 - INFO](RegisterCgi):redis_ip=127.0.0.1
+[2020-08-18 06:51:45:546 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "eecd5d96d71b4963a6a3fe7038dba091",
+    "nickName": "azasdd1235",
+    "phone": "11111111111",
+    "userName": "azasdd1235"
+}
+
+[2020-08-18 06:51:45:550 - INFO](RegisterCgi):user=azasdd1235,nick_name=azasdd1235,pwd=eecd5d96d71b4963a6a3fe7038dba091,tel=11111111111,email=abc@qq.com
+[2020-08-18 06:51:45:550 - INFO](RegisterCgi):Reading Complete!
+[2020-08-18 06:51:45:551 - DEBUG](RegisterCgi):sql_query=select * from user where name='azasdd1235';
+[2020-08-18 06:51:45:551 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-18 06:51:45:552 - DEBUG](RegisterCgi):sql_insert=insert into user (name, nickname, password, phone, createtime, email) values ('azasdd1235' , 'azasdd1235' , 'eecd5d96d71b4963a6a3fe7038dba091' , '11111111111' , '2020-08-18 06:51:45' , 'abc@qq.com');
+[2020-08-18 06:51:45:552 - ERROR](RegisterCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-18 06:51:45:552 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
+[2020-08-18 16:30:52:815 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-18 16:30:52:815 - INFO](Config):LoggerManager created, name is Config
+[2020-08-18 16:30:52:815 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-18 16:30:52:815 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-18 16:30:52:815 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-18 16:30:52:815 - INFO](Config):log4cpp_path=./myprj/register/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-18 16:30:52:815 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-18 16:30:52:815 - INFO](Config):Reading Complete!
+[2020-08-18 16:30:52:815 - DEBUG](Config):Config()
+[2020-08-18 16:30:52:815 - INFO](RegisterCgi):mysql_host=localhost
+[2020-08-18 16:30:52:815 - INFO](RegisterCgi):redis_ip=127.0.0.1
+[2020-08-18 16:33:11:329 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "9708347652aa2fe091c048175fbfbfc9",
+    "nickName": "xqwe123",
+    "phone": "11111111111",
+    "userName": "xqwe123"
+}
+
+[2020-08-18 16:33:11:393 - INFO](RegisterCgi):user=xqwe123,nick_name=xqwe123,pwd=9708347652aa2fe091c048175fbfbfc9,tel=11111111111,email=abc@qq.com
+[2020-08-18 16:33:11:393 - INFO](RegisterCgi):Reading Complete!
+[2020-08-18 16:33:11:512 - DEBUG](RegisterCgi):sql_query=select * from user where name='xqwe123';
+[2020-08-18 16:33:11:512 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-18 16:33:11:514 - DEBUG](RegisterCgi):sql_insert=insert into user (name, nickname, password, phone, createtime, email) values ('xqwe123' , 'xqwe123' , '9708347652aa2fe091c048175fbfbfc9' , '11111111111' , '2020-08-18 16:33:11' , 'abc@qq.com');
+[2020-08-18 16:33:11:514 - ERROR](RegisterCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-18 16:33:11:514 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
+[2020-08-18 16:56:33:724 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-18 16:56:33:724 - INFO](Config):LoggerManager created, name is Config
+[2020-08-18 16:56:33:725 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-18 16:56:33:725 - DEBUG](Config):Config Create!
+[2020-08-18 16:56:33:725 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-18 16:56:33:725 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-18 16:56:33:725 - INFO](Config):log4cpp_path=./myprj/register/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-18 16:56:33:725 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-18 16:56:33:725 - INFO](Config):Reading Complete!
+[2020-08-18 16:56:33:725 - INFO](RegisterCgi):RegisterCgi Create!
+[2020-08-18 16:57:17:261 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "f54afe383ee464416318b331ea4bd345",
+    "nickName": "xqwe1232",
+    "phone": "11111111111",
+    "userName": "xqwe1232"
+}
+
+[2020-08-18 16:57:17:392 - INFO](RegisterCgi):user=xqwe1232,nick_name=xqwe1232,pwd=f54afe383ee464416318b331ea4bd345,tel=11111111111,email=abc@qq.com
+[2020-08-18 16:57:17:392 - INFO](RegisterCgi):Reading Complete!
+[2020-08-18 16:57:17:393 - DEBUG](RegisterCgi):sql_query=select * from user where name='xqwe1232';
+[2020-08-18 16:57:17:393 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-18 16:57:17:395 - DEBUG](RegisterCgi):sql_insert=insert into user (name, nickname, password, phone, createtime, email) values ('xqwe1232' , 'xqwe1232' , 'f54afe383ee464416318b331ea4bd345' , '11111111111' , '2020-08-18 16:57:17' , 'abc@qq.com');
+[2020-08-18 16:57:17:395 - ERROR](RegisterCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-18 16:57:17:395 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
+[2020-08-18 16:58:41:100 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-18 16:58:41:100 - INFO](Config):LoggerManager created, name is Config
+[2020-08-18 16:58:41:100 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-18 16:58:41:100 - DEBUG](Config):Config Create!
+[2020-08-18 16:58:41:100 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-18 16:58:41:100 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-18 16:58:41:100 - INFO](Config):log4cpp_path=./myprj/register/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-18 16:58:41:100 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-18 16:58:41:100 - INFO](Config):Reading Complete!
+[2020-08-18 16:58:41:101 - INFO](RegisterCgi):RegisterCgi Create!
+[2020-08-18 16:59:47:688 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "d82123af439e416a98d5a13c2d126040",
+    "nickName": "xqwe232",
+    "phone": "11111111111",
+    "userName": "xqwe232"
+}
+
+[2020-08-18 16:59:47:692 - INFO](RegisterCgi):user=xqwe232,nick_name=xqwe232,pwd=d82123af439e416a98d5a13c2d126040,tel=11111111111,email=abc@qq.com
+[2020-08-18 16:59:47:692 - INFO](RegisterCgi):Reading Complete!
+[2020-08-18 16:59:47:692 - DEBUG](RegisterCgi):sql_query=select * from user where name='xqwe232';
+[2020-08-18 16:59:47:693 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-18 16:59:47:694 - DEBUG](RegisterCgi):sql_insert=insert into user (name, nickname, password, phone, createtime, email) values ('xqwe232' , 'xqwe232' , 'd82123af439e416a98d5a13c2d126040' , '11111111111' , '2020-08-18 16:59:47' , 'abc@qq.com');
+[2020-08-18 16:59:47:694 - ERROR](RegisterCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-18 16:59:47:694 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
