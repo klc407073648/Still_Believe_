@@ -4,3 +4,4 @@ V3:进一步精简版，仅保存logincgi且考虑从json配置文件读取变�
 V4:段错误修改，是common.h文件引起，同时修改代码逻辑，加入register
 V5:提取公共函数放到comlib\common下，修改Config配置读取逻辑
 V6:初步调试成功upload功能，上传图片存在问题，待修改
+V7:利用原方法解决图片上传问题，加入test和数据库脚本
