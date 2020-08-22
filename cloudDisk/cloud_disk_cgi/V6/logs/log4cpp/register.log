@@ -1,0 +1,84 @@
+[2020-08-21 19:07:07:675 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-21 19:07:07:675 - INFO](Config):LoggerManager created, name is Config
+[2020-08-21 19:07:07:675 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-21 19:07:07:675 - DEBUG](Config):Config Create!
+[2020-08-21 19:07:07:675 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-21 19:07:07:675 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-21 19:07:07:675 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-21 19:07:07:675 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-21 19:07:07:676 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-21 19:07:07:676 - INFO](Config):storage_web_server_port=23000
+[2020-08-21 19:07:07:676 - INFO](Config):Reading Complete!
+[2020-08-21 19:07:07:676 - INFO](RegisterCgi):RegisterCgi Create!
+[2020-08-21 19:08:14:586 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "d24d5d017deb7cf4e0bf3acfb514123e",
+    "nickName": "dv5ee12",
+    "phone": "11111111111",
+    "userName": "dv5ee12"
+}
+
+[2020-08-21 19:08:14:590 - INFO](RegisterCgi):user=dv5ee12,nick_name=dv5ee12,pwd=d24d5d017deb7cf4e0bf3acfb514123e,tel=11111111111,email=abc@qq.com
+[2020-08-21 19:08:14:590 - INFO](RegisterCgi):Reading Complete!
+[2020-08-21 19:08:14:590 - DEBUG](RegisterCgi):sql_query=select * from user where name='dv5ee12';
+[2020-08-21 19:08:14:590 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-21 19:08:14:591 - DEBUG](RegisterCgi):sql_insert=insert into user (name, nickname, password, phone, createtime, email) values ('dv5ee12' , 'dv5ee12' , 'd24d5d017deb7cf4e0bf3acfb514123e' , '11111111111' , '2020-08-21 19:08:14' , 'abc@qq.com');
+[2020-08-21 19:08:14:591 - ERROR](RegisterCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-21 19:08:14:591 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
+[2020-08-21 19:09:46:271 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-21 19:09:46:271 - INFO](Config):LoggerManager created, name is Config
+[2020-08-21 19:09:46:271 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-21 19:09:46:271 - DEBUG](Config):Config Create!
+[2020-08-21 19:09:46:271 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-21 19:09:46:271 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-21 19:09:46:271 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-21 19:09:46:271 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-21 19:09:46:271 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-21 19:09:46:271 - INFO](Config):storage_web_server_port=23000
+[2020-08-21 19:09:46:271 - INFO](Config):Reading Complete!
+[2020-08-21 19:09:46:271 - INFO](RegisterCgi):RegisterCgi Create!
+[2020-08-21 19:10:38:610 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-21 19:10:38:610 - INFO](Config):LoggerManager created, name is Config
+[2020-08-21 19:10:38:610 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-21 19:10:38:610 - DEBUG](Config):Config Create!
+[2020-08-21 19:10:38:610 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-21 19:10:38:610 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-21 19:10:38:610 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-21 19:10:38:610 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-21 19:10:38:610 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-21 19:10:38:610 - INFO](Config):storage_web_server_port=23000
+[2020-08-21 19:10:38:610 - INFO](Config):Reading Complete!
+[2020-08-21 19:10:38:610 - INFO](RegisterCgi):RegisterCgi Create!
+[2020-08-21 19:12:13:252 - INFO](RegisterCgi):buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "d38510e3346854799fcd50592f67a3c5",
+    "nickName": "dv52ee12",
+    "phone": "11111111111",
+    "userName": "dv52ee12"
+}
+
+[2020-08-21 19:12:13:255 - INFO](RegisterCgi):user=dv52ee12,nick_name=dv52ee12,pwd=d38510e3346854799fcd50592f67a3c5,tel=11111111111,email=abc@qq.com
+[2020-08-21 19:12:13:255 - INFO](RegisterCgi):Reading Complete!
+[2020-08-21 19:12:13:256 - DEBUG](RegisterCgi):sql_query=select * from user where name='dv52ee12';
+[2020-08-21 19:12:13:256 - ERROR](RegisterCgi):mysql->getAffectedRows(): 0 ,mysql->getErrStr(): 
+[2020-08-21 19:12:13:257 - DEBUG](RegisterCgi):sql_insert=insert into user (name, nickname, password, phone, createtime, email) values ('dv52ee12' , 'dv52ee12' , 'd38510e3346854799fcd50592f67a3c5' , '11111111111' , '2020-08-21 19:12:13' , 'abc@qq.com');
+[2020-08-21 19:12:13:257 - ERROR](RegisterCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-21 19:12:13:257 - INFO](RegisterCgi):out = {
+   "code" : "002"
+}
+
+[2020-08-21 19:13:08:337 - INFO](RegisterCgi):LoggerManager created, name is RegisterCgi
+[2020-08-21 19:13:08:337 - INFO](Config):LoggerManager created, name is Config
+[2020-08-21 19:13:08:337 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-21 19:13:08:337 - DEBUG](Config):Config Create!
+[2020-08-21 19:13:08:337 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-21 19:13:08:337 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-21 19:13:08:337 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-21 19:13:08:337 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-21 19:13:08:337 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-21 19:13:08:337 - INFO](Config):storage_web_server_port=23000
+[2020-08-21 19:13:08:337 - INFO](Config):Reading Complete!
+[2020-08-21 19:13:08:337 - INFO](RegisterCgi):RegisterCgi Create!

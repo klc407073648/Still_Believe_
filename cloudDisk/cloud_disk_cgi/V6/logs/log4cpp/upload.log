@@ -1,0 +1,106 @@
+[2020-08-21 19:07:07:786 - INFO](UploadCgi):LoggerManager created, name is UploadCgi
+[2020-08-21 19:07:07:787 - INFO](Config):LoggerManager created, name is Config
+[2020-08-21 19:07:07:787 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-21 19:07:07:787 - DEBUG](Config):Config Create!
+[2020-08-21 19:07:07:787 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-21 19:07:07:787 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-21 19:07:07:787 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-21 19:07:07:787 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-21 19:07:07:787 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-21 19:07:07:787 - INFO](Config):storage_web_server_port=23000
+[2020-08-21 19:07:07:787 - INFO](Config):Reading Complete!
+[2020-08-21 19:07:07:787 - INFO](UploadCgi):UploadCgi Create!
+[2020-08-21 19:08:21:854 - DEBUG](UploadCgi):recSaveFile begin
+[2020-08-21 19:08:21:854 - INFO](UploadCgi):file_buf: [------WebKitFormBoundary>P?4>nf1;nFIXUux
+Content-Disposition: form-data; user="dv5ee12" filename="1442674828644.jpeg" md5="714dff53d531dc1ab95c1a927306b65e" size=85554
+Content-Type: application/octet-stream
+
+ÿØÿà]
+[2020-08-21 19:08:21:854 - INFO](UploadCgi):boundary: [------WebKitFormBoundary>P?4>nf1;nFIXUux]
+[2020-08-21 19:08:21:854 - INFO](UploadCgi):content_text: [Content-Disposition: form-data; user="dv5ee12" filename="1442674828644.jpeg" md5="714dff53d531dc1ab95c1a927306b65e" size=85554]
+[2020-08-21 19:08:21:854 - ERROR](UploadCgi):find boundary end error
+[2020-08-21 19:08:21:854 - ERROR](UploadCgi):recSaveFile fail
+[2020-08-21 19:09:46:376 - INFO](UploadCgi):LoggerManager created, name is UploadCgi
+[2020-08-21 19:09:46:376 - INFO](Config):LoggerManager created, name is Config
+[2020-08-21 19:09:46:377 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-21 19:09:46:377 - DEBUG](Config):Config Create!
+[2020-08-21 19:09:46:377 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-21 19:09:46:377 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-21 19:09:46:377 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-21 19:09:46:377 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-21 19:09:46:377 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-21 19:09:46:377 - INFO](Config):storage_web_server_port=23000
+[2020-08-21 19:09:46:377 - INFO](Config):Reading Complete!
+[2020-08-21 19:09:46:377 - INFO](UploadCgi):UploadCgi Create!
+[2020-08-21 19:10:38:712 - INFO](UploadCgi):LoggerManager created, name is UploadCgi
+[2020-08-21 19:10:38:712 - INFO](Config):LoggerManager created, name is Config
+[2020-08-21 19:10:38:712 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-21 19:10:38:712 - DEBUG](Config):Config Create!
+[2020-08-21 19:10:38:712 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-21 19:10:38:712 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-21 19:10:38:712 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-21 19:10:38:712 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-21 19:10:38:712 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-21 19:10:38:712 - INFO](Config):storage_web_server_port=23000
+[2020-08-21 19:10:38:712 - INFO](Config):Reading Complete!
+[2020-08-21 19:10:38:712 - INFO](UploadCgi):UploadCgi Create!
+[2020-08-21 19:13:08:439 - INFO](UploadCgi):LoggerManager created, name is UploadCgi
+[2020-08-21 19:13:08:439 - INFO](Config):LoggerManager created, name is Config
+[2020-08-21 19:13:08:439 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-21 19:13:08:439 - DEBUG](Config):Config Create!
+[2020-08-21 19:13:08:439 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-21 19:13:08:439 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-21 19:13:08:439 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-21 19:13:08:439 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-21 19:13:08:439 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-21 19:13:08:439 - INFO](Config):storage_web_server_port=23000
+[2020-08-21 19:13:08:439 - INFO](Config):Reading Complete!
+[2020-08-21 19:13:08:439 - INFO](UploadCgi):UploadCgi Create!
+[2020-08-21 19:13:44:353 - DEBUG](UploadCgi):recSaveFile begin
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):file_buf: [------WebKitFormBoundary;?L8mZW2JQC2;CGe
+Content-Disposition: form-data; user="dv52ee12" filename="libTimeline.so.4" md5="5d8b7c1d44a97fe2e7664b49df7f483c" size=335720
+Content-Type: application/octet-stream
+
+ELF]
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):boundary: [------WebKitFormBoundary;?L8mZW2JQC2;CGe]
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):content_text: [Content-Disposition: form-data; user="dv52ee12" filename="libTimeline.so.4" md5="5d8b7c1d44a97fe2e7664b49df7f483c" size=335720]
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):user: [dv52ee12]
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):fileName: [libTimeline.so.4]
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):md5: [5d8b7c1d44a97fe2e7664b49df7f483c]
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):size: [335720]
+[2020-08-21 19:13:44:354 - DEBUG](UploadCgi):recSaveFile end
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):dv52ee12 upload success [libTimeline.so.4, size:335720 , md5:5d8b7c1d44a97fe2e7664b49df7f483c] to local
+[2020-08-21 19:13:44:354 - DEBUG](UploadCgi):uploadToFastDfs begin
+[2020-08-21 19:13:44:354 - INFO](UploadCgi):cmdStr:fdfs_upload_file /etc/fdfs/client.conf libTimeline.so.4
+[2020-08-21 19:13:44:358 - INFO](UploadCgi):fdfs_upload_file exec return group1/M00/00/00/wKgC5l9Af1iALSQNAAAAAAAAAAA78.so.4
+
+[2020-08-21 19:13:44:358 - DEBUG](UploadCgi):uploadToFastDfs end
+[2020-08-21 19:13:44:358 - DEBUG](UploadCgi):makeFileUrl begin
+[2020-08-21 19:13:44:358 - INFO](UploadCgi):fileId:group1/M00/00/00/wKgC5l9Af1iALSQNAAAAAAAAAAA78.so.4
+
+[2020-08-21 19:13:44:358 - INFO](UploadCgi):cmdStr:fdfs_file_info /etc/fdfs/client.conf group1/M00/00/00/wKgC5l9Af1iALSQNAAAAAAAAAAA78.so.4
+
+[2020-08-21 19:13:44:361 - INFO](UploadCgi):fdfs_file_info exec return GET FROM SERVER: false
+
+file type: normal
+source storage id: 0
+source ip address: 192.168.2.230
+file create timestamp: 2020-08-21 19:13:44
+file size: 0
+file crc32: 0 (0x00000000)
+
+[2020-08-21 19:13:44:361 - INFO](UploadCgi):file url is: http://192.168.2.230/group1/M00/00/00/wKgC5l9Af1iALSQNAAAAAAAAAAA78.so.4
+
+[2020-08-21 19:13:44:361 - DEBUG](UploadCgi):makeFileUrl end
+[2020-08-21 19:13:44:361 - DEBUG](UploadCgi):storeFileInfoToMysql begin
+[2020-08-21 19:13:44:366 - INFO](UploadCgi):sql_insert[insert into file_info (md5, file_id, url, size, type, count) values ('5d8b7c1d44a97fe2e7664b49df7f483c', 'group1/M00/00/00/wKgC5l9Af1iALSQNAAAAAAAAAAA78.so.4
+', 'http://192.168.2.230/group1/M00/00/00/wKgC5l9Af1iALSQNAAAAAAAAAAA78.so.4
+', '335720', '4', 1)] exec success
+[2020-08-21 19:13:44:367 - INFO](UploadCgi):sql_insert[insert into user_file_list(user, md5, createtime, filename, shared_status, pv) values ('dv52ee12', '5d8b7c1d44a97fe2e7664b49df7f483c', '2020-08-21 19:13:44', 'libTimeline.so.4', 0, 0)] exec success
+[2020-08-21 19:13:44:367 - INFO](UploadCgi):sql_select[select count from user_file_count where user = 'dv52ee12'] exec success
+[2020-08-21 19:13:44:367 - INFO](UploadCgi):sql_update[update user_file_count set count = count +1 where user = 'dv52ee12'] exec success
+[2020-08-21 19:13:44:367 - DEBUG](UploadCgi):storeFileInfoToMysql end
+[2020-08-21 19:13:44:368 - INFO](UploadCgi):out = {
+   "code" : "008"
+}
+
