@@ -1,0 +1,23 @@
+<School name="计算机学院">
+    <Class name="C++">
+        <Student name="Jason" number="1001">
+            <grade>98</grade>
+            <address>China</address>
+        </Student>
+        <Student name="Steven" number="1002">
+            <grade>80</grade>
+            <address>america</address>
+        </Student>
+    </Class>
+	<Class name="Java">
+        <Student name="Lucy" number="1003">
+            <grade>100</grade>
+            <address>London</address>
+        </Student>
+        <Student name="Marry" number="1004">
+            <grade>85</grade>
+            <address>Japan</address>
+        </Student>
+    </Class>
+</School>
+

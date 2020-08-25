@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<School>
+    <Class name="C++">
+        <Student name="klc" number="1005">
+            <grade>100</grade>
+            <address>China</address>
+        </Student>
+        <Student name="gsc" number="1006">
+            <grade>95</grade>
+            <address>China</address>
+        </Student>
+    </Class>
+    <Class name="Java">
+        <Student name="cf" number="1006">
+            <grade>99</grade>
+            <address>China</address>
+        </Student>
+        <Student name="lz" number="1006">
+            <grade>97</grade>
+            <address>China</address>
+        </Student>
+    </Class>
+</School>

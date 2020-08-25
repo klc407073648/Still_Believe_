@@ -1,0 +1,257 @@
+[2020-08-25 05:43:10:738 - INFO](MyFilesCgi):LoggerManager created, name is MyFilesCgi
+[2020-08-25 05:43:10:738 - INFO](Config):LoggerManager created, name is Config
+[2020-08-25 05:43:10:738 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-25 05:43:10:738 - INFO](MyFilesCgi):MyFilesCgi Create!
+[2020-08-25 05:43:10:738 - DEBUG](MyFilesCgi):init begin
+[2020-08-25 05:43:10:738 - DEBUG](Config):Config Create!
+[2020-08-25 05:43:10:738 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-25 05:43:10:738 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-25 05:43:10:738 - INFO](Config):log4cpp_path=./myprj/myfiles/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-25 05:43:10:738 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-25 05:43:10:738 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-25 05:43:10:738 - INFO](Config):storage_web_server_port=23000
+[2020-08-25 05:43:10:738 - INFO](Config):Reading Complete!
+[2020-08-25 05:43:10:738 - DEBUG](MyFilesCgi):init end
+[2020-08-25 05:43:48:248 - INFO](MyFilesCgi):buf = {
+    "token": "bbf99e951716905dcf6a066c22c8641d",
+    "user": "kevin"
+}
+
+[2020-08-25 05:43:48:248 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-08-25 05:43:48:248 - INFO](MyFilesCgi):user=kevin , token=bbf99e951716905dcf6a066c22c8641d 
+[2020-08-25 05:43:48:248 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:43:48:248 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-08-25 05:43:48:248 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:43:48:248 - INFO](MyFilesCgi):retStr = bbf99e951716905dcf6a066c22c8641d
+[2020-08-25 05:43:48:248 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-08-25 05:43:48:251 - ERROR](MyFilesCgi):select count from user_file_count where user='kevin' exec fail
+[2020-08-25 05:43:48:251 - INFO](MyFilesCgi):line = 0
+[2020-08-25 05:43:48:251 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-08-25 05:43:48:251 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "0"
+}
+
+[2020-08-25 05:43:55:159 - INFO](MyFilesCgi):buf = {
+    "token": "bbf99e951716905dcf6a066c22c8641d",
+    "user": "kevin"
+}
+
+[2020-08-25 05:43:55:159 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-08-25 05:43:55:159 - INFO](MyFilesCgi):user=kevin , token=bbf99e951716905dcf6a066c22c8641d 
+[2020-08-25 05:43:55:159 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:43:55:159 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-08-25 05:43:55:159 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:43:55:159 - INFO](MyFilesCgi):retStr = bbf99e951716905dcf6a066c22c8641d
+[2020-08-25 05:43:55:159 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-08-25 05:43:55:160 - ERROR](MyFilesCgi):select count from user_file_count where user='kevin' exec fail
+[2020-08-25 05:43:55:160 - INFO](MyFilesCgi):line = 0
+[2020-08-25 05:43:55:160 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-08-25 05:43:55:160 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "0"
+}
+
+[2020-08-25 05:44:12:567 - INFO](MyFilesCgi):buf = {
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:12:567 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-08-25 05:44:12:567 - INFO](MyFilesCgi):user=kevin , token=c362794c0ff8472761f2124226492489 
+[2020-08-25 05:44:12:567 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:44:12:567 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-08-25 05:44:12:567 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:44:12:568 - INFO](MyFilesCgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:12:568 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-08-25 05:44:12:569 - ERROR](MyFilesCgi):select count from user_file_count where user='kevin' exec fail
+[2020-08-25 05:44:12:569 - INFO](MyFilesCgi):line = 0
+[2020-08-25 05:44:12:569 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-08-25 05:44:12:569 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "0"
+}
+
+[2020-08-25 05:44:21:804 - INFO](MyFilesCgi):buf = {
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:21:804 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-08-25 05:44:21:804 - INFO](MyFilesCgi):user=kevin , token=c362794c0ff8472761f2124226492489 
+[2020-08-25 05:44:21:804 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:44:21:804 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-08-25 05:44:21:804 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:44:21:805 - INFO](MyFilesCgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:21:805 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-08-25 05:44:21:806 - INFO](MyFilesCgi):line = 1
+[2020-08-25 05:44:21:806 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-08-25 05:44:21:806 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "1"
+}
+
+[2020-08-25 05:44:21:847 - INFO](MyFilesCgi):buf = {
+    "count": 1,
+    "start": 0,
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:21:847 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-08-25 05:44:21:847 - INFO](MyFilesCgi):user=kevin , token=c362794c0ff8472761f2124226492489 , start=0 , count=1 
+[2020-08-25 05:44:21:847 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:44:21:847 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-08-25 05:44:21:847 - INFO](MyFilesCgi):user = kevin, token = c362794c0ff8472761f2124226492489, start = 0, count = 1
+[2020-08-25 05:44:21:847 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:44:21:847 - INFO](MyFilesCgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:21:848 - INFO](MyFilesCgi):select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1 exec
+[2020-08-25 05:44:21:848 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "moc_filepropertyinfo.cpp",
+         "md5" : "eaad4ffefead470254f6904ff4fab5f8",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "2733",
+         "time" : "2020-08-25 05:44:20",
+         "type" : "cpp",
+         "url" : "http://192.168.2.230/group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-08-25 05:44:35:747 - INFO](MyFilesCgi):buf = {
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:35:747 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-08-25 05:44:35:748 - INFO](MyFilesCgi):user=kevin , token=c362794c0ff8472761f2124226492489 
+[2020-08-25 05:44:35:748 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:44:35:748 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-08-25 05:44:35:748 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:44:35:748 - INFO](MyFilesCgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:35:748 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-08-25 05:44:35:749 - INFO](MyFilesCgi):line = 2
+[2020-08-25 05:44:35:749 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-08-25 05:44:35:749 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "2"
+}
+
+[2020-08-25 05:44:35:790 - INFO](MyFilesCgi):buf = {
+    "count": 2,
+    "start": 0,
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:35:790 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-08-25 05:44:35:790 - INFO](MyFilesCgi):user=kevin , token=c362794c0ff8472761f2124226492489 , start=0 , count=2 
+[2020-08-25 05:44:35:790 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:44:35:790 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-08-25 05:44:35:790 - INFO](MyFilesCgi):user = kevin, token = c362794c0ff8472761f2124226492489, start = 0, count = 2
+[2020-08-25 05:44:35:790 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:44:35:790 - INFO](MyFilesCgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:35:791 - INFO](MyFilesCgi):select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 2 exec
+[2020-08-25 05:44:35:792 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "moc_filepropertyinfo.cpp",
+         "md5" : "eaad4ffefead470254f6904ff4fab5f8",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "2733",
+         "time" : "2020-08-25 05:44:20",
+         "type" : "cpp",
+         "url" : "http://192.168.2.230/group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+         "md5" : "d5815d3bef4752412a48b712f702c85d",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "26764",
+         "time" : "2020-08-25 05:44:32",
+         "type" : "jpg",
+         "url" : "http://192.168.2.230/group1/M00/00/01/wKgC5l9FB7CAO4xjAABojPrXj_s176.jpg\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-08-25 05:44:40:020 - INFO](MyFilesCgi):buf = {
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:40:020 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-08-25 05:44:40:020 - INFO](MyFilesCgi):user=kevin , token=c362794c0ff8472761f2124226492489 
+[2020-08-25 05:44:40:020 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:44:40:020 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-08-25 05:44:40:020 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:44:40:021 - INFO](MyFilesCgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:40:021 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-08-25 05:44:40:022 - INFO](MyFilesCgi):line = 3
+[2020-08-25 05:44:40:022 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-08-25 05:44:40:022 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "3"
+}
+
+[2020-08-25 05:44:40:064 - INFO](MyFilesCgi):buf = {
+    "count": 3,
+    "start": 0,
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:40:064 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-08-25 05:44:40:064 - INFO](MyFilesCgi):user=kevin , token=c362794c0ff8472761f2124226492489 , start=0 , count=3 
+[2020-08-25 05:44:40:064 - INFO](MyFilesCgi):Reading Complete!
+[2020-08-25 05:44:40:064 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-08-25 05:44:40:064 - INFO](MyFilesCgi):user = kevin, token = c362794c0ff8472761f2124226492489, start = 0, count = 3
+[2020-08-25 05:44:40:064 - DEBUG](MyFilesCgi):verifyToken in
+[2020-08-25 05:44:40:064 - INFO](MyFilesCgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:40:065 - INFO](MyFilesCgi):select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 3 exec
+[2020-08-25 05:44:40:065 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "moc_filepropertyinfo.cpp",
+         "md5" : "eaad4ffefead470254f6904ff4fab5f8",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "2733",
+         "time" : "2020-08-25 05:44:20",
+         "type" : "cpp",
+         "url" : "http://192.168.2.230/group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+         "md5" : "d5815d3bef4752412a48b712f702c85d",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "26764",
+         "time" : "2020-08-25 05:44:32",
+         "type" : "jpg",
+         "url" : "http://192.168.2.230/group1/M00/00/01/wKgC5l9FB7CAO4xjAABojPrXj_s176.jpg\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "224",
+         "time" : "2020-08-25 05:44:38",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/01/wKgC5l9FB7aAfp94AAAA4BkVae443.json\n",
+         "user" : "kevin"
+      }
+   ]
+}
+

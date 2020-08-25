@@ -1,0 +1,144 @@
+[2020-08-25 05:42:33:095 - INFO](UploadCgi):LoggerManager created, name is UploadCgi
+[2020-08-25 05:42:33:095 - INFO](Config):LoggerManager created, name is Config
+[2020-08-25 05:42:33:096 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-25 05:42:33:096 - DEBUG](Config):Config Create!
+[2020-08-25 05:42:33:096 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-25 05:42:33:096 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-25 05:42:33:096 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-25 05:42:33:096 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-25 05:42:33:096 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-25 05:42:33:096 - INFO](Config):storage_web_server_port=23000
+[2020-08-25 05:42:33:096 - INFO](Config):Reading Complete!
+[2020-08-25 05:42:33:096 - INFO](UploadCgi):UploadCgi Create!
+[2020-08-25 05:43:10:548 - INFO](UploadCgi):LoggerManager created, name is UploadCgi
+[2020-08-25 05:43:10:549 - INFO](Config):LoggerManager created, name is Config
+[2020-08-25 05:43:10:549 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-25 05:43:10:549 - DEBUG](Config):Config Create!
+[2020-08-25 05:43:10:549 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-25 05:43:10:549 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-25 05:43:10:549 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-25 05:43:10:549 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-25 05:43:10:549 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-25 05:43:10:549 - INFO](Config):storage_web_server_port=23000
+[2020-08-25 05:43:10:549 - INFO](Config):Reading Complete!
+[2020-08-25 05:43:10:550 - INFO](UploadCgi):UploadCgi Create!
+[2020-08-25 05:44:20:024 - INFO](UploadCgi):content_text =[Content-Disposition: form-data; user="kevin" filename="moc_filepropertyinfo.cpp" md5="eaad4ffefead470254f6904ff4fab5f8" size=2733]
+[2020-08-25 05:44:20:024 - INFO](UploadCgi):user: [kevin]
+[2020-08-25 05:44:20:024 - INFO](UploadCgi):fileName: [moc_filepropertyinfo.cpp]
+[2020-08-25 05:44:20:024 - INFO](UploadCgi):md5: [eaad4ffefead470254f6904ff4fab5f8]
+[2020-08-25 05:44:20:025 - INFO](UploadCgi):size: [2733]
+[2020-08-25 05:44:20:025 - DEBUG](UploadCgi):uploadToFastDfs begin
+[2020-08-25 05:44:20:025 - INFO](UploadCgi):cmdStr:fdfs_upload_file /etc/fdfs/client.conf moc_filepropertyinfo.cpp
+[2020-08-25 05:44:20:034 - INFO](UploadCgi):fdfs_upload_file exec return group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp
+
+[2020-08-25 05:44:20:034 - DEBUG](UploadCgi):uploadToFastDfs end
+[2020-08-25 05:44:20:034 - INFO](UploadCgi):kevin upload success [moc_filepropertyinfo.cpp, size:2733 , md5:eaad4ffefead470254f6904ff4fab5f8] to local
+[2020-08-25 05:44:20:034 - DEBUG](UploadCgi):makeFileUrl begin
+[2020-08-25 05:44:20:034 - INFO](UploadCgi):fileId:group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp
+
+[2020-08-25 05:44:20:035 - INFO](UploadCgi):cmdStr:fdfs_file_info /etc/fdfs/client.conf group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp
+
+[2020-08-25 05:44:20:037 - INFO](UploadCgi):fdfs_file_info exec return GET FROM SERVER: false
+
+file type: normal
+source storage id: 0
+source ip address: 192.168.2.230
+file create timestamp: 2020-08-25 05:44:20
+file size: 2733
+file crc32: -675608766 (0xd7bb0742)
+
+[2020-08-25 05:44:20:037 - INFO](UploadCgi):file url is: http://192.168.2.230/group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp
+
+[2020-08-25 05:44:20:037 - DEBUG](UploadCgi):makeFileUrl end
+[2020-08-25 05:44:20:037 - DEBUG](UploadCgi):storeFileInfoToMysql begin
+[2020-08-25 05:44:20:041 - INFO](UploadCgi):sql_insert[insert into file_info (md5, file_id, url, size, type, count) values ('eaad4ffefead470254f6904ff4fab5f8', 'group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp
+', 'http://192.168.2.230/group1/M00/00/01/wKgC5l9FB6SAJWF9AAAKrde7B0I084.cpp
+', '2733', 'cpp', 1)] exec success
+[2020-08-25 05:44:20:042 - INFO](UploadCgi):sql_insert[insert into user_file_list(user, md5, createtime, filename, shared_status, pv) values ('kevin', 'eaad4ffefead470254f6904ff4fab5f8', '2020-08-25 05:44:20', 'moc_filepropertyinfo.cpp', 0, 0)] exec success
+[2020-08-25 05:44:20:042 - INFO](UploadCgi):sql_select[select count from user_file_count where user = 'kevin'] exec success
+[2020-08-25 05:44:20:044 - INFO](UploadCgi):sql_update[ insert into user_file_count (user, count) values('kevin', 1)] exec success
+[2020-08-25 05:44:20:044 - DEBUG](UploadCgi):storeFileInfoToMysql end
+[2020-08-25 05:44:20:044 - INFO](UploadCgi):out = {
+   "code" : "008"
+}
+
+[2020-08-25 05:44:32:938 - INFO](UploadCgi):content_text =[Content-Disposition: form-data; user="kevin" filename="img-444aa52aa090a1905366f70b2f3ae91d.jpg" md5="d5815d3bef4752412a48b712f702c85d" size=26764]
+[2020-08-25 05:44:32:938 - INFO](UploadCgi):user: [kevin]
+[2020-08-25 05:44:32:938 - INFO](UploadCgi):fileName: [img-444aa52aa090a1905366f70b2f3ae91d.jpg]
+[2020-08-25 05:44:32:938 - INFO](UploadCgi):md5: [d5815d3bef4752412a48b712f702c85d]
+[2020-08-25 05:44:32:938 - INFO](UploadCgi):size: [26764]
+[2020-08-25 05:44:32:938 - DEBUG](UploadCgi):uploadToFastDfs begin
+[2020-08-25 05:44:32:938 - INFO](UploadCgi):cmdStr:fdfs_upload_file /etc/fdfs/client.conf img-444aa52aa090a1905366f70b2f3ae91d.jpg
+[2020-08-25 05:44:32:942 - INFO](UploadCgi):fdfs_upload_file exec return group1/M00/00/01/wKgC5l9FB7CAO4xjAABojPrXj_s176.jpg
+
+[2020-08-25 05:44:32:942 - DEBUG](UploadCgi):uploadToFastDfs end
+[2020-08-25 05:44:32:942 - INFO](UploadCgi):kevin upload success [img-444aa52aa090a1905366f70b2f3ae91d.jpg, size:26764 , md5:d5815d3bef4752412a48b712f702c85d] to local
+[2020-08-25 05:44:32:942 - DEBUG](UploadCgi):makeFileUrl begin
+[2020-08-25 05:44:32:942 - INFO](UploadCgi):fileId:group1/M00/00/01/wKgC5l9FB7CAO4xjAABojPrXj_s176.jpg
+
+[2020-08-25 05:44:32:942 - INFO](UploadCgi):cmdStr:fdfs_file_info /etc/fdfs/client.conf group1/M00/00/01/wKgC5l9FB7CAO4xjAABojPrXj_s176.jpg
+
+[2020-08-25 05:44:32:945 - INFO](UploadCgi):fdfs_file_info exec return GET FROM SERVER: false
+
+file type: normal
+source storage id: 0
+source ip address: 192.168.2.230
+file create timestamp: 2020-08-25 05:44:32
+file size: 26764
+file crc32: -86536197 (0xfad78ffb)
+
+[2020-08-25 05:44:32:945 - INFO](UploadCgi):file url is: http://192.168.2.230/group1/M00/00/01/wKgC5l9FB7CAO4xjAABojPrXj_s176.jpg
+
+[2020-08-25 05:44:32:945 - DEBUG](UploadCgi):makeFileUrl end
+[2020-08-25 05:44:32:945 - DEBUG](UploadCgi):storeFileInfoToMysql begin
+[2020-08-25 05:44:32:947 - INFO](UploadCgi):sql_insert[insert into file_info (md5, file_id, url, size, type, count) values ('d5815d3bef4752412a48b712f702c85d', 'group1/M00/00/01/wKgC5l9FB7CAO4xjAABojPrXj_s176.jpg
+', 'http://192.168.2.230/group1/M00/00/01/wKgC5l9FB7CAO4xjAABojPrXj_s176.jpg
+', '26764', 'jpg', 1)] exec success
+[2020-08-25 05:44:32:948 - INFO](UploadCgi):sql_insert[insert into user_file_list(user, md5, createtime, filename, shared_status, pv) values ('kevin', 'd5815d3bef4752412a48b712f702c85d', '2020-08-25 05:44:32', 'img-444aa52aa090a1905366f70b2f3ae91d.jpg', 0, 0)] exec success
+[2020-08-25 05:44:32:949 - INFO](UploadCgi):sql_select[select count from user_file_count where user = 'kevin'] exec success
+[2020-08-25 05:44:32:951 - INFO](UploadCgi):sql_update[update user_file_count set count = count +1 where user = 'kevin'] exec success
+[2020-08-25 05:44:32:951 - DEBUG](UploadCgi):storeFileInfoToMysql end
+[2020-08-25 05:44:32:951 - INFO](UploadCgi):out = {
+   "code" : "008"
+}
+
+[2020-08-25 05:44:38:939 - INFO](UploadCgi):content_text =[Content-Disposition: form-data; user="kevin" filename="cfg.json" md5="71a7fd3727f10fd59250ca6fdbf19fb9" size=224]
+[2020-08-25 05:44:38:939 - INFO](UploadCgi):user: [kevin]
+[2020-08-25 05:44:38:939 - INFO](UploadCgi):fileName: [cfg.json]
+[2020-08-25 05:44:38:939 - INFO](UploadCgi):md5: [71a7fd3727f10fd59250ca6fdbf19fb9]
+[2020-08-25 05:44:38:939 - INFO](UploadCgi):size: [224]
+[2020-08-25 05:44:38:939 - DEBUG](UploadCgi):uploadToFastDfs begin
+[2020-08-25 05:44:38:939 - INFO](UploadCgi):cmdStr:fdfs_upload_file /etc/fdfs/client.conf cfg.json
+[2020-08-25 05:44:38:943 - INFO](UploadCgi):fdfs_upload_file exec return group1/M00/00/01/wKgC5l9FB7aAfp94AAAA4BkVae443.json
+
+[2020-08-25 05:44:38:943 - DEBUG](UploadCgi):uploadToFastDfs end
+[2020-08-25 05:44:38:943 - INFO](UploadCgi):kevin upload success [cfg.json, size:224 , md5:71a7fd3727f10fd59250ca6fdbf19fb9] to local
+[2020-08-25 05:44:38:943 - DEBUG](UploadCgi):makeFileUrl begin
+[2020-08-25 05:44:38:943 - INFO](UploadCgi):fileId:group1/M00/00/01/wKgC5l9FB7aAfp94AAAA4BkVae443.json
+
+[2020-08-25 05:44:38:943 - INFO](UploadCgi):cmdStr:fdfs_file_info /etc/fdfs/client.conf group1/M00/00/01/wKgC5l9FB7aAfp94AAAA4BkVae443.json
+
+[2020-08-25 05:44:38:946 - INFO](UploadCgi):fdfs_file_info exec return GET FROM SERVER: false
+
+file type: normal
+source storage id: 0
+source ip address: 192.168.2.230
+file create timestamp: 2020-08-25 05:44:38
+file size: 224
+file crc32: 420833774 (0x191569ee)
+
+[2020-08-25 05:44:38:946 - INFO](UploadCgi):file url is: http://192.168.2.230/group1/M00/00/01/wKgC5l9FB7aAfp94AAAA4BkVae443.json
+
+[2020-08-25 05:44:38:946 - DEBUG](UploadCgi):makeFileUrl end
+[2020-08-25 05:44:38:946 - DEBUG](UploadCgi):storeFileInfoToMysql begin
+[2020-08-25 05:44:38:947 - INFO](UploadCgi):sql_insert[insert into file_info (md5, file_id, url, size, type, count) values ('71a7fd3727f10fd59250ca6fdbf19fb9', 'group1/M00/00/01/wKgC5l9FB7aAfp94AAAA4BkVae443.json
+', 'http://192.168.2.230/group1/M00/00/01/wKgC5l9FB7aAfp94AAAA4BkVae443.json
+', '224', 'json', 1)] exec success
+[2020-08-25 05:44:38:948 - INFO](UploadCgi):sql_insert[insert into user_file_list(user, md5, createtime, filename, shared_status, pv) values ('kevin', '71a7fd3727f10fd59250ca6fdbf19fb9', '2020-08-25 05:44:38', 'cfg.json', 0, 0)] exec success
+[2020-08-25 05:44:38:948 - INFO](UploadCgi):sql_select[select count from user_file_count where user = 'kevin'] exec success
+[2020-08-25 05:44:38:949 - INFO](UploadCgi):sql_update[update user_file_count set count = count +1 where user = 'kevin'] exec success
+[2020-08-25 05:44:38:949 - DEBUG](UploadCgi):storeFileInfoToMysql end
+[2020-08-25 05:44:38:949 - INFO](UploadCgi):out = {
+   "code" : "008"
+}
+

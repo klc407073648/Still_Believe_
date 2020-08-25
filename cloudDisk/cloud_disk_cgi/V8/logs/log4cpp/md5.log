@@ -1,0 +1,100 @@
+[2020-08-25 05:42:33:198 - INFO](Md5Cgi):LoggerManager created, name is Md5Cgi
+[2020-08-25 05:42:33:198 - INFO](Config):LoggerManager created, name is Config
+[2020-08-25 05:42:33:198 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-25 05:42:33:198 - INFO](Md5Cgi):Md5Cgi Create!
+[2020-08-25 05:42:33:198 - DEBUG](Md5Cgi):init begin
+[2020-08-25 05:42:33:198 - DEBUG](Config):Config Create!
+[2020-08-25 05:42:33:198 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-25 05:42:33:198 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-25 05:42:33:198 - INFO](Config):log4cpp_path=./myprj/md5/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-25 05:42:33:198 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-25 05:42:33:198 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-25 05:42:33:198 - INFO](Config):storage_web_server_port=23000
+[2020-08-25 05:42:33:198 - INFO](Config):Reading Complete!
+[2020-08-25 05:42:33:198 - DEBUG](Md5Cgi):init end
+[2020-08-25 05:43:10:636 - INFO](Md5Cgi):LoggerManager created, name is Md5Cgi
+[2020-08-25 05:43:10:636 - INFO](Config):LoggerManager created, name is Config
+[2020-08-25 05:43:10:637 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-25 05:43:10:637 - INFO](Md5Cgi):Md5Cgi Create!
+[2020-08-25 05:43:10:637 - DEBUG](Md5Cgi):init begin
+[2020-08-25 05:43:10:637 - DEBUG](Config):Config Create!
+[2020-08-25 05:43:10:637 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-25 05:43:10:637 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-25 05:43:10:637 - INFO](Config):log4cpp_path=./myprj/md5/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-25 05:43:10:637 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-25 05:43:10:637 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-25 05:43:10:637 - INFO](Config):storage_web_server_port=23000
+[2020-08-25 05:43:10:637 - INFO](Config):Reading Complete!
+[2020-08-25 05:43:10:637 - DEBUG](Md5Cgi):init end
+[2020-08-25 05:43:52:397 - INFO](Md5Cgi):buf = {
+    "fileName": "login.o",
+    "md5": "e7990654c1b1e89a475cf2ee13fe65a7",
+    "token": "bbf99e951716905dcf6a066c22c8641d",
+    "user": "kevin"
+}
+
+[2020-08-25 05:43:52:397 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-25 05:43:52:397 - INFO](Md5Cgi):user=kevin , token=bbf99e951716905dcf6a066c22c8641d , md5=e7990654c1b1e89a475cf2ee13fe65a7 , fileName=login.o
+[2020-08-25 05:43:52:397 - INFO](Md5Cgi):Reading Complete!
+[2020-08-25 05:43:52:397 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-25 05:43:52:397 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = bbf99e951716905dcf6a066c22c8641d, md5 = e7990654c1b1e89a475cf2ee13fe65a7, filename = login.o]
+[2020-08-25 05:43:52:397 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-25 05:43:52:397 - INFO](Md5Cgi):retStr = bbf99e951716905dcf6a066c22c8641d
+[2020-08-25 05:43:52:402 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-25 05:44:19:982 - INFO](Md5Cgi):buf = {
+    "fileName": "moc_filepropertyinfo.cpp",
+    "md5": "eaad4ffefead470254f6904ff4fab5f8",
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:19:982 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-25 05:44:19:982 - INFO](Md5Cgi):user=kevin , token=c362794c0ff8472761f2124226492489 , md5=eaad4ffefead470254f6904ff4fab5f8 , fileName=moc_filepropertyinfo.cpp
+[2020-08-25 05:44:19:982 - INFO](Md5Cgi):Reading Complete!
+[2020-08-25 05:44:19:982 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-25 05:44:19:982 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = c362794c0ff8472761f2124226492489, md5 = eaad4ffefead470254f6904ff4fab5f8, filename = moc_filepropertyinfo.cpp]
+[2020-08-25 05:44:19:982 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-25 05:44:19:982 - INFO](Md5Cgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:19:982 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-25 05:44:32:896 - INFO](Md5Cgi):buf = {
+    "fileName": "img-444aa52aa090a1905366f70b2f3ae91d.jpg",
+    "md5": "d5815d3bef4752412a48b712f702c85d",
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:32:896 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-25 05:44:32:896 - INFO](Md5Cgi):user=kevin , token=c362794c0ff8472761f2124226492489 , md5=d5815d3bef4752412a48b712f702c85d , fileName=img-444aa52aa090a1905366f70b2f3ae91d.jpg
+[2020-08-25 05:44:32:896 - INFO](Md5Cgi):Reading Complete!
+[2020-08-25 05:44:32:896 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-25 05:44:32:896 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = c362794c0ff8472761f2124226492489, md5 = d5815d3bef4752412a48b712f702c85d, filename = img-444aa52aa090a1905366f70b2f3ae91d.jpg]
+[2020-08-25 05:44:32:896 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-25 05:44:32:897 - INFO](Md5Cgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:32:897 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-25 05:44:38:896 - INFO](Md5Cgi):buf = {
+    "fileName": "cfg.json",
+    "md5": "71a7fd3727f10fd59250ca6fdbf19fb9",
+    "token": "c362794c0ff8472761f2124226492489",
+    "user": "kevin"
+}
+
+[2020-08-25 05:44:38:896 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-25 05:44:38:896 - INFO](Md5Cgi):user=kevin , token=c362794c0ff8472761f2124226492489 , md5=71a7fd3727f10fd59250ca6fdbf19fb9 , fileName=cfg.json
+[2020-08-25 05:44:38:896 - INFO](Md5Cgi):Reading Complete!
+[2020-08-25 05:44:38:896 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-25 05:44:38:896 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = c362794c0ff8472761f2124226492489, md5 = 71a7fd3727f10fd59250ca6fdbf19fb9, filename = cfg.json]
+[2020-08-25 05:44:38:896 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-25 05:44:38:896 - INFO](Md5Cgi):retStr = c362794c0ff8472761f2124226492489
+[2020-08-25 05:44:38:897 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
