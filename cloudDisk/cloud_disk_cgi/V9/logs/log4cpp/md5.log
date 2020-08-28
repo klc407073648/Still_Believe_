@@ -1,0 +1,172 @@
+[2020-08-28 16:09:41:376 - INFO](Md5Cgi):LoggerManager created, name is Md5Cgi
+[2020-08-28 16:09:41:376 - INFO](Config):LoggerManager created, name is Config
+[2020-08-28 16:09:41:376 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-28 16:09:41:376 - INFO](Md5Cgi):Md5Cgi Create!
+[2020-08-28 16:09:41:376 - DEBUG](Md5Cgi):init begin
+[2020-08-28 16:09:41:377 - DEBUG](Config):Config Create!
+[2020-08-28 16:09:41:377 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-28 16:09:41:377 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-28 16:09:41:377 - INFO](Config):log4cpp_path=./myprj/md5/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-28 16:09:41:377 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-28 16:09:41:377 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-28 16:09:41:377 - INFO](Config):storage_web_server_port=23000
+[2020-08-28 16:09:41:377 - INFO](Config):Reading Complete!
+[2020-08-28 16:09:41:377 - DEBUG](Md5Cgi):init end
+[2020-08-28 16:09:59:212 - INFO](Md5Cgi):buf = {
+    "fileName": "downloadlayout.o",
+    "md5": "1556dcae8d7866d33145978691c6b08a",
+    "token": "e2be5ad2856f683756ff02ed458c6d6c",
+    "user": "kevin"
+}
+
+[2020-08-28 16:09:59:212 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-28 16:09:59:212 - INFO](Md5Cgi):user=kevin , token=e2be5ad2856f683756ff02ed458c6d6c , md5=1556dcae8d7866d33145978691c6b08a , fileName=downloadlayout.o
+[2020-08-28 16:09:59:212 - INFO](Md5Cgi):Reading Complete!
+[2020-08-28 16:09:59:212 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-28 16:09:59:212 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = e2be5ad2856f683756ff02ed458c6d6c, md5 = 1556dcae8d7866d33145978691c6b08a, filename = downloadlayout.o]
+[2020-08-28 16:09:59:212 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-28 16:09:59:212 - INFO](Md5Cgi):retStr = 
+[2020-08-28 16:09:59:212 - INFO](Md5Cgi):out = {
+   "code" : "111"
+}
+
+[2020-08-28 16:10:05:750 - INFO](Md5Cgi):buf = {
+    "fileName": "downloadtask.o",
+    "md5": "6f2c0251784cf2104730c48f1be15e80",
+    "token": "54b757d4417079ddd47137e2e7e2de93",
+    "user": "kevin"
+}
+
+[2020-08-28 16:10:05:750 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-28 16:10:05:750 - INFO](Md5Cgi):user=kevin , token=54b757d4417079ddd47137e2e7e2de93 , md5=6f2c0251784cf2104730c48f1be15e80 , fileName=downloadtask.o
+[2020-08-28 16:10:05:750 - INFO](Md5Cgi):Reading Complete!
+[2020-08-28 16:10:05:750 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-28 16:10:05:750 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 54b757d4417079ddd47137e2e7e2de93, md5 = 6f2c0251784cf2104730c48f1be15e80, filename = downloadtask.o]
+[2020-08-28 16:10:05:750 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-28 16:10:05:751 - INFO](Md5Cgi):retStr = 54b757d4417079ddd47137e2e7e2de93
+[2020-08-28 16:10:05:757 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-28 16:10:09:759 - INFO](Md5Cgi):buf = {
+    "fileName": "login.o",
+    "md5": "e7990654c1b1e89a475cf2ee13fe65a7",
+    "token": "54b757d4417079ddd47137e2e7e2de93",
+    "user": "kevin"
+}
+
+[2020-08-28 16:10:09:759 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-28 16:10:09:759 - INFO](Md5Cgi):user=kevin , token=54b757d4417079ddd47137e2e7e2de93 , md5=e7990654c1b1e89a475cf2ee13fe65a7 , fileName=login.o
+[2020-08-28 16:10:09:760 - INFO](Md5Cgi):Reading Complete!
+[2020-08-28 16:10:09:760 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-28 16:10:09:760 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 54b757d4417079ddd47137e2e7e2de93, md5 = e7990654c1b1e89a475cf2ee13fe65a7, filename = login.o]
+[2020-08-28 16:10:09:760 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-28 16:10:09:760 - INFO](Md5Cgi):retStr = 54b757d4417079ddd47137e2e7e2de93
+[2020-08-28 16:10:09:761 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-28 16:10:35:211 - INFO](Md5Cgi):buf = {
+    "fileName": "cfg.json",
+    "md5": "71a7fd3727f10fd59250ca6fdbf19fb9",
+    "token": "61a39cb8cd89ec3aaf1419b54f03cf11",
+    "user": "kevin"
+}
+
+[2020-08-28 16:10:35:211 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-28 16:10:35:211 - INFO](Md5Cgi):user=kevin , token=61a39cb8cd89ec3aaf1419b54f03cf11 , md5=71a7fd3727f10fd59250ca6fdbf19fb9 , fileName=cfg.json
+[2020-08-28 16:10:35:211 - INFO](Md5Cgi):Reading Complete!
+[2020-08-28 16:10:35:211 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-28 16:10:35:211 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 61a39cb8cd89ec3aaf1419b54f03cf11, md5 = 71a7fd3727f10fd59250ca6fdbf19fb9, filename = cfg.json]
+[2020-08-28 16:10:35:211 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-28 16:10:35:211 - INFO](Md5Cgi):retStr = 61a39cb8cd89ec3aaf1419b54f03cf11
+[2020-08-28 16:10:35:212 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-28 16:10:39:251 - INFO](Md5Cgi):buf = {
+    "fileName": "1450013406184.jpeg",
+    "md5": "8f46e6450c54ae3604ee4ae8a7dfa861",
+    "token": "61a39cb8cd89ec3aaf1419b54f03cf11",
+    "user": "kevin"
+}
+
+[2020-08-28 16:10:39:251 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-28 16:10:39:251 - INFO](Md5Cgi):user=kevin , token=61a39cb8cd89ec3aaf1419b54f03cf11 , md5=8f46e6450c54ae3604ee4ae8a7dfa861 , fileName=1450013406184.jpeg
+[2020-08-28 16:10:39:251 - INFO](Md5Cgi):Reading Complete!
+[2020-08-28 16:10:39:251 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-28 16:10:39:251 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 61a39cb8cd89ec3aaf1419b54f03cf11, md5 = 8f46e6450c54ae3604ee4ae8a7dfa861, filename = 1450013406184.jpeg]
+[2020-08-28 16:10:39:251 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-28 16:10:39:251 - INFO](Md5Cgi):retStr = 61a39cb8cd89ec3aaf1419b54f03cf11
+[2020-08-28 16:10:39:252 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-28 16:16:48:104 - INFO](Md5Cgi):LoggerManager created, name is Md5Cgi
+[2020-08-28 16:16:48:104 - INFO](Config):LoggerManager created, name is Config
+[2020-08-28 16:16:48:104 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-28 16:16:48:104 - INFO](Md5Cgi):Md5Cgi Create!
+[2020-08-28 16:16:48:104 - DEBUG](Md5Cgi):init begin
+[2020-08-28 16:16:48:104 - DEBUG](Config):Config Create!
+[2020-08-28 16:16:48:104 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-28 16:16:48:104 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-28 16:16:48:104 - INFO](Config):log4cpp_path=./myprj/md5/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-28 16:16:48:104 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-28 16:16:48:104 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-28 16:16:48:104 - INFO](Config):storage_web_server_port=23000
+[2020-08-28 16:16:48:104 - INFO](Config):Reading Complete!
+[2020-08-28 16:16:48:104 - DEBUG](Md5Cgi):init end
+[2020-08-28 16:16:54:251 - INFO](Md5Cgi):buf = {
+    "fileName": "img-c5b3a389f1b7a2ffbe0402275e10a523.jpg",
+    "md5": "10b1f9aeb6e993fb6e9dd1a60ca27c8c",
+    "token": "41acafa34562a66e03a3077f4d6dc88b",
+    "user": "kevin"
+}
+
+[2020-08-28 16:16:54:251 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-28 16:16:54:251 - INFO](Md5Cgi):user=kevin , token=41acafa34562a66e03a3077f4d6dc88b , md5=10b1f9aeb6e993fb6e9dd1a60ca27c8c , fileName=img-c5b3a389f1b7a2ffbe0402275e10a523.jpg
+[2020-08-28 16:16:54:251 - INFO](Md5Cgi):Reading Complete!
+[2020-08-28 16:16:54:251 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-28 16:16:54:251 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 41acafa34562a66e03a3077f4d6dc88b, md5 = 10b1f9aeb6e993fb6e9dd1a60ca27c8c, filename = img-c5b3a389f1b7a2ffbe0402275e10a523.jpg]
+[2020-08-28 16:16:54:251 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-28 16:16:54:251 - INFO](Md5Cgi):retStr = 41acafa34562a66e03a3077f4d6dc88b
+[2020-08-28 16:16:54:255 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-28 16:26:15:251 - INFO](Md5Cgi):buf = {
+    "fileName": "downloadtask.o",
+    "md5": "6f2c0251784cf2104730c48f1be15e80",
+    "token": "f1a563a156ce847c8abc9f25df1e2a11",
+    "user": "kevin"
+}
+
+[2020-08-28 16:26:15:251 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-28 16:26:15:251 - INFO](Md5Cgi):user=kevin , token=f1a563a156ce847c8abc9f25df1e2a11 , md5=6f2c0251784cf2104730c48f1be15e80 , fileName=downloadtask.o
+[2020-08-28 16:26:15:251 - INFO](Md5Cgi):Reading Complete!
+[2020-08-28 16:26:15:251 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-28 16:26:15:251 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = f1a563a156ce847c8abc9f25df1e2a11, md5 = 6f2c0251784cf2104730c48f1be15e80, filename = downloadtask.o]
+[2020-08-28 16:26:15:251 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-28 16:26:15:251 - INFO](Md5Cgi):retStr = f1a563a156ce847c8abc9f25df1e2a11
+[2020-08-28 16:26:15:252 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-28 16:26:41:250 - INFO](Md5Cgi):buf = {
+    "fileName": "androidapk-item.html",
+    "md5": "b081de582921374c253131beee7a18d6",
+    "token": "f1a563a156ce847c8abc9f25df1e2a11",
+    "user": "kevin"
+}
+
+[2020-08-28 16:26:41:250 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-28 16:26:41:250 - INFO](Md5Cgi):user=kevin , token=f1a563a156ce847c8abc9f25df1e2a11 , md5=b081de582921374c253131beee7a18d6 , fileName=androidapk-item.html
+[2020-08-28 16:26:41:250 - INFO](Md5Cgi):Reading Complete!
+[2020-08-28 16:26:41:250 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-28 16:26:41:250 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = f1a563a156ce847c8abc9f25df1e2a11, md5 = b081de582921374c253131beee7a18d6, filename = androidapk-item.html]
+[2020-08-28 16:26:41:250 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-28 16:26:41:251 - INFO](Md5Cgi):retStr = f1a563a156ce847c8abc9f25df1e2a11
+[2020-08-28 16:26:41:251 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
