@@ -1,0 +1,50 @@
+[2020-08-29 23:07:44:221 - INFO](Md5Cgi):LoggerManager created, name is Md5Cgi
+[2020-08-29 23:07:44:221 - INFO](Config):LoggerManager created, name is Config
+[2020-08-29 23:07:44:222 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-29 23:07:44:222 - INFO](Md5Cgi):Md5Cgi Create!
+[2020-08-29 23:07:44:222 - DEBUG](Md5Cgi):init begin
+[2020-08-29 23:07:44:222 - DEBUG](Config):Config Create!
+[2020-08-29 23:07:44:222 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-29 23:07:44:222 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-29 23:07:44:222 - INFO](Config):log4cpp_path=./myprj/md5/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-29 23:07:44:222 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-29 23:07:44:222 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-29 23:07:44:222 - INFO](Config):storage_web_server_port=23000
+[2020-08-29 23:07:44:222 - INFO](Config):Reading Complete!
+[2020-08-29 23:07:44:222 - DEBUG](Md5Cgi):init end
+[2020-08-29 23:08:14:844 - INFO](Md5Cgi):buf = {
+    "fileName": "des.o",
+    "md5": "68106b4a53a346c16c3c5835fc960e40",
+    "token": "1620a880195d149a48f6955f6db48859",
+    "user": "kevin"
+}
+
+[2020-08-29 23:08:14:845 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-29 23:08:14:845 - INFO](Md5Cgi):user=kevin , token=1620a880195d149a48f6955f6db48859 , md5=68106b4a53a346c16c3c5835fc960e40 , fileName=des.o
+[2020-08-29 23:08:14:845 - INFO](Md5Cgi):Reading Complete!
+[2020-08-29 23:08:14:845 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-29 23:08:14:845 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 1620a880195d149a48f6955f6db48859, md5 = 68106b4a53a346c16c3c5835fc960e40, filename = des.o]
+[2020-08-29 23:08:14:845 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-29 23:08:14:845 - INFO](Md5Cgi):retStr = 1620a880195d149a48f6955f6db48859
+[2020-08-29 23:08:14:849 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-08-29 23:08:20:346 - INFO](Md5Cgi):buf = {
+    "fileName": "main.o",
+    "md5": "e4e3df9690610e8a194a45a6aabf93de",
+    "token": "1620a880195d149a48f6955f6db48859",
+    "user": "kevin"
+}
+
+[2020-08-29 23:08:20:346 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-08-29 23:08:20:346 - INFO](Md5Cgi):user=kevin , token=1620a880195d149a48f6955f6db48859 , md5=e4e3df9690610e8a194a45a6aabf93de , fileName=main.o
+[2020-08-29 23:08:20:346 - INFO](Md5Cgi):Reading Complete!
+[2020-08-29 23:08:20:346 - DEBUG](Md5Cgi):getMd5Info end
+[2020-08-29 23:08:20:346 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 1620a880195d149a48f6955f6db48859, md5 = e4e3df9690610e8a194a45a6aabf93de, filename = main.o]
+[2020-08-29 23:08:20:346 - DEBUG](Md5Cgi):verifyToken in
+[2020-08-29 23:08:20:347 - INFO](Md5Cgi):retStr = 1620a880195d149a48f6955f6db48859
+[2020-08-29 23:08:20:347 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+

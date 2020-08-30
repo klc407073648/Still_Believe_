@@ -7,3 +7,4 @@ V6:初步调试成功upload功能，上传图片存在问题，待修改
 V7:利用原方法解决图片上传问题，加入test和数据库脚本
 V8:实现md5和myfiles的功能，遗留mysql函数需要整改成简单类
 V9:实现dealfile的功能，mysql函数已经改成简单类，遗留下载的时候pv+1显示问题
+V10:实现sharefiles和dealsharefile的功能，cgi所有程序初步调试成功，需重构代码

@@ -1,0 +1,102 @@
+[2020-08-29 23:07:44:525 - INFO](ShareFilesCgi):LoggerManager created, name is ShareFilesCgi
+[2020-08-29 23:07:44:525 - INFO](Config):LoggerManager created, name is Config
+[2020-08-29 23:07:44:525 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-29 23:07:44:525 - INFO](ShareFilesCgi):ShareFilesCgi Create!
+[2020-08-29 23:07:44:525 - DEBUG](ShareFilesCgi):init begin
+[2020-08-29 23:07:44:526 - DEBUG](Config):Config Create!
+[2020-08-29 23:07:44:526 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-29 23:07:44:526 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-29 23:07:44:526 - INFO](Config):log4cpp_path=./myprj/sharefiles/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-29 23:07:44:526 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-29 23:07:44:526 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-29 23:07:44:526 - INFO](Config):storage_web_server_port=23000
+[2020-08-29 23:07:44:526 - INFO](Config):Reading Complete!
+[2020-08-29 23:07:44:526 - DEBUG](ShareFilesCgi):init end
+[2020-08-29 23:08:24:014 - INFO](ShareFilesCgi): cmd = count 
+[2020-08-29 23:08:24:014 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-08-29 23:08:24:018 - INFO](ShareFilesCgi):line = 1
+[2020-08-29 23:08:24:018 - DEBUG](ShareFilesCgi):getShareFilesCount end
+[2020-08-29 23:08:24:059 - INFO](ShareFilesCgi): cmd = normal 
+[2020-08-29 23:08:24:059 - INFO](ShareFilesCgi):buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-08-29 23:08:24:059 - DEBUG](ShareFilesCgi):getFilesListJsonInfo begin
+[2020-08-29 23:08:24:059 - INFO](ShareFilesCgi):sharefiles_buf = {
+    "count": 1,
+    "start": 0
+}
+!
+[2020-08-29 23:08:24:059 - INFO](ShareFilesCgi):json info : start=0 , count=1 
+[2020-08-29 23:08:24:059 - INFO](ShareFilesCgi):Reading Complete!
+[2020-08-29 23:08:24:059 - DEBUG](ShareFilesCgi):getFilesListJsonInfo end
+[2020-08-29 23:08:24:059 - INFO](ShareFilesCgi): cmd = normal ,start = 0 ,count = 1
+[2020-08-29 23:08:24:059 - DEBUG](ShareFilesCgi):getShareFileList begin
+[2020-08-29 23:08:24:060 - INFO](ShareFilesCgi):sql_cmd[select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1] exec success 
+[2020-08-29 23:08:24:061 - DEBUG](ShareFilesCgi):getShareFileList end
+[2020-08-29 23:08:24:061 - DEBUG](ShareFilesCgi):returnShareFilesStatus begin
+[2020-08-29 23:08:24:061 - INFO](ShareFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "main.o",
+         "md5" : "e4e3df9690610e8a194a45a6aabf93de",
+         "pv" : "0",
+         "share_status" : 1,
+         "size" : "438112",
+         "time" : "2020-08-29 23:08:22",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/01/wKgC5l9LQlSAbVCDAAavYJywP7889992.o\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-08-29 23:08:24:061 - DEBUG](ShareFilesCgi):returnShareFilesStatus end
+[2020-08-29 23:08:30:161 - INFO](ShareFilesCgi): cmd = count 
+[2020-08-29 23:08:30:161 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-08-29 23:08:30:164 - INFO](ShareFilesCgi):line = 1
+[2020-08-29 23:08:30:164 - DEBUG](ShareFilesCgi):getShareFilesCount end
+[2020-08-29 23:08:30:207 - INFO](ShareFilesCgi): cmd = normal 
+[2020-08-29 23:08:30:207 - INFO](ShareFilesCgi):buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-08-29 23:08:30:207 - DEBUG](ShareFilesCgi):getFilesListJsonInfo begin
+[2020-08-29 23:08:30:207 - INFO](ShareFilesCgi):sharefiles_buf = {
+    "count": 1,
+    "start": 0
+}
+!
+[2020-08-29 23:08:30:207 - INFO](ShareFilesCgi):json info : start=0 , count=1 
+[2020-08-29 23:08:30:207 - INFO](ShareFilesCgi):Reading Complete!
+[2020-08-29 23:08:30:207 - DEBUG](ShareFilesCgi):getFilesListJsonInfo end
+[2020-08-29 23:08:30:207 - INFO](ShareFilesCgi): cmd = normal ,start = 0 ,count = 1
+[2020-08-29 23:08:30:207 - DEBUG](ShareFilesCgi):getShareFileList begin
+[2020-08-29 23:08:30:208 - INFO](ShareFilesCgi):sql_cmd[select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1] exec success 
+[2020-08-29 23:08:30:208 - DEBUG](ShareFilesCgi):getShareFileList end
+[2020-08-29 23:08:30:208 - DEBUG](ShareFilesCgi):returnShareFilesStatus begin
+[2020-08-29 23:08:30:208 - INFO](ShareFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "main.o",
+         "md5" : "e4e3df9690610e8a194a45a6aabf93de",
+         "pv" : "0",
+         "share_status" : 1,
+         "size" : "438112",
+         "time" : "2020-08-29 23:08:29",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/01/wKgC5l9LQlSAbVCDAAavYJywP7889992.o\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-08-29 23:08:30:208 - DEBUG](ShareFilesCgi):returnShareFilesStatus end
+[2020-08-29 23:09:11:367 - INFO](ShareFilesCgi): cmd = count 
+[2020-08-29 23:09:11:367 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-08-29 23:09:11:368 - ERROR](ShareFilesCgi):mysqlStr[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec fail , the error info is []
+[2020-08-29 23:09:12:143 - INFO](ShareFilesCgi): cmd = count 
+[2020-08-29 23:09:12:143 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-08-29 23:09:12:144 - ERROR](ShareFilesCgi):mysqlStr[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec fail , the error info is []

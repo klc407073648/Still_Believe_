@@ -1,0 +1,46 @@
+[2020-08-29 23:07:44:627 - INFO](DealShareFileCgi):LoggerManager created, name is DealShareFileCgi
+[2020-08-29 23:07:44:627 - INFO](Config):LoggerManager created, name is Config
+[2020-08-29 23:07:44:627 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-29 23:07:44:627 - INFO](DealShareFileCgi):DealShareFileCgi Create!
+[2020-08-29 23:07:44:628 - DEBUG](DealShareFileCgi):init begin
+[2020-08-29 23:07:44:628 - DEBUG](Config):Config Create!
+[2020-08-29 23:07:44:628 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-29 23:07:44:628 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-29 23:07:44:628 - INFO](Config):log4cpp_path=./myprj/dealsharefile/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-29 23:07:44:628 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-29 23:07:44:628 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-29 23:07:44:628 - INFO](Config):storage_web_server_port=23000
+[2020-08-29 23:07:44:628 - INFO](Config):Reading Complete!
+[2020-08-29 23:07:44:628 - DEBUG](DealShareFileCgi):init end
+[2020-08-29 23:08:25:830 - INFO](DealShareFileCgi):buf = {
+    "filename": "main.o",
+    "md5": "e4e3df9690610e8a194a45a6aabf93de",
+    "user": "kevin"
+}
+
+[2020-08-29 23:08:25:830 - DEBUG](DealShareFileCgi):getJsonInfo begin
+[2020-08-29 23:08:25:830 - INFO](DealShareFileCgi):json parse user=kevin , md5=e4e3df9690610e8a194a45a6aabf93de , filename=main.o
+[2020-08-29 23:08:25:830 - INFO](DealShareFileCgi):Reading Complete!
+[2020-08-29 23:08:25:830 - DEBUG](DealShareFileCgi):getJsonInfo end
+[2020-08-29 23:08:25:830 - INFO](DealShareFileCgi): cmd = cancel ,user = kevin ,md5 = e4e3df9690610e8a194a45a6aabf93de,filename = main.o
+[2020-08-29 23:08:25:830 - DEBUG](DealShareFileCgi):cancelShareFile begin
+[2020-08-29 23:08:25:857 - INFO](DealShareFileCgi):out = {
+   "code" : "018"
+}
+
+[2020-08-29 23:09:09:345 - INFO](DealShareFileCgi):buf = {
+    "filename": "main.o",
+    "md5": "e4e3df9690610e8a194a45a6aabf93de",
+    "user": "kevin"
+}
+
+[2020-08-29 23:09:09:345 - DEBUG](DealShareFileCgi):getJsonInfo begin
+[2020-08-29 23:09:09:346 - INFO](DealShareFileCgi):json parse user=kevin , md5=e4e3df9690610e8a194a45a6aabf93de , filename=main.o
+[2020-08-29 23:09:09:346 - INFO](DealShareFileCgi):Reading Complete!
+[2020-08-29 23:09:09:346 - DEBUG](DealShareFileCgi):getJsonInfo end
+[2020-08-29 23:09:09:346 - INFO](DealShareFileCgi): cmd = cancel ,user = kevin ,md5 = e4e3df9690610e8a194a45a6aabf93de,filename = main.o
+[2020-08-29 23:09:09:346 - DEBUG](DealShareFileCgi):cancelShareFile begin
+[2020-08-29 23:09:09:375 - INFO](DealShareFileCgi):out = {
+   "code" : "018"
+}
+

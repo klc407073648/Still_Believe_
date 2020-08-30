@@ -1,0 +1,31 @@
+[2020-08-29 23:07:43:913 - INFO](LoginCgi):LoggerManager created, name is LoginCgi
+[2020-08-29 23:07:43:914 - INFO](Config):LoggerManager created, name is Config
+[2020-08-29 23:07:43:914 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-08-29 23:07:43:914 - DEBUG](Config):Config Create!
+[2020-08-29 23:07:43:914 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-08-29 23:07:43:914 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-08-29 23:07:43:914 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-08-29 23:07:43:914 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-08-29 23:07:43:914 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-08-29 23:07:43:914 - INFO](Config):storage_web_server_port=23000
+[2020-08-29 23:07:43:914 - INFO](Config):Reading Complete!
+[2020-08-29 23:07:43:914 - INFO](LoginCgi):LoginCgi Create!
+[2020-08-29 23:08:11:814 - INFO](LoginCgi):buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "kevin"
+}
+
+[2020-08-29 23:08:11:814 - INFO](LoginCgi):user=kevin,pwd=e10adc3949ba59abbe56e057f20f883e
+[2020-08-29 23:08:11:814 - INFO](LoginCgi):Reading Complete!
+[2020-08-29 23:08:11:814 - INFO](LoginCgi):user = kevin, pwd = e10adc3949ba59abbe56e057f20f883e
+[2020-08-29 23:08:11:817 - DEBUG](LoginCgi):sql_query=select * from user where name='kevin' AND password='e10adc3949ba59abbe56e057f20f883e';
+[2020-08-29 23:08:11:817 - ERROR](LoginCgi):mysql->getAffectedRows(): 1 ,mysql->getErrStr(): 
+[2020-08-29 23:08:11:817 - INFO](LoginCgi):tmp = `L75722349269
+[2020-08-29 23:08:11:817 - INFO](LoginCgi):base64 = AAAAALJley0RSbD6szi6Bw==
+[2020-08-29 23:08:11:817 - INFO](LoginCgi):expire_time = 86400
+[2020-08-29 23:08:11:818 - INFO](LoginCgi):token = 1620a880195d149a48f6955f6db48859
+[2020-08-29 23:08:11:818 - INFO](LoginCgi):out = {
+   "code" : "000",
+   "token" : "1620a880195d149a48f6955f6db48859"
+}
+
