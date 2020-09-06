@@ -1,0 +1,301 @@
+[2020-09-05 21:13:39:627 - INFO](ShareFilesCgi):LoggerManager created, name is ShareFilesCgi
+[2020-09-05 21:13:39:628 - INFO](Config):LoggerManager created, name is Config
+[2020-09-05 21:13:39:628 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-09-05 21:13:39:628 - INFO](ShareFilesCgi):ShareFilesCgi Create!
+[2020-09-05 21:13:39:628 - DEBUG](ShareFilesCgi):init begin
+[2020-09-05 21:13:39:628 - DEBUG](Config):Config Create!
+[2020-09-05 21:13:39:628 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-09-05 21:13:39:628 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-09-05 21:13:39:628 - INFO](Config):log4cpp_path=./myprj/sharefiles/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-09-05 21:13:39:628 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-09-05 21:13:39:628 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-09-05 21:13:39:628 - INFO](Config):storage_web_server_port=23000
+[2020-09-05 21:13:39:628 - INFO](Config):Reading Complete!
+[2020-09-05 21:13:39:628 - DEBUG](ShareFilesCgi):init end
+[2020-09-05 21:14:21:229 - INFO](ShareFilesCgi): cmd = count 
+[2020-09-05 21:14:21:229 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-09-05 21:14:21:236 - INFO](ShareFilesCgi):sql_str:[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec success!
+[2020-09-05 21:14:21:236 - INFO](ShareFilesCgi):tmpCount: 2
+[2020-09-05 21:14:21:236 - INFO](ShareFilesCgi):line = 2
+[2020-09-05 21:14:21:236 - DEBUG](ShareFilesCgi):getShareFilesCount end
+[2020-09-05 21:14:21:277 - INFO](ShareFilesCgi): cmd = normal 
+[2020-09-05 21:14:21:277 - INFO](ShareFilesCgi):buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-09-05 21:14:21:278 - DEBUG](ShareFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:21:278 - INFO](ShareFilesCgi):sharefiles_buf = {
+    "count": 2,
+    "start": 0
+}
+!
+[2020-09-05 21:14:21:278 - INFO](ShareFilesCgi):json info : start=0 , count=2 
+[2020-09-05 21:14:21:278 - INFO](ShareFilesCgi):Reading Complete!
+[2020-09-05 21:14:21:278 - DEBUG](ShareFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:21:278 - INFO](ShareFilesCgi): cmd = normal ,start = 0 ,count = 2
+[2020-09-05 21:14:21:278 - DEBUG](ShareFilesCgi):getShareFileList begin
+[2020-09-05 21:14:21:278 - INFO](ShareFilesCgi):sql_str:[select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2] exec success!
+[2020-09-05 21:14:21:278 - INFO](ShareFilesCgi):line = 2
+[2020-09-05 21:14:21:278 - DEBUG](ShareFilesCgi):getShareFileList end
+[2020-09-05 21:14:21:278 - DEBUG](ShareFilesCgi):returnShareFilesStatus begin
+[2020-09-05 21:14:21:278 - INFO](ShareFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : 1,
+         "size" : "224",
+         "time" : "2020-09-05 21:14:17",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : 1,
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:20",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:21:278 - DEBUG](ShareFilesCgi):returnShareFilesStatus end
+[2020-09-05 21:14:23:803 - INFO](ShareFilesCgi): cmd = count 
+[2020-09-05 21:14:23:803 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-09-05 21:14:23:804 - INFO](ShareFilesCgi):sql_str:[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec success!
+[2020-09-05 21:14:23:804 - INFO](ShareFilesCgi):tmpCount: 2
+[2020-09-05 21:14:23:804 - INFO](ShareFilesCgi):line = 2
+[2020-09-05 21:14:23:804 - DEBUG](ShareFilesCgi):getShareFilesCount end
+[2020-09-05 21:14:23:846 - INFO](ShareFilesCgi): cmd = pvdesc 
+[2020-09-05 21:14:23:846 - INFO](ShareFilesCgi):buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-09-05 21:14:23:846 - DEBUG](ShareFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:23:846 - INFO](ShareFilesCgi):sharefiles_buf = {
+    "count": 2,
+    "start": 0
+}
+!
+[2020-09-05 21:14:23:846 - INFO](ShareFilesCgi):json info : start=0 , count=2 
+[2020-09-05 21:14:23:846 - INFO](ShareFilesCgi):Reading Complete!
+[2020-09-05 21:14:23:847 - DEBUG](ShareFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:23:847 - INFO](ShareFilesCgi): cmd = pvdesc ,start = 0 ,count = 2
+[2020-09-05 21:14:23:847 - INFO](ShareFilesCgi):redis and mysql connect success!
+[2020-09-05 21:14:23:847 - INFO](ShareFilesCgi):sql_str:[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec success!
+[2020-09-05 21:14:23:847 - INFO](ShareFilesCgi):sql_num = 2, redis_num = 3
+[2020-09-05 21:14:23:848 - INFO](ShareFilesCgi):sql_str:[select md5, filename, pv from share_file_list order by pv desc] exec success!
+[2020-09-05 21:14:23:848 - INFO](ShareFilesCgi):fileId = 71a7fd3727f10fd59250ca6fdbf19fb9cfg.json
+[2020-09-05 21:14:23:848 - INFO](ShareFilesCgi):fileId = 68106b4a53a346c16c3c5835fc960e40des.o
+[2020-09-05 21:14:23:849 - DEBUG](ShareFilesCgi):returnShareFilesStatus begin
+[2020-09-05 21:14:23:849 - INFO](ShareFilesCgi):out = {
+   "files" : null
+}
+
+[2020-09-05 21:14:23:849 - DEBUG](ShareFilesCgi):returnShareFilesStatus end
+[2020-09-05 21:14:27:163 - INFO](ShareFilesCgi): cmd = count 
+[2020-09-05 21:14:27:163 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-09-05 21:14:27:163 - INFO](ShareFilesCgi):sql_str:[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec success!
+[2020-09-05 21:14:27:163 - INFO](ShareFilesCgi):tmpCount: 2
+[2020-09-05 21:14:27:163 - INFO](ShareFilesCgi):line = 2
+[2020-09-05 21:14:27:163 - DEBUG](ShareFilesCgi):getShareFilesCount end
+[2020-09-05 21:14:27:206 - INFO](ShareFilesCgi): cmd = normal 
+[2020-09-05 21:14:27:206 - INFO](ShareFilesCgi):buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-09-05 21:14:27:206 - DEBUG](ShareFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:27:206 - INFO](ShareFilesCgi):sharefiles_buf = {
+    "count": 2,
+    "start": 0
+}
+!
+[2020-09-05 21:14:27:206 - INFO](ShareFilesCgi):json info : start=0 , count=2 
+[2020-09-05 21:14:27:206 - INFO](ShareFilesCgi):Reading Complete!
+[2020-09-05 21:14:27:206 - DEBUG](ShareFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:27:206 - INFO](ShareFilesCgi): cmd = normal ,start = 0 ,count = 2
+[2020-09-05 21:14:27:206 - DEBUG](ShareFilesCgi):getShareFileList begin
+[2020-09-05 21:14:27:206 - INFO](ShareFilesCgi):sql_str:[select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2] exec success!
+[2020-09-05 21:14:27:206 - INFO](ShareFilesCgi):line = 2
+[2020-09-05 21:14:27:207 - DEBUG](ShareFilesCgi):getShareFileList end
+[2020-09-05 21:14:27:207 - DEBUG](ShareFilesCgi):returnShareFilesStatus begin
+[2020-09-05 21:14:27:207 - INFO](ShareFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : 1,
+         "size" : "224",
+         "time" : "2020-09-05 21:14:17",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : 1,
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:20",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:27:207 - DEBUG](ShareFilesCgi):returnShareFilesStatus end
+[2020-09-05 21:14:43:587 - INFO](ShareFilesCgi): cmd = count 
+[2020-09-05 21:14:43:587 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-09-05 21:14:43:588 - INFO](ShareFilesCgi):sql_str:[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec success!
+[2020-09-05 21:14:43:588 - INFO](ShareFilesCgi):tmpCount: 1
+[2020-09-05 21:14:43:588 - INFO](ShareFilesCgi):line = 1
+[2020-09-05 21:14:43:588 - DEBUG](ShareFilesCgi):getShareFilesCount end
+[2020-09-05 21:14:43:629 - INFO](ShareFilesCgi): cmd = normal 
+[2020-09-05 21:14:43:629 - INFO](ShareFilesCgi):buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-09-05 21:14:43:629 - DEBUG](ShareFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:43:629 - INFO](ShareFilesCgi):sharefiles_buf = {
+    "count": 1,
+    "start": 0
+}
+!
+[2020-09-05 21:14:43:629 - INFO](ShareFilesCgi):json info : start=0 , count=1 
+[2020-09-05 21:14:43:629 - INFO](ShareFilesCgi):Reading Complete!
+[2020-09-05 21:14:43:629 - DEBUG](ShareFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:43:629 - INFO](ShareFilesCgi): cmd = normal ,start = 0 ,count = 1
+[2020-09-05 21:14:43:629 - DEBUG](ShareFilesCgi):getShareFileList begin
+[2020-09-05 21:14:43:630 - INFO](ShareFilesCgi):sql_str:[select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1] exec success!
+[2020-09-05 21:14:43:630 - INFO](ShareFilesCgi):line = 1
+[2020-09-05 21:14:43:630 - DEBUG](ShareFilesCgi):getShareFileList end
+[2020-09-05 21:14:43:630 - DEBUG](ShareFilesCgi):returnShareFilesStatus begin
+[2020-09-05 21:14:43:630 - INFO](ShareFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "1",
+         "share_status" : 1,
+         "size" : "224",
+         "time" : "2020-09-05 21:14:17",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:43:630 - DEBUG](ShareFilesCgi):returnShareFilesStatus end
+[2020-09-05 21:14:51:107 - INFO](ShareFilesCgi): cmd = count 
+[2020-09-05 21:14:51:107 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-09-05 21:14:51:108 - INFO](ShareFilesCgi):sql_str:[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec success!
+[2020-09-05 21:14:51:108 - INFO](ShareFilesCgi):tmpCount: 1
+[2020-09-05 21:14:51:108 - INFO](ShareFilesCgi):line = 1
+[2020-09-05 21:14:51:108 - DEBUG](ShareFilesCgi):getShareFilesCount end
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi): cmd = normal 
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi):buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2020-09-05 21:14:51:151 - DEBUG](ShareFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi):sharefiles_buf = {
+    "count": 1,
+    "start": 0
+}
+!
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi):json info : start=0 , count=1 
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi):Reading Complete!
+[2020-09-05 21:14:51:151 - DEBUG](ShareFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi): cmd = normal ,start = 0 ,count = 1
+[2020-09-05 21:14:51:151 - DEBUG](ShareFilesCgi):getShareFileList begin
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi):sql_str:[select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1] exec success!
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi):line = 1
+[2020-09-05 21:14:51:151 - DEBUG](ShareFilesCgi):getShareFileList end
+[2020-09-05 21:14:51:151 - DEBUG](ShareFilesCgi):returnShareFilesStatus begin
+[2020-09-05 21:14:51:151 - INFO](ShareFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "2",
+         "share_status" : 1,
+         "size" : "224",
+         "time" : "2020-09-05 21:14:17",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:51:152 - DEBUG](ShareFilesCgi):returnShareFilesStatus end
+[2020-09-05 21:15:01:659 - INFO](ShareFilesCgi): cmd = count 
+[2020-09-05 21:15:01:659 - DEBUG](ShareFilesCgi):getShareFilesCount begin
+[2020-09-05 21:15:01:660 - INFO](ShareFilesCgi):sql_str:[select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx"] exec success!
+[2020-09-05 21:15:01:660 - INFO](ShareFilesCgi):tmpCount: 2
+[2020-09-05 21:15:01:660 - INFO](ShareFilesCgi):line = 2
+[2020-09-05 21:15:01:660 - DEBUG](ShareFilesCgi):getShareFilesCount end
+[2020-09-05 21:15:01:701 - INFO](ShareFilesCgi): cmd = normal 
+[2020-09-05 21:15:01:701 - INFO](ShareFilesCgi):buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2020-09-05 21:15:01:701 - DEBUG](ShareFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:15:01:701 - INFO](ShareFilesCgi):sharefiles_buf = {
+    "count": 2,
+    "start": 0
+}
+!
+[2020-09-05 21:15:01:701 - INFO](ShareFilesCgi):json info : start=0 , count=2 
+[2020-09-05 21:15:01:701 - INFO](ShareFilesCgi):Reading Complete!
+[2020-09-05 21:15:01:701 - DEBUG](ShareFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:15:01:701 - INFO](ShareFilesCgi): cmd = normal ,start = 0 ,count = 2
+[2020-09-05 21:15:01:701 - DEBUG](ShareFilesCgi):getShareFileList begin
+[2020-09-05 21:15:01:701 - INFO](ShareFilesCgi):sql_str:[select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2] exec success!
+[2020-09-05 21:15:01:701 - INFO](ShareFilesCgi):line = 2
+[2020-09-05 21:15:01:702 - DEBUG](ShareFilesCgi):getShareFileList end
+[2020-09-05 21:15:01:702 - DEBUG](ShareFilesCgi):returnShareFilesStatus begin
+[2020-09-05 21:15:01:702 - INFO](ShareFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : 1,
+         "size" : "224",
+         "time" : "2020-09-05 21:14:58",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "docx.png",
+         "md5" : "1ba3f98e7c4ab9389dbf32009b4fc2e4",
+         "pv" : "0",
+         "share_status" : 1,
+         "size" : "33442",
+         "time" : "2020-09-05 21:15:00",
+         "type" : "png",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhSAFNbYAACConUmZfU146.png\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:15:01:702 - DEBUG](ShareFilesCgi):returnShareFilesStatus end

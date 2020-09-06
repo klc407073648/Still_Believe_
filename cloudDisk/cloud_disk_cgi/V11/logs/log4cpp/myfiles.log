@@ -1,0 +1,576 @@
+[2020-09-05 21:13:39:424 - INFO](MyFilesCgi):LoggerManager created, name is MyFilesCgi
+[2020-09-05 21:13:39:425 - INFO](Config):LoggerManager created, name is Config
+[2020-09-05 21:13:39:425 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-09-05 21:13:39:425 - INFO](MyFilesCgi):MyFilesCgi Create!
+[2020-09-05 21:13:39:425 - DEBUG](MyFilesCgi):init begin
+[2020-09-05 21:13:39:425 - DEBUG](Config):Config Create!
+[2020-09-05 21:13:39:425 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-09-05 21:13:39:425 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-09-05 21:13:39:425 - INFO](Config):log4cpp_path=./myprj/myfiles/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-09-05 21:13:39:425 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-09-05 21:13:39:425 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-09-05 21:13:39:425 - INFO](Config):storage_web_server_port=23000
+[2020-09-05 21:13:39:425 - INFO](Config):Reading Complete!
+[2020-09-05 21:13:39:425 - DEBUG](MyFilesCgi):init end
+[2020-09-05 21:13:58:375 - INFO](MyFilesCgi):buf = {
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:13:58:375 - INFO](MyFilesCgi):cmd = count 
+[2020-09-05 21:13:58:375 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-09-05 21:13:58:375 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 
+[2020-09-05 21:13:58:375 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:13:58:375 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-09-05 21:13:58:375 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:13:58:376 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:13:58:376 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-09-05 21:13:58:394 - ERROR](MyFilesCgi):sql_str: select count from user_file_count where user='kevin',affectedRows is 0, error num is 0 : info is 
+[2020-09-05 21:13:58:395 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "0"
+}
+
+[2020-09-05 21:14:01:980 - INFO](MyFilesCgi):buf = {
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:01:980 - INFO](MyFilesCgi):cmd = count 
+[2020-09-05 21:14:01:980 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-09-05 21:14:01:980 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 
+[2020-09-05 21:14:01:980 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:01:980 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-09-05 21:14:01:980 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:01:981 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:01:981 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-09-05 21:14:01:981 - INFO](MyFilesCgi):line = 1
+[2020-09-05 21:14:01:981 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-09-05 21:14:01:981 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "1"
+}
+
+[2020-09-05 21:14:02:022 - INFO](MyFilesCgi):buf = {
+    "count": 1,
+    "start": 0,
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:02:022 - INFO](MyFilesCgi):cmd = normal 
+[2020-09-05 21:14:02:022 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:02:022 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 , start=0 , count=1 
+[2020-09-05 21:14:02:022 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:02:022 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:02:022 - INFO](MyFilesCgi):user = kevin, token = 8c608c36b08def643bb1dffe9c286944, start = 0, count = 1
+[2020-09-05 21:14:02:022 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:02:023 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:02:023 - DEBUG](MyFilesCgi):getUserFileList begin
+[2020-09-05 21:14:02:023 - INFO](MyFilesCgi):sql_str:[select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 1] exec success!
+[2020-09-05 21:14:02:023 - DEBUG](MyFilesCgi):getUserFileList end
+[2020-09-05 21:14:02:023 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:01",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:05:702 - INFO](MyFilesCgi):buf = {
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:05:702 - INFO](MyFilesCgi):cmd = count 
+[2020-09-05 21:14:05:702 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-09-05 21:14:05:702 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 
+[2020-09-05 21:14:05:702 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:05:702 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-09-05 21:14:05:702 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:05:702 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:05:702 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-09-05 21:14:05:702 - INFO](MyFilesCgi):line = 2
+[2020-09-05 21:14:05:702 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-09-05 21:14:05:702 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "2"
+}
+
+[2020-09-05 21:14:05:744 - INFO](MyFilesCgi):buf = {
+    "count": 2,
+    "start": 0,
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:05:745 - INFO](MyFilesCgi):cmd = normal 
+[2020-09-05 21:14:05:745 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:05:745 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 , start=0 , count=2 
+[2020-09-05 21:14:05:745 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:05:745 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:05:745 - INFO](MyFilesCgi):user = kevin, token = 8c608c36b08def643bb1dffe9c286944, start = 0, count = 2
+[2020-09-05 21:14:05:745 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:05:745 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:05:745 - DEBUG](MyFilesCgi):getUserFileList begin
+[2020-09-05 21:14:05:745 - INFO](MyFilesCgi):sql_str:[select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 2] exec success!
+[2020-09-05 21:14:05:745 - DEBUG](MyFilesCgi):getUserFileList end
+[2020-09-05 21:14:05:745 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:01",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "224",
+         "time" : "2020-09-05 21:14:04",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:08:958 - INFO](MyFilesCgi):buf = {
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:08:958 - INFO](MyFilesCgi):cmd = count 
+[2020-09-05 21:14:08:958 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-09-05 21:14:08:958 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 
+[2020-09-05 21:14:08:958 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:08:958 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-09-05 21:14:08:958 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:08:958 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:08:958 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-09-05 21:14:08:959 - INFO](MyFilesCgi):line = 3
+[2020-09-05 21:14:08:959 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-09-05 21:14:08:959 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "3"
+}
+
+[2020-09-05 21:14:09:001 - INFO](MyFilesCgi):buf = {
+    "count": 3,
+    "start": 0,
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:09:001 - INFO](MyFilesCgi):cmd = normal 
+[2020-09-05 21:14:09:001 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:09:001 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 , start=0 , count=3 
+[2020-09-05 21:14:09:001 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:09:001 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:09:001 - INFO](MyFilesCgi):user = kevin, token = 8c608c36b08def643bb1dffe9c286944, start = 0, count = 3
+[2020-09-05 21:14:09:001 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:09:002 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:09:002 - DEBUG](MyFilesCgi):getUserFileList begin
+[2020-09-05 21:14:09:002 - INFO](MyFilesCgi):sql_str:[select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 3] exec success!
+[2020-09-05 21:14:09:003 - DEBUG](MyFilesCgi):getUserFileList end
+[2020-09-05 21:14:09:003 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:01",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "224",
+         "time" : "2020-09-05 21:14:04",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "1450013406184.jpeg",
+         "md5" : "8f46e6450c54ae3604ee4ae8a7dfa861",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "74434",
+         "time" : "2020-09-05 21:14:08",
+         "type" : "jpeg",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhCAWrRTAAEiwhzDGEI21.jpeg\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:13:699 - INFO](MyFilesCgi):buf = {
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:13:699 - INFO](MyFilesCgi):cmd = count 
+[2020-09-05 21:14:13:699 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-09-05 21:14:13:699 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 
+[2020-09-05 21:14:13:699 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:13:699 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-09-05 21:14:13:699 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:13:700 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:13:700 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-09-05 21:14:13:700 - INFO](MyFilesCgi):line = 4
+[2020-09-05 21:14:13:700 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-09-05 21:14:13:700 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "4"
+}
+
+[2020-09-05 21:14:13:741 - INFO](MyFilesCgi):buf = {
+    "count": 4,
+    "start": 0,
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:13:741 - INFO](MyFilesCgi):cmd = normal 
+[2020-09-05 21:14:13:741 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:13:741 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 , start=0 , count=4 
+[2020-09-05 21:14:13:741 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:13:741 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:13:741 - INFO](MyFilesCgi):user = kevin, token = 8c608c36b08def643bb1dffe9c286944, start = 0, count = 4
+[2020-09-05 21:14:13:741 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:13:742 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:13:742 - DEBUG](MyFilesCgi):getUserFileList begin
+[2020-09-05 21:14:13:742 - INFO](MyFilesCgi):sql_str:[select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 4] exec success!
+[2020-09-05 21:14:13:742 - DEBUG](MyFilesCgi):getUserFileList end
+[2020-09-05 21:14:13:742 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:01",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "224",
+         "time" : "2020-09-05 21:14:04",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "1450013406184.jpeg",
+         "md5" : "8f46e6450c54ae3604ee4ae8a7dfa861",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "74434",
+         "time" : "2020-09-05 21:14:08",
+         "type" : "jpeg",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhCAWrRTAAEiwhzDGEI21.jpeg\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "docx.png",
+         "md5" : "1ba3f98e7c4ab9389dbf32009b4fc2e4",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "33442",
+         "time" : "2020-09-05 21:14:12",
+         "type" : "png",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhSAFNbYAACConUmZfU146.png\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:26:518 - INFO](MyFilesCgi):buf = {
+    "token": "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:26:518 - INFO](MyFilesCgi):cmd = count 
+[2020-09-05 21:14:26:518 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-09-05 21:14:26:518 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb 
+[2020-09-05 21:14:26:518 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:26:518 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-09-05 21:14:26:518 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:26:519 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:14:26:519 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-09-05 21:14:26:519 - INFO](MyFilesCgi):line = 4
+[2020-09-05 21:14:26:520 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-09-05 21:14:26:520 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "4"
+}
+
+[2020-09-05 21:14:26:561 - INFO](MyFilesCgi):buf = {
+    "count": 4,
+    "start": 0,
+    "token": "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:26:561 - INFO](MyFilesCgi):cmd = normal 
+[2020-09-05 21:14:26:561 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:26:561 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb , start=0 , count=4 
+[2020-09-05 21:14:26:561 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:26:561 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:26:562 - INFO](MyFilesCgi):user = kevin, token = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb, start = 0, count = 4
+[2020-09-05 21:14:26:562 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:26:562 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:14:26:562 - DEBUG](MyFilesCgi):getUserFileList begin
+[2020-09-05 21:14:26:562 - INFO](MyFilesCgi):sql_str:[select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 4] exec success!
+[2020-09-05 21:14:26:562 - DEBUG](MyFilesCgi):getUserFileList end
+[2020-09-05 21:14:26:562 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : "1",
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:01",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : "1",
+         "size" : "224",
+         "time" : "2020-09-05 21:14:04",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "1450013406184.jpeg",
+         "md5" : "8f46e6450c54ae3604ee4ae8a7dfa861",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "74434",
+         "time" : "2020-09-05 21:14:08",
+         "type" : "jpeg",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhCAWrRTAAEiwhzDGEI21.jpeg\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "docx.png",
+         "md5" : "1ba3f98e7c4ab9389dbf32009b4fc2e4",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "33442",
+         "time" : "2020-09-05 21:14:12",
+         "type" : "png",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhSAFNbYAACConUmZfU146.png\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:42:307 - INFO](MyFilesCgi):buf = {
+    "token": "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:42:307 - INFO](MyFilesCgi):cmd = count 
+[2020-09-05 21:14:42:307 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-09-05 21:14:42:307 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb 
+[2020-09-05 21:14:42:307 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:42:307 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-09-05 21:14:42:307 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:42:307 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:14:42:307 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-09-05 21:14:42:308 - INFO](MyFilesCgi):line = 4
+[2020-09-05 21:14:42:308 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-09-05 21:14:42:308 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "4"
+}
+
+[2020-09-05 21:14:42:349 - INFO](MyFilesCgi):buf = {
+    "count": 4,
+    "start": 0,
+    "token": "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:42:349 - INFO](MyFilesCgi):cmd = normal 
+[2020-09-05 21:14:42:349 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:42:349 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb , start=0 , count=4 
+[2020-09-05 21:14:42:349 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:42:349 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:42:349 - INFO](MyFilesCgi):user = kevin, token = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb, start = 0, count = 4
+[2020-09-05 21:14:42:349 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:42:350 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:14:42:350 - DEBUG](MyFilesCgi):getUserFileList begin
+[2020-09-05 21:14:42:350 - INFO](MyFilesCgi):sql_str:[select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 4] exec success!
+[2020-09-05 21:14:42:350 - DEBUG](MyFilesCgi):getUserFileList end
+[2020-09-05 21:14:42:350 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:01",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : "1",
+         "size" : "224",
+         "time" : "2020-09-05 21:14:04",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "1450013406184.jpeg",
+         "md5" : "8f46e6450c54ae3604ee4ae8a7dfa861",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "74434",
+         "time" : "2020-09-05 21:14:08",
+         "type" : "jpeg",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhCAWrRTAAEiwhzDGEI21.jpeg\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "docx.png",
+         "md5" : "1ba3f98e7c4ab9389dbf32009b4fc2e4",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "33442",
+         "time" : "2020-09-05 21:14:12",
+         "type" : "png",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhSAFNbYAACConUmZfU146.png\n",
+         "user" : "kevin"
+      }
+   ]
+}
+
+[2020-09-05 21:14:55:628 - INFO](MyFilesCgi):buf = {
+    "token": "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:55:628 - INFO](MyFilesCgi):cmd = count 
+[2020-09-05 21:14:55:628 - DEBUG](MyFilesCgi):getCountJsonInfo begin
+[2020-09-05 21:14:55:628 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb 
+[2020-09-05 21:14:55:628 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:55:628 - DEBUG](MyFilesCgi):getCountJsonInfo end
+[2020-09-05 21:14:55:628 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:55:628 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:14:55:628 - DEBUG](MyFilesCgi):getUserFilesCount begin
+[2020-09-05 21:14:55:629 - INFO](MyFilesCgi):line = 4
+[2020-09-05 21:14:55:629 - DEBUG](MyFilesCgi):getUserFilesCount end
+[2020-09-05 21:14:55:629 - INFO](MyFilesCgi):out = {
+   "code" : "110",
+   "num" : "4"
+}
+
+[2020-09-05 21:14:55:670 - INFO](MyFilesCgi):buf = {
+    "count": 4,
+    "start": 0,
+    "token": "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb",
+    "user": "kevin"
+}
+ 
+[2020-09-05 21:14:55:670 - INFO](MyFilesCgi):cmd = normal 
+[2020-09-05 21:14:55:670 - DEBUG](MyFilesCgi):getFilesListJsonInfo begin
+[2020-09-05 21:14:55:670 - INFO](MyFilesCgi):user=kevin , token=8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb , start=0 , count=4 
+[2020-09-05 21:14:55:670 - INFO](MyFilesCgi):Reading Complete!
+[2020-09-05 21:14:55:670 - DEBUG](MyFilesCgi):getFilesListJsonInfo end
+[2020-09-05 21:14:55:670 - INFO](MyFilesCgi):user = kevin, token = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb, start = 0, count = 4
+[2020-09-05 21:14:55:670 - DEBUG](MyFilesCgi):verifyToken begin
+[2020-09-05 21:14:55:670 - INFO](MyFilesCgi):retStr = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:14:55:670 - DEBUG](MyFilesCgi):getUserFileList begin
+[2020-09-05 21:14:55:671 - INFO](MyFilesCgi):sql_str:[select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin' and file_info.md5 = user_file_list.md5 limit 0, 4] exec success!
+[2020-09-05 21:14:55:671 - DEBUG](MyFilesCgi):getUserFileList end
+[2020-09-05 21:14:55:671 - INFO](MyFilesCgi):out = {
+   "files" : [
+      {
+         "filename" : "des.o",
+         "md5" : "68106b4a53a346c16c3c5835fc960e40",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "24384",
+         "time" : "2020-09-05 21:14:01",
+         "type" : "o",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgmAXUqpAABfQI4wr0E66824.o\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "cfg.json",
+         "md5" : "71a7fd3727f10fd59250ca6fdbf19fb9",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "224",
+         "time" : "2020-09-05 21:14:04",
+         "type" : "json",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYgyABEmnAAAA4BkVae449.json\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "1450013406184.jpeg",
+         "md5" : "8f46e6450c54ae3604ee4ae8a7dfa861",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "74434",
+         "time" : "2020-09-05 21:14:08",
+         "type" : "jpeg",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhCAWrRTAAEiwhzDGEI21.jpeg\n",
+         "user" : "kevin"
+      },
+      {
+         "filename" : "docx.png",
+         "md5" : "1ba3f98e7c4ab9389dbf32009b4fc2e4",
+         "pv" : "0",
+         "share_status" : "0",
+         "size" : "33442",
+         "time" : "2020-09-05 21:14:12",
+         "type" : "png",
+         "url" : "http://192.168.2.230/group1/M00/00/02/wKgC5l9UYhSAFNbYAACConUmZfU146.png\n",
+         "user" : "kevin"
+      }
+   ]
+}
+

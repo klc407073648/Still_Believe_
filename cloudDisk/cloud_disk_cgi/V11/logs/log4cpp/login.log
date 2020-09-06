@@ -1,0 +1,68 @@
+[2020-09-05 21:13:39:013 - INFO](LoginCgi):LoggerManager created, name is LoginCgi
+[2020-09-05 21:13:39:013 - INFO](Config):LoggerManager created, name is Config
+[2020-09-05 21:13:39:013 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-09-05 21:13:39:013 - DEBUG](Config):Config Create!
+[2020-09-05 21:13:39:014 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-09-05 21:13:39:014 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-09-05 21:13:39:014 - INFO](Config):log4cpp_path=./myprj/upload/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-09-05 21:13:39:014 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-09-05 21:13:39:014 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-09-05 21:13:39:014 - INFO](Config):storage_web_server_port=23000
+[2020-09-05 21:13:39:014 - INFO](Config):Reading Complete!
+[2020-09-05 21:13:39:014 - INFO](LoginCgi):LoginCgi Create!
+[2020-09-05 21:13:58:228 - INFO](LoginCgi):buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "kevin"
+}
+
+[2020-09-05 21:13:58:229 - DEBUG](LoginCgi):getLoginInfo begin
+[2020-09-05 21:13:58:229 - INFO](LoginCgi):user=kevin,pwd=e10adc3949ba59abbe56e057f20f883e
+[2020-09-05 21:13:58:229 - INFO](LoginCgi):Reading Complete!
+[2020-09-05 21:13:58:229 - DEBUG](LoginCgi):getLoginInfo end
+[2020-09-05 21:13:58:229 - INFO](LoginCgi):user = kevin, pwd = e10adc3949ba59abbe56e057f20f883e
+[2020-09-05 21:13:58:229 - DEBUG](LoginCgi):checkUserAndPwd begin
+[2020-09-05 21:13:58:233 - INFO](LoginCgi):sql_str:[select password from user where name = 'kevin'] exec success!
+[2020-09-05 21:13:58:233 - INFO](LoginCgi):m_ptr->getString(0): e10adc3949ba59abbe56e057f20f883e ,pwd : e10adc3949ba59abbe56e057f20f883e
+[2020-09-05 21:13:58:233 - DEBUG](LoginCgi):checkUserAndPwd end
+[2020-09-05 21:13:58:233 - DEBUG](LoginCgi):setToken begin
+[2020-09-05 21:13:58:233 - INFO](LoginCgi):redis connect success, ip = 127.0.0.1 , port =6379
+[2020-09-05 21:13:58:233 - INFO](LoginCgi):tmp = ³Z55573723542
+[2020-09-05 21:13:58:233 - INFO](LoginCgi):base64 = AAAAAPA94dmpcz6+pCh/FA==
+[2020-09-05 21:13:58:233 - INFO](LoginCgi):expire_time = 86400
+[2020-09-05 21:13:58:233 - DEBUG](LoginCgi):setToken end
+[2020-09-05 21:13:58:233 - INFO](LoginCgi):token = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:13:58:233 - DEBUG](LoginCgi):returnLoginStatus begin
+[2020-09-05 21:13:58:234 - INFO](LoginCgi):out = {
+   "code" : "000",
+   "token" : "8c608c36b08def643bb1dffe9c286944"
+}
+
+[2020-09-05 21:13:58:234 - DEBUG](LoginCgi):returnLoginStatus end
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:26:474 - DEBUG](LoginCgi):getLoginInfo begin
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):user=kevin,pwd=e10adc3949ba59abbe56e057f20f883e
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):Reading Complete!
+[2020-09-05 21:14:26:474 - DEBUG](LoginCgi):getLoginInfo end
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):user = kevin, pwd = e10adc3949ba59abbe56e057f20f883e
+[2020-09-05 21:14:26:474 - DEBUG](LoginCgi):checkUserAndPwd begin
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):sql_str:[select password from user where name = 'kevin'] exec success!
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):m_ptr->getString(0): e10adc3949ba59abbe56e057f20f883e ,pwd : e10adc3949ba59abbe56e057f20f883e
+[2020-09-05 21:14:26:474 - DEBUG](LoginCgi):checkUserAndPwd end
+[2020-09-05 21:14:26:474 - DEBUG](LoginCgi):setToken begin
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):redis connect success, ip = 127.0.0.1 , port =6379
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):tmp = Èš]584487259414
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):base64 = AAAAAJ8q2ZFFXwfT0j4P9A==
+[2020-09-05 21:14:26:474 - INFO](LoginCgi):expire_time = 86400
+[2020-09-05 21:14:26:475 - DEBUG](LoginCgi):setToken end
+[2020-09-05 21:14:26:475 - INFO](LoginCgi):token = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:14:26:475 - DEBUG](LoginCgi):returnLoginStatus begin
+[2020-09-05 21:14:26:475 - INFO](LoginCgi):out = {
+   "code" : "000",
+   "token" : "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb"
+}
+
+[2020-09-05 21:14:26:475 - DEBUG](LoginCgi):returnLoginStatus end

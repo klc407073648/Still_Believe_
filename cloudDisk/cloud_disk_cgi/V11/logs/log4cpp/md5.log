@@ -1,0 +1,98 @@
+[2020-09-05 21:13:39:322 - INFO](Md5Cgi):LoggerManager created, name is Md5Cgi
+[2020-09-05 21:13:39:322 - INFO](Config):LoggerManager created, name is Config
+[2020-09-05 21:13:39:323 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-09-05 21:13:39:323 - INFO](Md5Cgi):Md5Cgi Create!
+[2020-09-05 21:13:39:323 - DEBUG](Md5Cgi):init begin
+[2020-09-05 21:13:39:323 - DEBUG](Config):Config Create!
+[2020-09-05 21:13:39:323 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-09-05 21:13:39:323 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-09-05 21:13:39:323 - INFO](Config):log4cpp_path=./myprj/md5/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-09-05 21:13:39:323 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-09-05 21:13:39:323 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-09-05 21:13:39:323 - INFO](Config):storage_web_server_port=23000
+[2020-09-05 21:13:39:323 - INFO](Config):Reading Complete!
+[2020-09-05 21:13:39:323 - DEBUG](Md5Cgi):init end
+[2020-09-05 21:14:01:222 - INFO](Md5Cgi):buf = {
+    "fileName": "des.o",
+    "md5": "68106b4a53a346c16c3c5835fc960e40",
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:01:223 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-09-05 21:14:01:223 - INFO](Md5Cgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 , md5=68106b4a53a346c16c3c5835fc960e40 , fileName=des.o
+[2020-09-05 21:14:01:223 - INFO](Md5Cgi):Reading Complete!
+[2020-09-05 21:14:01:223 - DEBUG](Md5Cgi):getMd5Info end
+[2020-09-05 21:14:01:223 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 8c608c36b08def643bb1dffe9c286944, md5 = 68106b4a53a346c16c3c5835fc960e40, filename = des.o]
+[2020-09-05 21:14:01:223 - DEBUG](Md5Cgi):verifyToken begin
+[2020-09-05 21:14:01:223 - INFO](Md5Cgi):redis connect success, ip = 127.0.0.1 , port =6379
+[2020-09-05 21:14:01:223 - INFO](Md5Cgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:01:223 - INFO](Md5Cgi):verifyToken return is 0
+[2020-09-05 21:14:01:223 - DEBUG](Md5Cgi):dealMd5 begin
+[2020-09-05 21:14:01:227 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-09-05 21:14:04:722 - INFO](Md5Cgi):buf = {
+    "fileName": "cfg.json",
+    "md5": "71a7fd3727f10fd59250ca6fdbf19fb9",
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:04:722 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-09-05 21:14:04:722 - INFO](Md5Cgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 , md5=71a7fd3727f10fd59250ca6fdbf19fb9 , fileName=cfg.json
+[2020-09-05 21:14:04:722 - INFO](Md5Cgi):Reading Complete!
+[2020-09-05 21:14:04:722 - DEBUG](Md5Cgi):getMd5Info end
+[2020-09-05 21:14:04:723 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 8c608c36b08def643bb1dffe9c286944, md5 = 71a7fd3727f10fd59250ca6fdbf19fb9, filename = cfg.json]
+[2020-09-05 21:14:04:723 - DEBUG](Md5Cgi):verifyToken begin
+[2020-09-05 21:14:04:723 - INFO](Md5Cgi):redis connect success, ip = 127.0.0.1 , port =6379
+[2020-09-05 21:14:04:723 - INFO](Md5Cgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:04:723 - INFO](Md5Cgi):verifyToken return is 0
+[2020-09-05 21:14:04:723 - DEBUG](Md5Cgi):dealMd5 begin
+[2020-09-05 21:14:04:725 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-09-05 21:14:08:223 - INFO](Md5Cgi):buf = {
+    "fileName": "1450013406184.jpeg",
+    "md5": "8f46e6450c54ae3604ee4ae8a7dfa861",
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:08:223 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-09-05 21:14:08:223 - INFO](Md5Cgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 , md5=8f46e6450c54ae3604ee4ae8a7dfa861 , fileName=1450013406184.jpeg
+[2020-09-05 21:14:08:223 - INFO](Md5Cgi):Reading Complete!
+[2020-09-05 21:14:08:223 - DEBUG](Md5Cgi):getMd5Info end
+[2020-09-05 21:14:08:223 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 8c608c36b08def643bb1dffe9c286944, md5 = 8f46e6450c54ae3604ee4ae8a7dfa861, filename = 1450013406184.jpeg]
+[2020-09-05 21:14:08:223 - DEBUG](Md5Cgi):verifyToken begin
+[2020-09-05 21:14:08:223 - INFO](Md5Cgi):redis connect success, ip = 127.0.0.1 , port =6379
+[2020-09-05 21:14:08:223 - INFO](Md5Cgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:08:223 - INFO](Md5Cgi):verifyToken return is 0
+[2020-09-05 21:14:08:223 - DEBUG](Md5Cgi):dealMd5 begin
+[2020-09-05 21:14:08:224 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+
+[2020-09-05 21:14:12:722 - INFO](Md5Cgi):buf = {
+    "fileName": "docx.png",
+    "md5": "1ba3f98e7c4ab9389dbf32009b4fc2e4",
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:12:722 - DEBUG](Md5Cgi):getMd5Info begin
+[2020-09-05 21:14:12:722 - INFO](Md5Cgi):user=kevin , token=8c608c36b08def643bb1dffe9c286944 , md5=1ba3f98e7c4ab9389dbf32009b4fc2e4 , fileName=docx.png
+[2020-09-05 21:14:12:722 - INFO](Md5Cgi):Reading Complete!
+[2020-09-05 21:14:12:722 - DEBUG](Md5Cgi):getMd5Info end
+[2020-09-05 21:14:12:722 - INFO](Md5Cgi):getMd5Info success [user = kevin, token = 8c608c36b08def643bb1dffe9c286944, md5 = 1ba3f98e7c4ab9389dbf32009b4fc2e4, filename = docx.png]
+[2020-09-05 21:14:12:722 - DEBUG](Md5Cgi):verifyToken begin
+[2020-09-05 21:14:12:722 - INFO](Md5Cgi):redis connect success, ip = 127.0.0.1 , port =6379
+[2020-09-05 21:14:12:722 - INFO](Md5Cgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:12:722 - INFO](Md5Cgi):verifyToken return is 0
+[2020-09-05 21:14:12:722 - DEBUG](Md5Cgi):dealMd5 begin
+[2020-09-05 21:14:12:723 - INFO](Md5Cgi):out = {
+   "code" : "007"
+}
+

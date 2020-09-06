@@ -1,0 +1,143 @@
+[2020-09-05 21:13:39:528 - INFO](DealFileCgi):LoggerManager created, name is DealFileCgi
+[2020-09-05 21:13:39:528 - INFO](Config):LoggerManager created, name is Config
+[2020-09-05 21:13:39:528 - INFO](CMyRedis):LoggerManager created, name is CMyRedis
+[2020-09-05 21:13:39:528 - INFO](DealFileCgi):DealFileCgi Create!
+[2020-09-05 21:13:39:528 - DEBUG](DealFileCgi):init begin
+[2020-09-05 21:13:39:528 - DEBUG](Config):Config Create!
+[2020-09-05 21:13:39:528 - INFO](Config):mysql_host=localhost,mysql_user=root,mysql_passwd=klczxas789,mysql_dbname=cloud_disk
+[2020-09-05 21:13:39:528 - INFO](Config):redis_ip=127.0.0.1,redis_port=6379
+[2020-09-05 21:13:39:528 - INFO](Config):log4cpp_path=./myprj/dealfile/conf/log4cpp.conf,log4cpp_expire_time=86400
+[2020-09-05 21:13:39:528 - INFO](Config):m_name=conf.json,m_description=This is conf json,m_type=json
+[2020-09-05 21:13:39:528 - INFO](Config):dfs_client_path=/etc/fdfs/client.conf
+[2020-09-05 21:13:39:528 - INFO](Config):storage_web_server_port=23000
+[2020-09-05 21:13:39:528 - INFO](Config):Reading Complete!
+[2020-09-05 21:13:39:528 - DEBUG](DealFileCgi):init end
+[2020-09-05 21:14:15:595 - INFO](DealFileCgi):buf = {
+    "filename": "1450013406184.jpeg",
+    "md5": "8f46e6450c54ae3604ee4ae8a7dfa861",
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:15:595 - DEBUG](DealFileCgi):getJsonInfo begin
+[2020-09-05 21:14:15:595 - INFO](DealFileCgi):json info : user=kevin , token=8c608c36b08def643bb1dffe9c286944 , md5=8f46e6450c54ae3604ee4ae8a7dfa861 , filename=1450013406184.jpeg
+[2020-09-05 21:14:15:595 - INFO](DealFileCgi):Reading Complete!
+[2020-09-05 21:14:15:595 - DEBUG](DealFileCgi):getJsonInfo end
+[2020-09-05 21:14:15:595 - INFO](DealFileCgi):cmd = share user = kevin, token = 8c608c36b08def643bb1dffe9c286944, md5 = 8f46e6450c54ae3604ee4ae8a7dfa861, filename = 1450013406184.jpeg
+[2020-09-05 21:14:15:595 - DEBUG](DealFileCgi):verifyToken begin
+[2020-09-05 21:14:15:596 - INFO](DealFileCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:15:596 - DEBUG](DealFileCgi):shareFile begin
+[2020-09-05 21:14:15:598 - INFO](DealFileCgi):redis and mysql connect success!
+[2020-09-05 21:14:15:598 - INFO](DealFileCgi):fileId = 8f46e6450c54ae3604ee4ae8a7dfa8611450013406184.jpeg
+[2020-09-05 21:14:15:598 - INFO](DealFileCgi):myRedis->ZLexCount = 1
+[2020-09-05 21:14:15:598 - INFO](DealFileCgi):1450013406184.jpeg is already shared (redis operation)
+[2020-09-05 21:14:15:599 - INFO](DealFileCgi):out = {
+   "code" : "012"
+}
+
+[2020-09-05 21:14:17:885 - INFO](DealFileCgi):buf = {
+    "filename": "cfg.json",
+    "md5": "71a7fd3727f10fd59250ca6fdbf19fb9",
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:17:885 - DEBUG](DealFileCgi):getJsonInfo begin
+[2020-09-05 21:14:17:885 - INFO](DealFileCgi):json info : user=kevin , token=8c608c36b08def643bb1dffe9c286944 , md5=71a7fd3727f10fd59250ca6fdbf19fb9 , filename=cfg.json
+[2020-09-05 21:14:17:885 - INFO](DealFileCgi):Reading Complete!
+[2020-09-05 21:14:17:885 - DEBUG](DealFileCgi):getJsonInfo end
+[2020-09-05 21:14:17:885 - INFO](DealFileCgi):cmd = share user = kevin, token = 8c608c36b08def643bb1dffe9c286944, md5 = 71a7fd3727f10fd59250ca6fdbf19fb9, filename = cfg.json
+[2020-09-05 21:14:17:885 - DEBUG](DealFileCgi):verifyToken begin
+[2020-09-05 21:14:17:885 - INFO](DealFileCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:17:885 - DEBUG](DealFileCgi):shareFile begin
+[2020-09-05 21:14:17:885 - INFO](DealFileCgi):redis and mysql connect success!
+[2020-09-05 21:14:17:885 - INFO](DealFileCgi):fileId = 71a7fd3727f10fd59250ca6fdbf19fb9cfg.json
+[2020-09-05 21:14:17:885 - INFO](DealFileCgi):myRedis->ZLexCount = 0
+[2020-09-05 21:14:17:887 - INFO](DealFileCgi):sql_str:[update user_file_list set shared_status = 1 where user = 'kevin' and md5 = '71a7fd3727f10fd59250ca6fdbf19fb9' and filename = 'cfg.json'] exec success!
+[2020-09-05 21:14:17:900 - INFO](DealFileCgi):sql_str:[insert into share_file_list (user, md5, createtime, filename, pv) values ('kevin', '71a7fd3727f10fd59250ca6fdbf19fb9', '2020-09-05 21:14:17', 'cfg.json', 0)] exec success!
+[2020-09-05 21:14:17:901 - INFO](DealFileCgi):sql_str:[insert into user_file_count (user, count) values('xxx_share_xxx_file_xxx_list_xxx_count_xxx', 1)] exec success!
+[2020-09-05 21:14:17:902 - DEBUG](DealFileCgi):shareFile end
+[2020-09-05 21:14:17:902 - INFO](DealFileCgi):out = {
+   "code" : "010"
+}
+
+[2020-09-05 21:14:19:941 - INFO](DealFileCgi):buf = {
+    "filename": "des.o",
+    "md5": "68106b4a53a346c16c3c5835fc960e40",
+    "token": "8c608c36b08def643bb1dffe9c286944",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:19:941 - DEBUG](DealFileCgi):getJsonInfo begin
+[2020-09-05 21:14:19:941 - INFO](DealFileCgi):json info : user=kevin , token=8c608c36b08def643bb1dffe9c286944 , md5=68106b4a53a346c16c3c5835fc960e40 , filename=des.o
+[2020-09-05 21:14:19:941 - INFO](DealFileCgi):Reading Complete!
+[2020-09-05 21:14:19:941 - DEBUG](DealFileCgi):getJsonInfo end
+[2020-09-05 21:14:19:941 - INFO](DealFileCgi):cmd = share user = kevin, token = 8c608c36b08def643bb1dffe9c286944, md5 = 68106b4a53a346c16c3c5835fc960e40, filename = des.o
+[2020-09-05 21:14:19:941 - DEBUG](DealFileCgi):verifyToken begin
+[2020-09-05 21:14:19:942 - INFO](DealFileCgi):retStr = 8c608c36b08def643bb1dffe9c286944
+[2020-09-05 21:14:19:942 - DEBUG](DealFileCgi):shareFile begin
+[2020-09-05 21:14:19:942 - INFO](DealFileCgi):redis and mysql connect success!
+[2020-09-05 21:14:19:942 - INFO](DealFileCgi):fileId = 68106b4a53a346c16c3c5835fc960e40des.o
+[2020-09-05 21:14:19:943 - INFO](DealFileCgi):myRedis->ZLexCount = 0
+[2020-09-05 21:14:20:044 - INFO](DealFileCgi):sql_str:[update user_file_list set shared_status = 1 where user = 'kevin' and md5 = '68106b4a53a346c16c3c5835fc960e40' and filename = 'des.o'] exec success!
+[2020-09-05 21:14:20:045 - INFO](DealFileCgi):sql_str:[insert into share_file_list (user, md5, createtime, filename, pv) values ('kevin', '68106b4a53a346c16c3c5835fc960e40', '2020-09-05 21:14:20', 'des.o', 0)] exec success!
+[2020-09-05 21:14:20:046 - INFO](DealFileCgi):tmpCount:[1]
+[2020-09-05 21:14:20:047 - INFO](DealFileCgi):sql_str:[update user_file_count set count = 2  where user = 'xxx_share_xxx_file_xxx_list_xxx_count_xxx'] exec success!
+[2020-09-05 21:14:20:048 - DEBUG](DealFileCgi):shareFile end
+[2020-09-05 21:14:20:048 - INFO](DealFileCgi):out = {
+   "code" : "010"
+}
+
+[2020-09-05 21:14:58:861 - INFO](DealFileCgi):buf = {
+    "filename": "cfg.json",
+    "md5": "71a7fd3727f10fd59250ca6fdbf19fb9",
+    "token": "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb",
+    "user": "kevin"
+}
+
+[2020-09-05 21:14:58:861 - DEBUG](DealFileCgi):getJsonInfo begin
+[2020-09-05 21:14:58:861 - INFO](DealFileCgi):json info : user=kevin , token=8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb , md5=71a7fd3727f10fd59250ca6fdbf19fb9 , filename=cfg.json
+[2020-09-05 21:14:58:861 - INFO](DealFileCgi):Reading Complete!
+[2020-09-05 21:14:58:861 - DEBUG](DealFileCgi):getJsonInfo end
+[2020-09-05 21:14:58:861 - INFO](DealFileCgi):cmd = share user = kevin, token = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb, md5 = 71a7fd3727f10fd59250ca6fdbf19fb9, filename = cfg.json
+[2020-09-05 21:14:58:861 - DEBUG](DealFileCgi):verifyToken begin
+[2020-09-05 21:14:58:861 - INFO](DealFileCgi):retStr = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:14:58:861 - DEBUG](DealFileCgi):shareFile begin
+[2020-09-05 21:14:58:862 - INFO](DealFileCgi):redis and mysql connect success!
+[2020-09-05 21:14:58:862 - INFO](DealFileCgi):fileId = 71a7fd3727f10fd59250ca6fdbf19fb9cfg.json
+[2020-09-05 21:14:58:862 - INFO](DealFileCgi):myRedis->ZLexCount = 0
+[2020-09-05 21:14:58:976 - INFO](DealFileCgi):sql_str:[update user_file_list set shared_status = 1 where user = 'kevin' and md5 = '71a7fd3727f10fd59250ca6fdbf19fb9' and filename = 'cfg.json'] exec success!
+[2020-09-05 21:14:58:977 - INFO](DealFileCgi):sql_str:[insert into share_file_list (user, md5, createtime, filename, pv) values ('kevin', '71a7fd3727f10fd59250ca6fdbf19fb9', '2020-09-05 21:14:58', 'cfg.json', 0)] exec success!
+[2020-09-05 21:14:58:979 - INFO](DealFileCgi):sql_str:[insert into user_file_count (user, count) values('xxx_share_xxx_file_xxx_list_xxx_count_xxx', 1)] exec success!
+[2020-09-05 21:14:58:979 - DEBUG](DealFileCgi):shareFile end
+[2020-09-05 21:14:58:979 - INFO](DealFileCgi):out = {
+   "code" : "010"
+}
+
+[2020-09-05 21:15:00:605 - INFO](DealFileCgi):buf = {
+    "filename": "docx.png",
+    "md5": "1ba3f98e7c4ab9389dbf32009b4fc2e4",
+    "token": "8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb",
+    "user": "kevin"
+}
+
+[2020-09-05 21:15:00:605 - DEBUG](DealFileCgi):getJsonInfo begin
+[2020-09-05 21:15:00:605 - INFO](DealFileCgi):json info : user=kevin , token=8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb , md5=1ba3f98e7c4ab9389dbf32009b4fc2e4 , filename=docx.png
+[2020-09-05 21:15:00:605 - INFO](DealFileCgi):Reading Complete!
+[2020-09-05 21:15:00:605 - DEBUG](DealFileCgi):getJsonInfo end
+[2020-09-05 21:15:00:605 - INFO](DealFileCgi):cmd = share user = kevin, token = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb, md5 = 1ba3f98e7c4ab9389dbf32009b4fc2e4, filename = docx.png
+[2020-09-05 21:15:00:605 - DEBUG](DealFileCgi):verifyToken begin
+[2020-09-05 21:15:00:605 - INFO](DealFileCgi):retStr = 8c608c36b08def643bb1dffe9c2869441ae3f109c819688684f6f323bac613eb
+[2020-09-05 21:15:00:605 - DEBUG](DealFileCgi):shareFile begin
+[2020-09-05 21:15:00:606 - INFO](DealFileCgi):redis and mysql connect success!
+[2020-09-05 21:15:00:606 - INFO](DealFileCgi):fileId = 1ba3f98e7c4ab9389dbf32009b4fc2e4docx.png
+[2020-09-05 21:15:00:606 - INFO](DealFileCgi):myRedis->ZLexCount = 0
+[2020-09-05 21:15:00:608 - INFO](DealFileCgi):sql_str:[update user_file_list set shared_status = 1 where user = 'kevin' and md5 = '1ba3f98e7c4ab9389dbf32009b4fc2e4' and filename = 'docx.png'] exec success!
+[2020-09-05 21:15:00:609 - INFO](DealFileCgi):sql_str:[insert into share_file_list (user, md5, createtime, filename, pv) values ('kevin', '1ba3f98e7c4ab9389dbf32009b4fc2e4', '2020-09-05 21:15:00', 'docx.png', 0)] exec success!
+[2020-09-05 21:15:00:609 - INFO](DealFileCgi):tmpCount:[1]
+[2020-09-05 21:15:00:610 - INFO](DealFileCgi):sql_str:[update user_file_count set count = 2  where user = 'xxx_share_xxx_file_xxx_list_xxx_count_xxx'] exec success!
+[2020-09-05 21:15:00:611 - DEBUG](DealFileCgi):shareFile end
+[2020-09-05 21:15:00:611 - INFO](DealFileCgi):out = {
+   "code" : "010"
+}
+
