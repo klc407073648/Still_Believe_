@@ -5,3 +5,4 @@ MyPrj_V11： 修改mysql和redis为单例模式，便于多次使用，修改登
 对LoggerManager类整改，可以通过配置文件读取配置。token修改还需要完成
 MyPrj_V12： 规范化类定义，加入shell脚本，统一常量定义在common.h文件
 MyPrj_V13： 加入正则表达式校验和密码加密，修改EventSet为具体类CLogin,CUpload等
+MyPrj_V14： 加入账号密码校验的报错html和README.md

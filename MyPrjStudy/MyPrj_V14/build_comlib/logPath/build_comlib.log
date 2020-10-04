@@ -1,0 +1,910 @@
+2020-06-25 21:10:53 build so file begin
+2020-06-25 21:10:53 build jsoncpp so begin
+2020-06-25 21:10:58 build jsoncpp so end
+2020-06-25 21:10:58 cp jsoncpp include and so begin
+2020-06-25 21:10:58 cp jsoncpp include and so end
+2020-06-25 21:10:58 build tinyxml so begin
+2020-06-25 21:11:04 build tinyxml so end
+2020-06-25 21:11:04 cp jsoncpp include and so begin
+2020-06-25 21:11:04 cp jsoncpp include and so end
+2020-06-25 21:11:04 build so file end
+2020-06-25 21:11:04 clean generate file
+2020-06-25 21:11:21 build so file begin
+2020-06-25 21:11:21 build jsoncpp so begin
+2020-06-25 21:11:25 build jsoncpp so end
+2020-06-25 21:11:26 cp jsoncpp include and so begin
+2020-06-25 21:11:26 cp jsoncpp include and so end
+2020-06-25 21:11:26 build tinyxml so begin
+2020-06-25 21:11:27 build tinyxml so end
+2020-06-25 21:11:27 cp jsoncpp include and so begin
+2020-06-25 21:11:27 cp jsoncpp include and so end
+2020-06-25 21:11:27 build so file end
+2020-06-25 21:11:27 clean generate file
+2020-06-25 21:13:20 build so file begin
+2020-06-25 21:13:20 build jsoncpp so begin
+2020-06-25 21:13:25 build jsoncpp so end
+2020-06-25 21:13:25 cp jsoncpp include and so begin
+2020-06-25 21:13:25 cp jsoncpp include and so end
+2020-06-25 21:13:25 build tinyxml so begin
+2020-06-25 21:13:27 build tinyxml so end
+2020-06-25 21:13:27 cp jsoncpp include and so begin
+2020-06-25 21:13:27 cp jsoncpp include and so end
+2020-06-25 21:13:27 build so file end
+2020-06-25 21:13:27 clean generate file
+2020-06-25 21:13:55 build so file begin
+2020-06-25 21:13:55 build jsoncpp so begin
+2020-06-25 21:13:59 build jsoncpp so end
+2020-06-25 21:13:59 cp jsoncpp include and so begin
+2020-06-25 21:13:59 cp jsoncpp include and so end
+2020-06-25 21:13:59 build tinyxml so begin
+2020-06-25 21:14:01 build tinyxml so end
+2020-06-25 21:14:01 cp jsoncpp include and so begin
+2020-06-25 21:14:01 cp jsoncpp include and so end
+2020-06-25 21:14:01 build so file end
+2020-06-25 21:14:01 clean generate file
+2020-06-25 21:49:26 build so file begin
+2020-06-25 21:49:26 build jsoncpp so begin
+2020-06-25 21:49:31 build jsoncpp so end
+2020-06-25 21:49:31 cp jsoncpp include and so begin
+2020-06-25 21:49:31 cp jsoncpp include and so end
+2020-06-25 21:49:31 build tinyxml so begin
+2020-06-25 21:49:32 build tinyxml so end
+2020-06-25 21:49:32 cp jsoncpp include and so begin
+2020-06-25 21:49:32 cp jsoncpp include and so end
+2020-06-25 21:49:32 build so file end
+2020-06-25 21:49:32 clean generate file
+2020-07-15 05:00:11 build so file begin
+2020-07-15 05:00:11 build jsoncpp so begin
+2020-07-15 05:00:21 build jsoncpp so end
+2020-07-15 05:00:21 cp jsoncpp include and so begin
+2020-07-15 05:00:21 cp jsoncpp include and so end
+2020-07-15 05:00:21 build tinyxml so begin
+2020-07-15 05:00:23 build tinyxml so end
+2020-07-15 05:00:23 cp jsoncpp include and so begin
+2020-07-15 05:00:23 cp jsoncpp include and so end
+2020-07-15 05:00:23 build so file end
+2020-07-15 05:00:23 clean generate file
+2020-07-15 05:03:41 build so file begin
+2020-07-15 05:03:41 build jsoncpp so begin
+2020-07-15 05:03:46 build jsoncpp so end
+2020-07-15 05:03:46 cp jsoncpp include and so begin
+2020-07-15 05:03:46 cp jsoncpp include and so end
+2020-07-15 05:03:46 build tinyxml so begin
+2020-07-15 05:03:48 build tinyxml so end
+2020-07-15 05:03:48 cp jsoncpp include and so begin
+2020-07-15 05:03:48 cp jsoncpp include and so end
+2020-07-15 05:03:48 build so file end
+2020-07-15 05:03:48 clean generate file
+2020-07-15 05:09:14 build so file begin
+2020-07-15 05:09:14 build jsoncpp so begin
+2020-07-15 05:09:19 build jsoncpp so end
+2020-07-15 05:09:19 cp jsoncpp include and so begin
+2020-07-15 05:09:19 cp jsoncpp include and so end
+2020-07-15 05:09:19 build tinyxml so begin
+2020-07-15 05:09:21 build tinyxml so end
+2020-07-15 05:09:21 cp jsoncpp include and so begin
+2020-07-15 05:09:21 cp jsoncpp include and so end
+2020-07-15 05:09:21 build so file end
+2020-07-15 05:09:21 clean generate file
+2020-07-15 05:09:49 build so file begin
+2020-07-15 05:09:49 build jsoncpp so begin
+2020-07-15 05:09:54 build jsoncpp so end
+2020-07-15 05:09:54 cp jsoncpp include and so begin
+2020-07-15 05:09:54 cp jsoncpp include and so end
+2020-07-15 05:09:54 build tinyxml so begin
+2020-07-15 05:09:56 build tinyxml so end
+2020-07-15 05:09:56 cp jsoncpp include and so begin
+2020-07-15 05:09:56 cp jsoncpp include and so end
+2020-07-15 05:09:56 build so file end
+2020-07-15 05:09:56 clean generate file
+2020-07-15 05:14:29 build so file begin
+2020-07-15 05:14:29 build jsoncpp so begin
+2020-07-15 05:14:33 build jsoncpp so end
+2020-07-15 05:14:33 cp jsoncpp include and so begin
+2020-07-15 05:14:33 cp jsoncpp include and so end
+2020-07-15 05:14:33 build tinyxml so begin
+2020-07-15 05:14:35 build tinyxml so end
+2020-07-15 05:14:35 cp jsoncpp include and so begin
+2020-07-15 05:14:35 cp jsoncpp include and so end
+2020-07-15 05:14:35 build so file end
+2020-07-15 05:14:35 clean generate file
+2020-07-15 05:15:12 build so file begin
+2020-07-15 05:15:12 build jsoncpp so begin
+2020-07-15 05:15:17 build jsoncpp so end
+2020-07-15 05:15:17 cp jsoncpp include and so begin
+2020-07-15 05:15:17 cp jsoncpp include and so end
+2020-07-15 05:15:17 build tinyxml so begin
+2020-07-15 05:15:18 build tinyxml so end
+2020-07-15 05:15:18 cp jsoncpp include and so begin
+2020-07-15 05:15:18 cp jsoncpp include and so end
+2020-07-15 05:15:18 build so file end
+2020-07-15 05:15:18 clean generate file
+2020-07-15 05:16:46 build so file begin
+2020-07-15 05:16:46 build jsoncpp so begin
+2020-07-15 05:16:52 build jsoncpp so end
+2020-07-15 05:16:52 cp jsoncpp include and so begin
+2020-07-15 05:16:52 cp jsoncpp include and so end
+2020-07-15 05:16:52 build tinyxml so begin
+2020-07-15 05:16:54 build tinyxml so end
+2020-07-15 05:16:54 cp jsoncpp include and so begin
+2020-07-15 05:16:54 cp jsoncpp include and so end
+2020-07-15 05:16:54 build so file end
+2020-07-15 05:16:54 clean generate file
+2020-07-15 05:26:58 build so file begin
+2020-07-15 05:26:58 build jsoncpp so begin
+2020-07-15 05:27:02 build jsoncpp so end
+2020-07-15 05:27:02 cp jsoncpp include and so begin
+2020-07-15 05:27:02 cp jsoncpp include and so end
+2020-07-15 05:27:02 build tinyxml so begin
+2020-07-15 05:27:04 build tinyxml so end
+2020-07-15 05:27:04 cp jsoncpp include and so begin
+2020-07-15 05:27:04 cp jsoncpp include and so end
+2020-07-15 05:27:04 build so file end
+2020-07-15 05:27:04 clean generate file
+2020-07-15 05:27:55 build so file begin
+2020-07-15 05:27:55 build jsoncpp so begin
+2020-07-15 05:28:00 build jsoncpp so end
+2020-07-15 05:28:00 cp jsoncpp include and so begin
+2020-07-15 05:28:00 cp jsoncpp include and so end
+2020-07-15 05:28:00 build tinyxml so begin
+2020-07-15 05:28:01 build tinyxml so end
+2020-07-15 05:28:01 cp jsoncpp include and so begin
+2020-07-15 05:28:01 cp jsoncpp include and so end
+2020-07-15 05:28:01 build so file end
+2020-07-15 05:28:01 clean generate file
+2020-07-15 05:34:52 build so file begin
+2020-07-15 05:34:52 build jsoncpp so begin
+2020-07-15 05:34:57 build jsoncpp so end
+2020-07-15 05:34:57 cp jsoncpp include and so begin
+2020-07-15 05:34:57 cp jsoncpp include and so end
+2020-07-15 05:34:57 build tinyxml so begin
+2020-07-15 05:34:59 build tinyxml so end
+2020-07-15 05:34:59 cp jsoncpp include and so begin
+2020-07-15 05:34:59 cp jsoncpp include and so end
+2020-07-15 05:34:59 build so file end
+2020-07-15 05:34:59 clean generate file
+2020-07-15 06:07:37 build so file begin
+2020-07-15 06:07:37 build jsoncpp so begin
+2020-07-15 06:07:42 build jsoncpp so end
+2020-07-15 06:07:42 cp jsoncpp include and so begin
+2020-07-15 06:07:42 cp jsoncpp include and so end
+2020-07-15 06:07:42 build tinyxml so begin
+2020-07-15 06:07:44 build tinyxml so end
+2020-07-15 06:07:44 cp jsoncpp include and so begin
+2020-07-15 06:07:44 cp jsoncpp include and so end
+2020-07-15 06:07:44 build so file end
+2020-07-15 06:07:44 clean generate file
+2020-07-15 06:09:06 build so file begin
+2020-07-15 06:09:06 build jsoncpp so begin
+2020-07-15 06:09:13 build jsoncpp so end
+2020-07-15 06:09:13 cp jsoncpp include and so begin
+2020-07-15 06:09:13 cp jsoncpp include and so end
+2020-07-15 06:09:13 build tinyxml so begin
+2020-07-15 06:09:15 build tinyxml so end
+2020-07-15 06:09:15 cp jsoncpp include and so begin
+2020-07-15 06:09:15 cp jsoncpp include and so end
+2020-07-15 06:09:15 build so file end
+2020-07-15 06:09:15 clean generate file
+2020-07-15 06:32:02 build so file begin
+2020-07-15 06:32:02 build jsoncpp so begin
+2020-07-15 06:32:10 build jsoncpp so end
+2020-07-15 06:32:10 cp jsoncpp include and so begin
+2020-07-15 06:32:10 cp jsoncpp include and so end
+2020-07-15 06:32:10 build tinyxml so begin
+2020-07-15 06:32:13 build tinyxml so end
+2020-07-15 06:32:13 cp jsoncpp include and so begin
+2020-07-15 06:32:13 cp jsoncpp include and so end
+2020-07-15 06:32:13 build so file end
+2020-07-15 06:32:13 clean generate file
+2020-07-15 06:32:34 build so file begin
+2020-07-15 06:32:34 build jsoncpp so begin
+2020-07-15 06:32:39 build jsoncpp so end
+2020-07-15 06:32:39 cp jsoncpp include and so begin
+2020-07-15 06:32:39 cp jsoncpp include and so end
+2020-07-15 06:32:39 build tinyxml so begin
+2020-07-15 06:32:42 build tinyxml so end
+2020-07-15 06:32:42 cp jsoncpp include and so begin
+2020-07-15 06:32:42 cp jsoncpp include and so end
+2020-07-15 06:32:42 build so file end
+2020-07-15 06:32:42 clean generate file
+2020-07-18 22:05:29 build so file begin
+2020-07-18 22:05:29 build jsoncpp so begin
+2020-07-18 22:05:39 build jsoncpp so end
+2020-07-18 22:05:39 cp jsoncpp include and so begin
+2020-07-18 22:05:39 cp jsoncpp include and so end
+2020-07-18 22:05:39 build tinyxml so begin
+2020-07-18 22:05:41 build tinyxml so end
+2020-07-18 22:05:41 cp jsoncpp include and so begin
+2020-07-18 22:05:41 cp jsoncpp include and so end
+2020-07-18 22:05:41 build so file end
+2020-07-18 22:05:41 clean generate file
+2020-07-18 22:14:18 build so file begin
+2020-07-18 22:14:18 build jsoncpp so begin
+2020-07-18 22:14:23 build jsoncpp so end
+2020-07-18 22:14:23 cp jsoncpp include and so begin
+2020-07-18 22:14:23 cp jsoncpp include and so end
+2020-07-18 22:14:23 build tinyxml so begin
+2020-07-18 22:14:24 build tinyxml so end
+2020-07-18 22:14:24 cp jsoncpp include and so begin
+2020-07-18 22:14:24 cp jsoncpp include and so end
+2020-07-18 22:14:24 build so file end
+2020-07-18 22:14:24 clean generate file
+2020-07-18 22:20:21 build so file begin
+2020-07-18 22:20:21 build jsoncpp so begin
+2020-07-18 22:20:25 build jsoncpp so end
+2020-07-18 22:20:25 cp jsoncpp include and so begin
+2020-07-18 22:20:25 cp jsoncpp include and so end
+2020-07-18 22:20:25 build tinyxml so begin
+2020-07-18 22:20:27 build tinyxml so end
+2020-07-18 22:20:27 cp jsoncpp include and so begin
+2020-07-18 22:20:27 cp jsoncpp include and so end
+2020-07-18 22:20:27 build so file end
+2020-07-18 22:20:27 clean generate file
+2020-07-18 22:25:35 build so file begin
+2020-07-18 22:25:35 build jsoncpp so begin
+2020-07-18 22:25:40 build jsoncpp so end
+2020-07-18 22:25:40 cp jsoncpp include and so begin
+2020-07-18 22:25:40 cp jsoncpp include and so end
+2020-07-18 22:25:40 build tinyxml so begin
+2020-07-18 22:25:41 build tinyxml so end
+2020-07-18 22:25:41 cp jsoncpp include and so begin
+2020-07-18 22:25:41 cp jsoncpp include and so end
+2020-07-18 22:25:41 build so file end
+2020-07-18 22:25:41 clean generate file
+2020-07-18 22:32:15 build so file begin
+2020-07-18 22:32:15 build jsoncpp so begin
+2020-07-18 22:32:20 build jsoncpp so end
+2020-07-18 22:32:20 cp jsoncpp include and so begin
+2020-07-18 22:32:20 cp jsoncpp include and so end
+2020-07-18 22:32:20 build tinyxml so begin
+2020-07-18 22:32:21 build tinyxml so end
+2020-07-18 22:32:21 cp jsoncpp include and so begin
+2020-07-18 22:32:21 cp jsoncpp include and so end
+2020-07-18 22:32:21 build so file end
+2020-07-18 22:32:21 clean generate file
+2020-07-18 22:45:20 build so file begin
+2020-07-18 22:45:20 build jsoncpp so begin
+2020-07-18 22:45:24 build jsoncpp so end
+2020-07-18 22:45:24 cp jsoncpp include and so begin
+2020-07-18 22:45:24 cp jsoncpp include and so end
+2020-07-18 22:45:24 build tinyxml so begin
+2020-07-18 22:45:26 build tinyxml so end
+2020-07-18 22:45:26 cp jsoncpp include and so begin
+2020-07-18 22:45:26 cp jsoncpp include and so end
+2020-07-18 22:45:26 build so file end
+2020-07-18 22:45:26 clean generate file
+2020-07-18 22:46:20 build so file begin
+2020-07-18 22:46:20 build jsoncpp so begin
+2020-07-18 22:46:24 build jsoncpp so end
+2020-07-18 22:46:24 cp jsoncpp include and so begin
+2020-07-18 22:46:24 cp jsoncpp include and so end
+2020-07-18 22:46:24 build tinyxml so begin
+2020-07-18 22:46:26 build tinyxml so end
+2020-07-18 22:46:26 cp jsoncpp include and so begin
+2020-07-18 22:46:26 cp jsoncpp include and so end
+2020-07-18 22:46:26 build so file end
+2020-07-18 22:46:26 clean generate file
+2020-07-19 06:17:38 build so file begin
+2020-07-19 06:17:38 build jsoncpp so begin
+2020-07-19 06:17:46 build jsoncpp so end
+2020-07-19 06:17:46 cp jsoncpp include and so begin
+2020-07-19 06:17:46 cp jsoncpp include and so end
+2020-07-19 06:17:46 build tinyxml so begin
+2020-07-19 06:17:48 build tinyxml so end
+2020-07-19 06:17:48 cp jsoncpp include and so begin
+2020-07-19 06:17:48 cp jsoncpp include and so end
+2020-07-19 06:17:48 build so file end
+2020-07-19 06:17:48 clean generate file
+2020-07-19 06:20:55 build so file begin
+2020-07-19 06:20:55 build jsoncpp so begin
+2020-07-19 06:21:00 build jsoncpp so end
+2020-07-19 06:21:00 cp jsoncpp include and so begin
+2020-07-19 06:21:00 cp jsoncpp include and so end
+2020-07-19 06:21:00 build tinyxml so begin
+2020-07-19 06:21:01 build tinyxml so end
+2020-07-19 06:21:01 cp jsoncpp include and so begin
+2020-07-19 06:21:01 cp jsoncpp include and so end
+2020-07-19 06:21:01 build so file end
+2020-07-19 06:21:01 clean generate file
+2020-07-19 06:22:09 build so file begin
+2020-07-19 06:22:09 build jsoncpp so begin
+2020-07-19 06:22:14 build jsoncpp so end
+2020-07-19 06:22:14 cp jsoncpp include and so begin
+2020-07-19 06:22:14 cp jsoncpp include and so end
+2020-07-19 06:22:14 build tinyxml so begin
+2020-07-19 06:22:15 build tinyxml so end
+2020-07-19 06:22:15 cp jsoncpp include and so begin
+2020-07-19 06:22:15 cp jsoncpp include and so end
+2020-07-19 06:22:15 build so file end
+2020-07-19 06:22:15 clean generate file
+2020-07-19 06:23:34 build so file begin
+2020-07-19 06:23:34 build jsoncpp so begin
+2020-07-19 06:23:38 build jsoncpp so end
+2020-07-19 06:23:38 cp jsoncpp include and so begin
+2020-07-19 06:23:38 cp jsoncpp include and so end
+2020-07-19 06:23:38 build tinyxml so begin
+2020-07-19 06:23:40 build tinyxml so end
+2020-07-19 06:23:40 cp jsoncpp include and so begin
+2020-07-19 06:23:40 cp jsoncpp include and so end
+2020-07-19 06:23:40 build so file end
+2020-07-19 06:23:40 clean generate file
+2020-07-19 06:28:05 build so file begin
+2020-07-19 06:28:05 build jsoncpp so begin
+2020-07-19 06:28:09 build jsoncpp so end
+2020-07-19 06:28:09 cp jsoncpp include and so begin
+2020-07-19 06:28:09 cp jsoncpp include and so end
+2020-07-19 06:28:09 build tinyxml so begin
+2020-07-19 06:28:10 build tinyxml so end
+2020-07-19 06:28:10 cp jsoncpp include and so begin
+2020-07-19 06:28:10 cp jsoncpp include and so end
+2020-07-19 06:28:10 build so file end
+2020-07-19 06:28:10 clean generate file
+2020-07-19 06:36:00 build so file begin
+2020-07-19 06:36:00 build jsoncpp so begin
+2020-07-19 06:36:04 build jsoncpp so end
+2020-07-19 06:36:04 cp jsoncpp include and so begin
+2020-07-19 06:36:04 cp jsoncpp include and so end
+2020-07-19 06:36:04 build tinyxml so begin
+2020-07-19 06:36:06 build tinyxml so end
+2020-07-19 06:36:06 cp jsoncpp include and so begin
+2020-07-19 06:36:06 cp jsoncpp include and so end
+2020-07-19 06:36:06 build so file end
+2020-07-19 06:36:06 clean generate file
+2020-07-19 06:36:28 build so file begin
+2020-07-19 06:36:28 build jsoncpp so begin
+2020-07-19 06:36:32 build jsoncpp so end
+2020-07-19 06:36:32 cp jsoncpp include and so begin
+2020-07-19 06:36:32 cp jsoncpp include and so end
+2020-07-19 06:36:32 build tinyxml so begin
+2020-07-19 06:36:33 build tinyxml so end
+2020-07-19 06:36:33 cp jsoncpp include and so begin
+2020-07-19 06:36:33 cp jsoncpp include and so end
+2020-07-19 06:36:33 build so file end
+2020-07-19 06:36:33 clean generate file
+2020-07-19 06:38:43 build so file begin
+2020-07-19 06:38:43 build jsoncpp so begin
+2020-07-19 06:38:47 build jsoncpp so end
+2020-07-19 06:38:47 cp jsoncpp include and so begin
+2020-07-19 06:38:47 cp jsoncpp include and so end
+2020-07-19 06:38:47 build tinyxml so begin
+2020-07-19 06:38:48 build tinyxml so end
+2020-07-19 06:38:48 cp jsoncpp include and so begin
+2020-07-19 06:38:48 cp jsoncpp include and so end
+2020-07-19 06:38:48 build so file end
+2020-07-19 06:38:48 clean generate file
+2020-07-19 06:39:39 build so file begin
+2020-07-19 06:39:39 build jsoncpp so begin
+2020-07-19 06:39:44 build jsoncpp so end
+2020-07-19 06:39:44 cp jsoncpp include and so begin
+2020-07-19 06:39:44 cp jsoncpp include and so end
+2020-07-19 06:39:44 build tinyxml so begin
+2020-07-19 06:39:45 build tinyxml so end
+2020-07-19 06:39:45 cp jsoncpp include and so begin
+2020-07-19 06:39:45 cp jsoncpp include and so end
+2020-07-19 06:39:45 build so file end
+2020-07-19 06:39:45 clean generate file
+2020-07-19 06:41:15 build so file begin
+2020-07-19 06:41:15 build jsoncpp so begin
+2020-07-19 06:41:19 build jsoncpp so end
+2020-07-19 06:41:19 cp jsoncpp include and so begin
+2020-07-19 06:41:19 cp jsoncpp include and so end
+2020-07-19 06:41:19 build tinyxml so begin
+2020-07-19 06:41:21 build tinyxml so end
+2020-07-19 06:41:21 cp jsoncpp include and so begin
+2020-07-19 06:41:21 cp jsoncpp include and so end
+2020-07-19 06:41:21 build so file end
+2020-07-19 06:41:21 clean generate file
+2020-07-19 06:41:47 build so file begin
+2020-07-19 06:41:47 build jsoncpp so begin
+2020-07-19 06:41:51 build jsoncpp so end
+2020-07-19 06:41:51 cp jsoncpp include and so begin
+2020-07-19 06:41:51 cp jsoncpp include and so end
+2020-07-19 06:41:51 build tinyxml so begin
+2020-07-19 06:41:53 build tinyxml so end
+2020-07-19 06:41:53 cp jsoncpp include and so begin
+2020-07-19 06:41:53 cp jsoncpp include and so end
+2020-07-19 06:41:53 build so file end
+2020-07-19 06:41:53 clean generate file
+2020-07-19 06:43:25 build so file begin
+2020-07-19 06:43:25 build jsoncpp so begin
+2020-07-19 06:43:29 build jsoncpp so end
+2020-07-19 06:43:29 cp jsoncpp include and so begin
+2020-07-19 06:43:29 cp jsoncpp include and so end
+2020-07-19 06:43:29 build tinyxml so begin
+2020-07-19 06:43:31 build tinyxml so end
+2020-07-19 06:43:31 cp jsoncpp include and so begin
+2020-07-19 06:43:31 cp jsoncpp include and so end
+2020-07-19 06:43:31 build so file end
+2020-07-19 06:43:31 clean generate file
+2020-07-19 06:44:43 build so file begin
+2020-07-19 06:44:43 build jsoncpp so begin
+2020-07-19 06:44:47 build jsoncpp so end
+2020-07-19 06:44:47 cp jsoncpp include and so begin
+2020-07-19 06:44:47 cp jsoncpp include and so end
+2020-07-19 06:44:47 build tinyxml so begin
+2020-07-19 06:44:49 build tinyxml so end
+2020-07-19 06:44:49 cp jsoncpp include and so begin
+2020-07-19 06:44:49 cp jsoncpp include and so end
+2020-07-19 06:44:49 build so file end
+2020-07-19 06:44:49 clean generate file
+2020-07-19 06:54:53 build so file begin
+2020-07-19 06:54:53 build jsoncpp so begin
+2020-07-19 06:54:58 build jsoncpp so end
+2020-07-19 06:54:58 cp jsoncpp include and so begin
+2020-07-19 06:54:58 cp jsoncpp include and so end
+2020-07-19 06:54:58 build tinyxml so begin
+2020-07-19 06:55:00 build tinyxml so end
+2020-07-19 06:55:00 cp jsoncpp include and so begin
+2020-07-19 06:55:00 cp jsoncpp include and so end
+2020-07-19 06:55:00 build so file end
+2020-07-19 06:55:00 clean generate file
+2020-07-19 06:58:41 build so file begin
+2020-07-19 06:58:41 build jsoncpp so begin
+2020-07-19 06:58:45 build jsoncpp so end
+2020-07-19 06:58:45 cp jsoncpp include and so begin
+2020-07-19 06:58:45 cp jsoncpp include and so end
+2020-07-19 06:58:45 build tinyxml so begin
+2020-07-19 06:58:46 build tinyxml so end
+2020-07-19 06:58:46 cp jsoncpp include and so begin
+2020-07-19 06:58:46 cp jsoncpp include and so end
+2020-07-19 06:58:46 build so file end
+2020-07-19 06:58:46 clean generate file
+2020-07-19 06:59:20 build so file begin
+2020-07-19 06:59:20 build jsoncpp so begin
+2020-07-19 06:59:24 build jsoncpp so end
+2020-07-19 06:59:24 cp jsoncpp include and so begin
+2020-07-19 06:59:24 cp jsoncpp include and so end
+2020-07-19 06:59:24 build tinyxml so begin
+2020-07-19 06:59:26 build tinyxml so end
+2020-07-19 06:59:26 cp jsoncpp include and so begin
+2020-07-19 06:59:26 cp jsoncpp include and so end
+2020-07-19 06:59:26 build so file end
+2020-07-19 06:59:26 clean generate file
+2020-07-19 07:01:51 build so file begin
+2020-07-19 07:01:51 build jsoncpp so begin
+2020-07-19 07:01:56 build jsoncpp so end
+2020-07-19 07:01:56 cp jsoncpp include and so begin
+2020-07-19 07:01:56 cp jsoncpp include and so end
+2020-07-19 07:01:56 build tinyxml so begin
+2020-07-19 07:01:57 build tinyxml so end
+2020-07-19 07:01:57 cp jsoncpp include and so begin
+2020-07-19 07:01:57 cp jsoncpp include and so end
+2020-07-19 07:01:57 build so file end
+2020-07-19 07:01:57 clean generate file
+2020-07-19 07:03:56 build so file begin
+2020-07-19 07:03:56 build jsoncpp so begin
+2020-07-19 07:04:00 build jsoncpp so end
+2020-07-19 07:04:00 cp jsoncpp include and so begin
+2020-07-19 07:04:00 cp jsoncpp include and so end
+2020-07-19 07:04:00 build tinyxml so begin
+2020-07-19 07:04:02 build tinyxml so end
+2020-07-19 07:04:02 cp jsoncpp include and so begin
+2020-07-19 07:04:02 cp jsoncpp include and so end
+2020-07-19 07:04:02 build so file end
+2020-07-19 07:04:02 clean generate file
+2020-07-19 07:05:45 build so file begin
+2020-07-19 07:05:45 build jsoncpp so begin
+2020-07-19 07:05:49 build jsoncpp so end
+2020-07-19 07:05:49 cp jsoncpp include and so begin
+2020-07-19 07:05:49 cp jsoncpp include and so end
+2020-07-19 07:05:49 build tinyxml so begin
+2020-07-19 07:05:51 build tinyxml so end
+2020-07-19 07:05:51 cp jsoncpp include and so begin
+2020-07-19 07:05:51 cp jsoncpp include and so end
+2020-07-19 07:05:51 build so file end
+2020-07-19 07:05:51 clean generate file
+2020-07-21 17:04:01 build so file begin
+2020-07-21 17:04:01 build jsoncpp so begin
+2020-07-21 17:04:12 build jsoncpp so end
+2020-07-21 17:04:12 cp jsoncpp include and so begin
+2020-07-21 17:04:12 cp jsoncpp include and so end
+2020-07-21 17:04:12 build tinyxml so begin
+2020-07-21 17:04:13 build tinyxml so end
+2020-07-21 17:04:13 cp jsoncpp include and so begin
+2020-07-21 17:04:13 cp jsoncpp include and so end
+2020-07-21 17:04:13 build so file end
+2020-07-21 17:04:13 clean generate file
+2020-07-26 00:24:45 build so file begin
+2020-07-26 00:24:45 build jsoncpp so begin
+2020-07-26 00:24:55 build jsoncpp so end
+2020-07-26 00:24:55 cp jsoncpp include and so begin
+2020-07-26 00:24:55 cp jsoncpp include and so end
+2020-07-26 00:24:55 build tinyxml so begin
+2020-07-26 00:24:57 build tinyxml so end
+2020-07-26 00:24:57 cp jsoncpp include and so begin
+2020-07-26 00:24:57 cp jsoncpp include and so end
+2020-07-26 00:24:57 build so file end
+2020-07-26 00:24:57 clean generate file
+2020-07-26 01:03:30 build so file begin
+2020-07-26 01:03:30 build jsoncpp so begin
+2020-07-26 01:03:36 build jsoncpp so end
+2020-07-26 01:03:36 cp jsoncpp include and so begin
+2020-07-26 01:03:36 cp jsoncpp include and so end
+2020-07-26 01:03:36 build tinyxml so begin
+2020-07-26 01:03:37 build tinyxml so end
+2020-07-26 01:03:37 cp jsoncpp include and so begin
+2020-07-26 01:03:37 cp jsoncpp include and so end
+2020-07-26 01:03:37 build so file end
+2020-07-26 01:03:37 clean generate file
+2020-07-26 07:15:54 build so file begin
+2020-07-26 07:15:54 build jsoncpp so begin
+2020-07-26 07:16:03 build jsoncpp so end
+2020-07-26 07:16:03 cp jsoncpp include and so begin
+2020-07-26 07:16:03 cp jsoncpp include and so end
+2020-07-26 07:16:03 build tinyxml so begin
+2020-07-26 07:16:05 build tinyxml so end
+2020-07-26 07:16:05 cp jsoncpp include and so begin
+2020-07-26 07:16:05 cp jsoncpp include and so end
+2020-07-26 07:16:05 build so file end
+2020-07-26 07:16:05 clean generate file
+2020-07-26 07:17:47 build so file begin
+2020-07-26 07:17:47 build jsoncpp so begin
+2020-07-26 07:17:53 build jsoncpp so end
+2020-07-26 07:17:53 cp jsoncpp include and so begin
+2020-07-26 07:17:53 cp jsoncpp include and so end
+2020-07-26 07:17:53 build tinyxml so begin
+2020-07-26 07:17:54 build tinyxml so end
+2020-07-26 07:17:54 cp jsoncpp include and so begin
+2020-07-26 07:17:54 cp jsoncpp include and so end
+2020-07-26 07:17:55 build so file end
+2020-07-26 07:17:55 clean generate file
+2020-07-26 17:03:08 build so file begin
+2020-07-26 17:03:08 build jsoncpp so begin
+2020-07-26 17:03:13 build jsoncpp so end
+2020-07-26 17:03:13 cp jsoncpp include and so begin
+2020-07-26 17:03:13 cp jsoncpp include and so end
+2020-07-26 17:03:13 build tinyxml so begin
+2020-07-26 17:03:15 build tinyxml so end
+2020-07-26 17:03:15 cp jsoncpp include and so begin
+2020-07-26 17:03:15 cp jsoncpp include and so end
+2020-07-26 17:03:15 build log4cpp so begin
+2020-07-26 17:04:01 build log4cpp so end
+2020-07-26 17:04:01 cp log4cpp include and so begin
+2020-07-26 17:04:01 cp log4cpp include and so end
+2020-07-26 17:04:01 build so file end
+2020-07-26 17:04:01 clean generate file
+2020-07-26 17:09:09 build so file begin
+2020-07-26 17:09:09 build jsoncpp so begin
+2020-07-26 17:09:14 build jsoncpp so end
+2020-07-26 17:09:14 cp jsoncpp include and so begin
+2020-07-26 17:09:14 cp jsoncpp include and so end
+2020-07-26 17:09:14 build tinyxml so begin
+2020-07-26 17:09:16 build tinyxml so end
+2020-07-26 17:09:16 cp jsoncpp include and so begin
+2020-07-26 17:09:16 cp jsoncpp include and so end
+2020-07-26 17:09:16 build log4cpp so begin
+2020-07-26 17:10:03 build log4cpp so end
+2020-07-26 17:10:03 cp log4cpp include and so begin
+2020-07-26 17:10:03 cp log4cpp include and so end
+2020-07-26 17:10:03 build so file end
+2020-07-26 17:10:03 clean generate file
+2020-07-26 17:18:38 build so file begin
+2020-07-26 17:18:38 build jsoncpp so begin
+2020-07-26 17:18:42 build jsoncpp so end
+2020-07-26 17:18:42 cp jsoncpp include and so begin
+2020-07-26 17:18:42 cp jsoncpp include and so end
+2020-07-26 17:18:42 build tinyxml so begin
+2020-07-26 17:18:44 build tinyxml so end
+2020-07-26 17:18:44 cp jsoncpp include and so begin
+2020-07-26 17:18:44 cp jsoncpp include and so end
+2020-07-26 17:18:44 build log4cpp so begin
+2020-07-26 17:19:30 build log4cpp so end
+2020-07-26 17:19:30 cp log4cpp include and so begin
+2020-07-26 17:19:30 link log4cpp success
+2020-07-26 17:19:30 cp log4cpp include and so end
+2020-07-26 17:19:30 build so file end
+2020-07-26 17:19:30 clean generate file
+2020-07-27 16:20:01 build so file begin
+2020-07-27 16:20:01 build jsoncpp so begin
+2020-07-27 16:20:24 build jsoncpp so end
+2020-07-27 16:20:24 cp jsoncpp include and so begin
+2020-07-27 16:20:24 cp jsoncpp include and so end
+2020-07-27 16:20:24 build tinyxml so begin
+2020-07-27 16:20:28 build tinyxml so end
+2020-07-27 16:20:28 cp jsoncpp include and so begin
+2020-07-27 16:20:28 cp jsoncpp include and so end
+2020-07-27 16:20:28 build log4cpp so begin
+2020-07-27 16:22:38 build log4cpp so end
+2020-07-27 16:22:38 cp log4cpp include and so begin
+2020-07-27 16:22:38 link log4cpp success
+2020-07-27 16:22:38 cp log4cpp include and so end
+2020-07-27 16:22:38 build so file end
+2020-07-27 16:22:38 clean generate file
+2020-07-29 05:17:19 build so file begin
+2020-07-29 05:17:19 build jsoncpp so begin
+2020-07-29 05:17:26 build jsoncpp so end
+2020-07-29 05:17:26 cp jsoncpp include and so begin
+2020-07-29 05:17:26 cp jsoncpp include and so end
+2020-07-29 05:17:26 build tinyxml so begin
+2020-07-29 05:17:28 build tinyxml so end
+2020-07-29 05:17:28 cp jsoncpp include and so begin
+2020-07-29 05:17:28 cp jsoncpp include and so end
+2020-07-29 05:17:28 build log4cpp so begin
+2020-07-29 05:18:15 build log4cpp so end
+2020-07-29 05:18:15 cp log4cpp include and so begin
+2020-07-29 05:18:15 link log4cpp success
+2020-07-29 05:18:15 cp log4cpp include and so end
+2020-07-29 05:18:15 build so file end
+2020-07-29 05:18:15 clean generate file
+2020-07-29 16:23:04 build so file begin
+2020-07-29 16:23:05 build jsoncpp so begin
+2020-07-29 16:23:15 build jsoncpp so end
+2020-07-29 16:23:15 cp jsoncpp include and so begin
+2020-07-29 16:23:15 cp jsoncpp include and so end
+2020-07-29 16:23:15 build tinyxml so begin
+2020-07-29 16:23:16 build tinyxml so end
+2020-07-29 16:23:16 cp jsoncpp include and so begin
+2020-07-29 16:23:16 cp jsoncpp include and so end
+2020-07-29 16:23:16 build log4cpp so begin
+2020-07-29 16:24:07 build log4cpp so end
+2020-07-29 16:24:07 cp log4cpp include and so begin
+2020-07-29 16:24:07 link log4cpp success
+2020-07-29 16:24:07 cp log4cpp include and so end
+2020-07-29 16:24:07 build so file end
+2020-07-29 16:24:07 clean generate file
+2020-07-30 07:05:10 build so file begin
+2020-07-30 07:05:10 build jsoncpp so begin
+2020-07-30 07:05:16 build jsoncpp so end
+2020-07-30 07:05:16 cp jsoncpp include and so begin
+2020-07-30 07:05:16 cp jsoncpp include and so end
+2020-07-30 07:05:16 build tinyxml so begin
+2020-07-30 07:05:19 build tinyxml so end
+2020-07-30 07:05:19 cp jsoncpp include and so begin
+2020-07-30 07:05:19 cp jsoncpp include and so end
+2020-07-30 07:05:19 build log4cpp so begin
+2020-07-30 07:06:14 build log4cpp so end
+2020-07-30 07:06:14 cp log4cpp include and so begin
+2020-07-30 07:06:14 link log4cpp success
+2020-07-30 07:06:14 cp log4cpp include and so end
+2020-07-30 07:06:14 build so file end
+2020-07-30 07:06:14 clean generate file
+2020-07-30 07:14:24 build so file begin
+2020-07-30 07:14:24 build jsoncpp so begin
+2020-07-30 07:14:29 build jsoncpp so end
+2020-07-30 07:14:29 cp jsoncpp include and so begin
+2020-07-30 07:14:29 cp jsoncpp include and so end
+2020-07-30 07:14:29 build tinyxml so begin
+2020-07-30 07:14:31 build tinyxml so end
+2020-07-30 07:14:31 cp jsoncpp include and so begin
+2020-07-30 07:14:31 cp jsoncpp include and so end
+2020-07-30 07:14:31 build log4cpp so begin
+2020-07-30 07:15:21 build log4cpp so end
+2020-07-30 07:15:21 cp log4cpp include and so begin
+2020-07-30 07:15:21 link log4cpp success
+2020-07-30 07:15:21 cp log4cpp include and so end
+2020-07-30 07:15:22 build so file end
+2020-07-30 07:15:22 clean generate file
+2020-07-31 16:50:45 build so file begin
+2020-07-31 16:50:45 build jsoncpp so begin
+2020-07-31 16:50:56 build jsoncpp so end
+2020-07-31 16:50:56 cp jsoncpp include and so begin
+2020-07-31 16:50:56 cp jsoncpp include and so end
+2020-07-31 16:50:56 build tinyxml so begin
+2020-07-31 16:50:58 build tinyxml so end
+2020-07-31 16:50:58 cp jsoncpp include and so begin
+2020-07-31 16:50:58 cp jsoncpp include and so end
+2020-07-31 16:50:58 build log4cpp so begin
+2020-07-31 16:51:49 build log4cpp so end
+2020-07-31 16:51:49 cp log4cpp include and so begin
+2020-07-31 16:51:49 link log4cpp success
+2020-07-31 16:51:49 cp log4cpp include and so end
+2020-07-31 16:51:49 build so file end
+2020-07-31 16:51:49 clean generate file
+2020-08-01 17:22:18 build so file begin
+2020-08-01 17:22:18 build jsoncpp so begin
+2020-08-01 17:22:32 build jsoncpp so end
+2020-08-01 17:22:32 cp jsoncpp include and so begin
+2020-08-01 17:22:32 cp jsoncpp include and so end
+2020-08-01 17:22:32 build tinyxml so begin
+2020-08-01 17:22:34 build tinyxml so end
+2020-08-01 17:22:34 cp jsoncpp include and so begin
+2020-08-01 17:22:34 cp jsoncpp include and so end
+2020-08-01 17:22:34 build log4cpp so begin
+2020-08-01 17:23:42 build log4cpp so end
+2020-08-01 17:23:42 cp log4cpp include and so begin
+2020-08-01 17:23:42 link log4cpp success
+2020-08-01 17:23:42 cp log4cpp include and so end
+2020-08-01 17:23:42 build so file end
+2020-08-01 17:23:42 clean generate file
+2020-08-02 16:20:35 build so file begin
+2020-08-02 16:20:35 build jsoncpp so begin
+2020-08-02 16:20:45 build jsoncpp so end
+2020-08-02 16:20:45 cp jsoncpp include and so begin
+2020-08-02 16:20:45 cp libjsoncpp.so fail , quit!
+2020-08-02 16:20:45 cp jsoncpp include and so end
+2020-08-02 16:20:45 build tinyxml so begin
+2020-08-02 16:20:46 build tinyxml so end
+2020-08-02 16:20:46 cp jsoncpp include and so begin
+2020-08-02 16:20:46 cp jsoncpp include and so end
+2020-08-02 16:20:46 build log4cpp so begin
+2020-08-02 16:21:25 build log4cpp so end
+2020-08-02 16:21:25 cp log4cpp include and so begin
+2020-08-02 16:21:25 link log4cpp success
+2020-08-02 16:21:25 cp log4cpp include and so end
+2020-08-02 16:21:25 build so file end
+2020-08-02 16:21:25 clean generate file
+2020-08-02 16:24:39 build so file begin
+2020-08-02 16:24:39 build jsoncpp so begin
+2020-08-02 16:24:44 build jsoncpp so end
+2020-08-02 16:24:44 cp jsoncpp include and so begin
+2020-08-02 16:24:44 cp libjsoncpp.so fail , quit!
+2020-08-02 16:24:44 cp jsoncpp include and so end
+2020-08-02 16:24:44 build tinyxml so begin
+2020-08-02 16:24:46 build tinyxml so end
+2020-08-02 16:24:46 cp jsoncpp include and so begin
+2020-08-02 16:24:46 cp jsoncpp include and so end
+2020-08-02 16:24:46 build log4cpp so begin
+2020-08-02 16:24:50 build log4cpp so end
+2020-08-02 16:24:50 cp log4cpp include and so begin
+2020-08-02 16:24:50 cp liblog4cpp.so.5.0.6 fail , quit!
+2020-08-02 16:24:50 cp log4cpp include and so end
+2020-08-02 16:24:50 build so file end
+2020-08-02 16:24:50 clean generate file
+2020-08-02 16:29:41 build so file begin
+2020-08-02 16:29:41 build jsoncpp so begin
+2020-08-02 16:29:45 build jsoncpp so end
+2020-08-02 16:29:45 cp jsoncpp include and so begin
+2020-08-02 16:29:45 cp libjsoncpp.so fail , quit!
+2020-08-02 16:31:21 build so file begin
+2020-08-02 16:31:21 build jsoncpp so begin
+2020-08-02 16:31:21 build jsoncpp so end
+2020-08-02 16:31:21 cp jsoncpp include and so begin
+2020-08-02 16:31:21 cp libjsoncpp.so fail , quit!
+2020-08-02 16:32:32 build so file begin
+2020-08-02 16:32:32 build jsoncpp so begin
+2020-08-02 16:32:32 build jsoncpp so end
+2020-08-02 16:32:32 cp jsoncpp include and so begin
+2020-08-02 16:32:32 cp jsoncpp include and so end
+2020-08-02 16:32:32 build tinyxml so begin
+2020-08-02 16:32:34 build tinyxml so end
+2020-08-02 16:32:34 cp jsoncpp include and so begin
+2020-08-02 16:32:34 cp libtinyxml.so fail , quit!
+2020-08-02 16:32:52 build so file begin
+2020-08-02 16:32:52 build jsoncpp so begin
+2020-08-02 16:32:52 build jsoncpp so end
+2020-08-02 16:32:52 cp jsoncpp include and so begin
+2020-08-02 16:32:52 cp jsoncpp include and so end
+2020-08-02 16:32:52 build tinyxml so begin
+2020-08-02 16:33:03 build tinyxml so end
+2020-08-02 16:33:03 cp jsoncpp include and so begin
+2020-08-02 16:33:03 cp jsoncpp include and so end
+2020-08-02 16:33:03 build log4cpp so begin
+2020-08-02 16:33:38 build log4cpp so end
+2020-08-02 16:33:38 cp log4cpp include and so begin
+2020-08-02 16:33:38 cp liblog4cpp.so.5.0.6 fail , quit!
+2020-08-02 16:34:59 build so file begin
+2020-08-02 16:34:59 build jsoncpp so begin
+2020-08-02 16:35:04 build jsoncpp so end
+2020-08-02 16:35:04 cp jsoncpp include and so begin
+2020-08-02 16:35:04 cp jsoncpp include and so end
+2020-08-02 16:35:04 build tinyxml so begin
+2020-08-02 16:35:05 build tinyxml so end
+2020-08-02 16:35:05 cp jsoncpp include and so begin
+2020-08-02 16:35:05 cp jsoncpp include and so end
+2020-08-02 16:35:05 build log4cpp so begin
+2020-08-02 16:35:40 build log4cpp so end
+2020-08-02 16:35:40 cp log4cpp include and so begin
+2020-08-02 16:35:40 link log4cpp success
+2020-08-02 16:35:40 cp log4cpp include and so end
+2020-08-02 16:35:40 build so file end
+2020-08-02 16:35:40 clean generate file
+2020-08-03 16:19:38 build so file begin
+2020-08-03 16:19:38 build jsoncpp so begin
+2020-08-03 16:19:48 build jsoncpp so end
+2020-08-03 16:19:48 cp jsoncpp include and so begin
+2020-08-03 16:19:48 cp jsoncpp include and so end
+2020-08-03 16:19:48 build tinyxml so begin
+2020-08-03 16:19:50 build tinyxml so end
+2020-08-03 16:19:50 cp jsoncpp include and so begin
+2020-08-03 16:19:50 cp jsoncpp include and so end
+2020-08-03 16:19:50 build log4cpp so begin
+2020-08-03 16:20:27 build log4cpp so end
+2020-08-03 16:20:27 cp log4cpp include and so begin
+2020-08-03 16:20:27 link log4cpp success
+2020-08-03 16:20:27 cp log4cpp include and so end
+2020-08-03 16:20:27 build so file end
+2020-08-03 16:20:27 clean generate file
+2020-08-03 16:25:56 build so file begin
+2020-08-03 16:25:56 build jsoncpp so begin
+2020-08-03 16:26:02 build jsoncpp so end
+2020-08-03 16:26:02 cp jsoncpp include and so begin
+2020-08-03 16:26:02 cp jsoncpp include and so end
+2020-08-03 16:26:02 build tinyxml so begin
+2020-08-03 16:26:03 build tinyxml so end
+2020-08-03 16:26:03 cp jsoncpp include and so begin
+2020-08-03 16:26:03 cp jsoncpp include and so end
+2020-08-03 16:26:03 build log4cpp so begin
+2020-08-03 16:26:37 build log4cpp so end
+2020-08-03 16:26:37 cp log4cpp include and so begin
+2020-08-03 16:26:37 link log4cpp success
+2020-08-03 16:26:37 cp log4cpp include and so end
+2020-08-03 16:26:37 build so file end
+2020-08-03 16:26:37 clean generate file
+2020-08-03 17:13:26 build so file begin
+2020-08-03 17:13:26 build jsoncpp so begin
+2020-08-03 17:13:31 build jsoncpp so end
+2020-08-03 17:13:31 cp jsoncpp include and so begin
+2020-08-03 17:13:31 cp jsoncpp include and so end
+2020-08-03 17:13:31 build tinyxml so begin
+2020-08-03 17:13:33 build tinyxml so end
+2020-08-03 17:13:33 cp jsoncpp include and so begin
+2020-08-03 17:13:33 cp jsoncpp include and so end
+2020-08-03 17:13:33 build log4cpp so begin
+2020-08-03 17:14:12 build log4cpp so end
+2020-08-03 17:14:12 cp log4cpp include and so begin
+2020-08-03 17:14:12 link log4cpp success
+2020-08-03 17:14:12 cp log4cpp include and so end
+2020-08-03 17:14:12 build so file end
+2020-08-03 17:14:12 clean generate file
+2020-08-03 17:17:24 build so file begin
+2020-08-03 17:17:24 build jsoncpp so begin
+2020-08-03 17:17:28 build jsoncpp so end
+2020-08-03 17:17:28 cp jsoncpp include and so begin
+2020-08-03 17:17:28 cp jsoncpp include and so end
+2020-08-03 17:17:28 build tinyxml so begin
+2020-08-03 17:17:30 build tinyxml so end
+2020-08-03 17:17:30 cp jsoncpp include and so begin
+2020-08-03 17:17:30 cp jsoncpp include and so end
+2020-08-03 17:17:30 build log4cpp so begin
+2020-08-03 17:18:04 build log4cpp so end
+2020-08-03 17:18:04 cp log4cpp include and so begin
+2020-08-03 17:18:04 link log4cpp success
+2020-08-03 17:18:04 cp log4cpp include and so end
+2020-08-03 17:18:04 build so file end
+2020-08-03 17:18:04 clean generate file
+2020-08-05 05:18:08 build so file begin
+2020-08-05 05:18:08 build jsoncpp so begin
+2020-08-05 05:18:19 build jsoncpp so end
+2020-08-05 05:18:19 cp jsoncpp include and so begin
+2020-08-05 05:18:19 cp jsoncpp include and so end
+2020-08-05 05:18:19 build tinyxml so begin
+2020-08-05 05:18:21 build tinyxml so end
+2020-08-05 05:18:21 cp jsoncpp include and so begin
+2020-08-05 05:18:21 cp jsoncpp include and so end
+2020-08-05 05:18:21 build log4cpp so begin
+2020-08-05 05:19:05 build log4cpp so end
+2020-08-05 05:19:05 cp log4cpp include and so begin
+2020-08-05 05:19:05 link log4cpp success
+2020-08-05 05:19:05 cp log4cpp include and so end
+2020-08-05 05:19:05 build so file end
+2020-08-05 05:19:05 clean generate file
+2020-08-06 07:27:30 build so file begin
+2020-08-06 07:27:30 build jsoncpp so begin
+2020-08-06 07:27:36 build jsoncpp so end
+2020-08-06 07:27:36 cp jsoncpp include and so begin
+2020-08-06 07:27:36 cp jsoncpp include and so end
+2020-08-06 07:27:36 build tinyxml so begin
+2020-08-06 07:27:38 build tinyxml so end
+2020-08-06 07:27:38 cp jsoncpp include and so begin
+2020-08-06 07:27:38 cp jsoncpp include and so end
+2020-08-06 07:27:38 build log4cpp so begin
+2020-08-06 07:28:19 build log4cpp so end
+2020-08-06 07:28:19 cp log4cpp include and so begin
+2020-08-06 07:28:19 link log4cpp success
+2020-08-06 07:28:19 cp log4cpp include and so end
+2020-08-06 07:28:19 build poco so begin
+2020-08-06 07:36:54 build poco so end
+2020-08-06 07:36:54 cp poco include and so begin
+2020-08-06 07:36:54 cp poco include and so end
+2020-08-06 07:36:54 build so file end
+2020-08-06 07:36:54 clean generate file
+2020-08-08 19:35:46 build so file begin
+2020-08-08 19:35:46 build jsoncpp so begin
+2020-08-08 19:35:52 build jsoncpp so end
+2020-08-08 19:35:52 cp jsoncpp include and so begin
+2020-08-08 19:35:52 cp jsoncpp include and so end
+2020-08-08 19:35:52 build tinyxml so begin
+2020-08-08 19:35:56 build tinyxml so end
+2020-08-08 19:35:56 cp jsoncpp include and so begin
+2020-08-08 19:35:56 cp jsoncpp include and so end
+2020-08-08 19:35:56 build log4cpp so begin
+2020-08-08 19:36:42 build log4cpp so end
+2020-08-08 19:36:42 cp log4cpp include and so begin
+2020-08-08 19:36:42 link log4cpp success
+2020-08-08 19:36:42 cp log4cpp include and so end
+2020-08-08 19:36:42 build poco so begin
+2020-08-08 19:46:34 build poco so end
+2020-08-08 19:46:34 cp poco include and so begin
+2020-08-08 19:46:35 cp poco include and so end
+2020-08-08 19:46:35 build so file end
+2020-08-08 19:46:35 clean generate file
