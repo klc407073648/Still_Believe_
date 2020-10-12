@@ -1,0 +1,3 @@
+[root@192 24]# ./main
+userInfo userName:jason,age:26,address:Nanjing
+m_Day:20
