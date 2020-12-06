@@ -1,8 +1,31 @@
-[root@localhost funTest]# ./main
+testFun1:
+[root@192 main函数命令行解析]# ./main
+ip: 127.0.0.1
 port: 8080
-thread_num: 10
-myStr: testStr
-[root@localhost funTest]# ./main -p 8888 -t 20 -s hello_world
+msg: Hello World
+[root@192 main函数命令行解析]# ./main -i 10.43.33.115 -p 8888 -m Test
+ip: 10.43.33.115
 port: 8888
-thread_num: 20
-myStr: hello_world
+msg: Test
+
+
+testFun2:
+
+[root@192 main函数命令行解析]# ./main -a -b 123 -c 456 -d -e 555
+HAVE option: -a
+HAVE option: -b
+The value of -b is 123
+HAVE option: -c
+The value of -c is 456
+HAVE option: -d
+HAVE option: -e
+The value of -e is [root@192 main函数命令行解析]# ./main -b 123 -c 456 -d -e555 -a2
+HAVE option: -b
+The value of -b is 123
+HAVE option: -c
+The value of -c is 456
+HAVE option: -d
+HAVE option: -e
+The value of -e is 555
+HAVE option: -a
+HAVE option: -2
