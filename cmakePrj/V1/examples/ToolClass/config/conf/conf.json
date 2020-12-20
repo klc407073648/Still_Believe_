@@ -1,0 +1,6 @@
+[
+   {"name" : "conf.json"},
+   {"mysql_host" : "localhost","mysql_user" : "root","mysql_passwd" : "klczxas789","mysql_dbname" : "cloud_disk"},
+   {"description" : "This is conf json"},
+   {"type" : "json"}
+]

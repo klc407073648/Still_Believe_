@@ -1,0 +1,1 @@
+add_executable(DesignPattern_Observer_base main.cpp Observer.cpp Subject.cpp)
