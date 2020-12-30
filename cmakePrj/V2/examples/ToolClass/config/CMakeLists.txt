@@ -1,0 +1,17 @@
+#头文件目录
+INCLUDE_DIRECTORIES( ${JSONCPP_INCLUDE}  ./include )
+
+#目录源码路径
+SET( CONFIGTEST_SRC_DIR ./source )
+
+#代码列表
+FILE (GLOB CONFIGTEST_FILES ${CONFIGTEST_SRC_DIR}/*.cpp)
+
+#依赖的LIB
+SET(CONFIGTEST_LIB  ${LIB_JSONCPP} )
+
+#生成 
+ADD_EXECUTABLE( ToolClass_config ${CONFIGTEST_FILES})
+
+#连接生成相关库
+TARGET_LINK_LIBRARIES( ToolClass_config ${CONFIGTEST_LIB} )

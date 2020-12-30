@@ -1,0 +1,3 @@
+add_executable(functionStudy_bindTest bindTest.cpp)
+add_executable(functionStudy_functionTest functionTest.cpp)
+

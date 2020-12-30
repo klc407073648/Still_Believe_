@@ -1,0 +1,1 @@
+add_executable(DesignPattern_Template_base main.cpp Template.cpp)

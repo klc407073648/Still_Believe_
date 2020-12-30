@@ -1,0 +1,4 @@
+hello_world：基础的C/S架构，其中server负责发送World，接收Hello;client负责发送Hello,接收World。但是程序不包括发送和接收消息的解析
+都是直接写在打印语句中。
+pthread_use：在一个可执行程序中，创建多个线程，其中0线程是服务器，1线程是客户端，其他是工作线程。
+pthread_use_s：进一步完善，通过zhelps.hpp的函数s_send和s_recv，完成C++程序的消息发送和接收，并不会存在pthread_use中需要解析字符串的问题。

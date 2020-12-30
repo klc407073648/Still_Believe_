@@ -1,0 +1,1 @@
+add_executable(DesignPattern_Strategy_base main.cpp Strategy.cpp Context.cpp)

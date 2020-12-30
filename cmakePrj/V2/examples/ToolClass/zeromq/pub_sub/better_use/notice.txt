@@ -1,0 +1,10 @@
+[root@192 deploy]# ./ToolClass_zeromq_pub_sub_better_use_pubServer 127.0.0.1:7788 music "Rain"
+hostport:127.0.0.1, port:7788
+g_topic is music, g_content is Rain
+
+[root@192 deploy]# ./ToolClass_zeromq_pub_sub_better_use_subClient 127.0.0.1:7788 music
+hostport:127.0.0.1, port:7788
+7426184th topic is (null)
+[music] Rain
+[music] Rain
+[music] Rain

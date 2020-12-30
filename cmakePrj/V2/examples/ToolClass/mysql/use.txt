@@ -1,0 +1,46 @@
+1.MySQL数据表结构：
+
+CREATE TABLE events_all_time (
+id int(11) unsigned NOT NULL AUTO_INCREMENT,
+action varchar(255) NOT NULL,
+count int(11) NOT NULL DEFAULT 0,
+PRIMARY KEY (id),
+UNIQUE KEY uniq_action (action)
+);
+
+
+2.Redis存储结构：
+
+HSET events_all_time [action] [count]
+
+下面是重点，能过下面SQL语句将MySQL输出直接变更成redis-cli可接收的格式：
+
+-- events_to_redis.sql
+SELECT CONCAT(
+"*4\r\n",
+'$', LENGTH(redis_cmd), '\r\n',
+redis_cmd, '\r\n',
+'$', LENGTH(redis_key), '\r\n',
+redis_key, '\r\n',
+'$', LENGTH(hkey), '\r\n',
+hkey, '\r\n',
+'$', LENGTH(hval), '\r\n',
+hval, '\r'
+)
+FROM (
+SELECT
+'HSET' as redis_cmd,
+'events_all_time' AS redis_key,
+action AS hkey,
+count AS hval
+FROM events_all_time
+) AS t
+然后用管道符重定向输出即可：
+
+mysql -uroot -p myredis -N -r <events_to_redis.sql |redis-cli -h 127.0.0.1 -p 6379 --pipe
+
+mysql -uroot -p myredis -N -r <events_to_redis.sql |redis-cli  --pipe
+
+mysql -uroot -pklczxas789 myredis -N -r <events_to_redis.sql |redis-cli -h 127.0.0.1 -p 6379 --pipe
+
+可参考https://github.com/IreanLau/redis-mysql
