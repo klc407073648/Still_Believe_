@@ -3,23 +3,24 @@
 #include <sstream>
 #include "zhelpers.hpp"
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-    zmq::context_t context (1);
+    zmq::context_t context(1);
 
-    zmq::socket_t subscriber (context, ZMQ_SUB);
+    zmq::socket_t subscriber(context, ZMQ_SUB);
     subscriber.connect("tcp://localhost:5556");
 
     //  Subscribe to zipcode, default is NYC, 10001
-	const char *filter = (argc > 1)? argv [1]: "music";
-    subscriber.setsockopt(ZMQ_SUBSCRIBE, filter, strlen (filter));
+    const char *filter = (argc > 1) ? argv[1] : "music";
+    subscriber.setsockopt(ZMQ_SUBSCRIBE, filter, strlen(filter));
 
-    while (1) {
- 		
-		std::string topic = s_recv (subscriber);
+    while (1)
+    {
 
-		std::string content = s_recv (subscriber);
-		
+        std::string topic = s_recv(subscriber);
+
+        std::string content = s_recv(subscriber);
+
         std::cout << "[" << topic << "] " << content << std::endl;
     }
     return 0;

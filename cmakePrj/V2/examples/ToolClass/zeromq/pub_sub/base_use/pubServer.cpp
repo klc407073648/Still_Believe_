@@ -5,27 +5,28 @@
 #include <time.h>
 #include "zhelpers.hpp"
 
-int main () {
+int main()
+{
 
     //  Prepare our context and publisher
-    zmq::context_t context (1);
-    zmq::socket_t publisher (context, ZMQ_PUB);
+    zmq::context_t context(1);
+    zmq::socket_t publisher(context, ZMQ_PUB);
     publisher.bind("tcp://*:5556");
     publisher.bind("ipc://weather.ipc");
 
+    while (1)
+    {
 
-    while (1) {
-
-        s_sendmore (publisher, "music");
-        s_send (publisher, "<Brand New Day>");
-        s_sendmore (publisher, "music");
-        s_send (publisher, "<Rain>");
-        s_sendmore (publisher, "programing");
-        s_send (publisher, "C++");
-        s_sendmore (publisher, "programing");
-        s_send (publisher, "Java");
-        s_sendmore (publisher, "programing");
-        s_send (publisher, "Python");
+        s_sendmore(publisher, "music");
+        s_send(publisher, "<Brand New Day>");
+        s_sendmore(publisher, "music");
+        s_send(publisher, "<Rain>");
+        s_sendmore(publisher, "programing");
+        s_send(publisher, "C++");
+        s_sendmore(publisher, "programing");
+        s_send(publisher, "Java");
+        s_sendmore(publisher, "programing");
+        s_send(publisher, "Python");
 
         sleep(1);
     }
