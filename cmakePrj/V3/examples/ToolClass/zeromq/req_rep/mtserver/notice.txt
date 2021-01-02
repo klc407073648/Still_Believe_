@@ -1,0 +1,12 @@
+[root@192 zeromq]# ./req_rep_simpleClient
+Connecting to hello world server...
+client Send I'm client Hello. 0
+client Received [I'm server,already recv your msg:I'm client Hello.] 0
+client Send I'm client Hello. 1
+
+
+[root@192 zeromq]# ./req_rep_mtserver
+Received request: [I'm client Hello.]
+Received request: [I'm client Hello.]
+Received request: [I'm client Hello.]
+Received request: [I'm client Hello.]
