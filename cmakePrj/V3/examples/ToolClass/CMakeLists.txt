@@ -21,6 +21,5 @@ if(ZeroMQ_FOUND)
   add_subdirectory(zeromq)
 else()
   add_subdirectory(zeromq EXCLUDE_FROM_ALL)
-
 endif()
 

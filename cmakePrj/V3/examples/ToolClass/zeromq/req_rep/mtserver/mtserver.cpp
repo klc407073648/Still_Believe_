@@ -28,9 +28,8 @@ void *worker_routine(void *arg)
         sleep(1);
 
         //  Send reply back to client
-        std::string sendStr = "I'm server,already recv your msg:"+recvStr;
+        std::string sendStr = "I'm server,already recv your msg:" + recvStr;
         s_send(socket, sendStr);
-
     }
     return (NULL);
 }

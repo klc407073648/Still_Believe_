@@ -6,8 +6,8 @@
 
 using namespace std; 
 string curPath;
-string myPrintPath = "/myprj/tinyxmlTest/conf/school.xml";
-string myWritePath = "/myprj/tinyxmlTest/conf/school-write.xml";
+string myPrintPath = "/../../../examples/ToolClass/tinyxml/conf/school.xml";
+string myWritePath = "/../../../examples/ToolClass/tinyxml/conf/school-write.xml";
 string finalPath;
 
 std::string execShellPipe(std::string cmd)

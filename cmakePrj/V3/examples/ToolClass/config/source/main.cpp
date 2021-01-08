@@ -5,7 +5,7 @@
 int main(int args, char* argv[])
 {
 
-    Config* mConfig = new Config("./myprj/test/configTest/conf/conf.json"); ;
+    Config* mConfig = new Config("../../../examples/ToolClass/config/conf/conf.json"); ;
  
     return 0;
 }

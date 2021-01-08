@@ -1,5 +1,0 @@
-为了更好的理解system()函数返回值，需要了解其执行过程，实际上system()函数执行了三步操作：
-
-1.fork一个子进程；
-2.在子进程中调用exec函数去执行command；
-3.在父进程中调用wait去等待子进程结束。 对于fork失败，system()函数返回-1。 如果exec执行成功，也即command顺利执行完毕，则返回command通过exit或return返回的值。
