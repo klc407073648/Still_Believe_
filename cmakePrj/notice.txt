@@ -2,3 +2,4 @@
 2020.12.30: 在examples\ToolClass中加入zeromq的学习内容。
 2021.1.2: 修改examples里各个模块可执行文件的生成路径，添加zeromq学习样例
 2021.1.8: zeromq继续学习，且总结各个例子的内容到guide中
+2021.1.15: zeromq基础知识和进阶知识学习总结

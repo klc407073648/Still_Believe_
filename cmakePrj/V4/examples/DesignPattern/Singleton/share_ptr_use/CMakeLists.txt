@@ -1,0 +1,1 @@
+add_executable(Singleton_share main.cpp)

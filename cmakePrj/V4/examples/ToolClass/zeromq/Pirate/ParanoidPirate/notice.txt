@@ -1,0 +1,49 @@
+./ppqueue
+./ppwork
+I: (0D57-9062) worker heartbeat
+I: (0D57-9062) worker heartbeat
+I: (0D57-9062) worker heartbeat
+I: (0D57-9062) worker heartbeat
+I: (0D57-9062) worker heartbeat
+
+然后启动./pp_lpclient 模拟失败：
+[root@192 zeromq]# ./pp_lpclient
+I: connecting to server...
+W: no response from server, retrying...
+I: connecting to server...
+W: no response from server, retrying...
+I: connecting to server...
+E: server seems to be offline, abandoning
+
+然后手动kill  ./ppqueue
+ppwork就会一直不断调整时间去重连，最后还有问题：
+
+W: (0D57-9062) heartbeat failure, can't reach queue
+W: (0D57-9062) reconnecting in 1000 msec...
+I: (D22E-44C5) worker ready
+I: (D22E-44C5) worker heartbeat
+I: (D22E-44C5) worker heartbeat
+I: (D22E-44C5) worker heartbeat
+W: (D22E-44C5) heartbeat failure, can't reach queue
+W: (D22E-44C5) reconnecting in 2000 msec...
+I: (C18A-C809) worker ready
+I: (C18A-C809) worker heartbeat
+I: (C18A-C809) worker heartbeat
+I: (C18A-C809) worker heartbeat
+W: (C18A-C809) heartbeat failure, can't reach queue
+W: (C18A-C809) reconnecting in 4000 msec...
+
+........
+W: (04A7-5BB2) heartbeat failure, can't reach queue
+W: (04A7-5BB2) reconnecting in 32000 msec...
+I: (4972-9816) worker ready
+I: (4972-9816) worker heartbeat
+I: (4972-9816) worker heartbeat
+I: (4972-9816) worker heartbeat
+W: (4972-9816) heartbeat failure, can't reach queue
+W: (4972-9816) reconnecting in 32000 msec...
+I: (631F-3335) worker ready
+I: (631F-3335) worker heartbeat
+I: (631F-3335) worker heartbeat
+
+

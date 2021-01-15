@@ -1,0 +1,9 @@
+[root@192 C++]# ./identity
+----------------------------------------
+[005]006bffffff8b4567
+[000]
+[01c]ROUTER uses a generated UUID
+----------------------------------------
+[005]Hello
+[000]
+[028]ROUTER socket uses REQ's socket identity

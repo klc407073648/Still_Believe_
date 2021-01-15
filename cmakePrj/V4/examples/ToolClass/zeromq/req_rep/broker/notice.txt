@@ -1,0 +1,25 @@
+[root@192 zeromq]# ./rrclient
+Received reply 0 [World]
+Received reply 1 [World]
+Received reply 2 [World]
+Received reply 3 [World]
+Received reply 4 [World]
+Received reply 5 [World]
+Received reply 6 [World]
+Received reply 7 [World]
+Received reply 8 [World]
+Received reply 9 [World]
+
+[root@192 zeromq]# ./rrserver
+Received request: Hello
+Received request: Hello
+Received request: Hello
+Received request: Hello
+Received request: Hello
+Received request: Hello
+Received request: Hello
+Received request: Hello
+Received request: Hello
+Received request: Hello
+
+./msgqueue 和 ./rrbroker 作用相同
