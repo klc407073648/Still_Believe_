@@ -1,0 +1,1 @@
+add_executable(Template_base main.cpp Template.cpp)

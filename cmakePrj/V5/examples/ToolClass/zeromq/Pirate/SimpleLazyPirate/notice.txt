@@ -1,0 +1,14 @@
+
+——————————————————————————————————————————————————
+[root@localhost zeromq]# ./spworker
+I: (4BFA-5A56) worker ready
+I: (4BFA-5A56) normal reply - I'm client Hello.
+I: (4BFA-5A56) normal reply - I'm client Hello.
+I: (4BFA-5A56) normal reply - I'm client Hello.
+I: (4BFA-5A56) simulating a crash
+
+[root@localhost zeromq]# ./spqueue
+
+[root@localhost zeromq]# ./sp_client
+Connecting to hello world server...
+client Send I'm client Hello. 0

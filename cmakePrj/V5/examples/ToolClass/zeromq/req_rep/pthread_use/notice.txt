@@ -1,0 +1,53 @@
+1.创建5个线程
+让线程0作服务器,线程1作客户端，来实现消息收发
+pthread_join:函数pthread_join用来等待一个线程的结束,线程间同步的操作。
+注意C语言字符串，结尾需要留一位\0,需要用户自己处理
+
+[root@192 deploy]# ./ToolClass_zeromq_req_rep_pthread_use
+Connecting to hello world server...
+client Send zmq::message_t [size 006] ( Hello 00) 0...
+server Received zmq::message_t [size 006] ( Hello 00)
+I'm 2th pthread, pthread_id = 140509335172864
+ var = 100
+client Received zmq::message_t [size 005] ( World) 0
+client Send zmq::message_t [size 006] ( Hello 00) 1...
+server Received zmq::message_t [size 006] ( Hello 00)
+I'm 3th pthread, pthread_id = 140509326780160
+ var = 100
+client Received zmq::message_t [size 005] ( World) 1
+client Send zmq::message_t [size 006] ( Hello 00) 2...
+server Received zmq::message_t [size 006] ( Hello 00)
+I'm 4th pthread, pthread_id = 140509318387456
+ var = 100
+client Received zmq::message_t [size 005] ( World) 2
+client Send zmq::message_t [size 006] ( Hello 00) 3...
+server Received zmq::message_t [size 006] ( Hello 00)
+client Received zmq::message_t [size 005] ( World) 3
+client Send zmq::message_t [size 006] ( Hello 00) 4...
+server Received zmq::message_t [size 006] ( Hello 00)
+client Received zmq::message_t [size 005] ( World) 4
+client Send zmq::message_t [size 006] ( Hello 00) 5...
+server Received zmq::message_t [size 006] ( Hello 00)
+client Received zmq::message_t [size 005] ( World) 5
+client Send zmq::message_t [size 006] ( Hello 00) 6...
+server Received zmq::message_t [size 006] ( Hello 00)
+client Received zmq::message_t [size 005] ( World) 6
+client Send zmq::message_t [size 006] ( Hello 00) 7...
+server Received zmq::message_t [size 006] ( Hello 00)
+client Received zmq::message_t [size 005] ( World) 7
+client Send zmq::message_t [size 006] ( Hello 00) 8...
+server Received zmq::message_t [size 006] ( Hello 00)
+client Received zmq::message_t [size 005] ( World) 8
+client Send zmq::message_t [size 006] ( Hello 00) 9...
+server Received zmq::message_t [size 006] ( Hello 00)
+I'm 0th pthread, pthread_id = 140509351958272
+ var = 111
+client Received zmq::message_t [size 005] ( World) 9
+I'm 1th pthread, pthread_id = 140509343565568
+ var = 222
+-------0 's ret = 111
+-------1 's ret = 222
+-------2 's ret = 100
+-------3 's ret = 100
+-------4 's ret = 100
+I'm main pthread tid = 140509370181440   var = 222

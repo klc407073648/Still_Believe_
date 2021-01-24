@@ -1,0 +1,21 @@
+使用方法：
+server: ip:port + 多个topic,content对。
+client: ip:port + 多个要接收的topic。
+
+./pubServer 127.0.0.1:7788 music "Rain" book "Learing STL" programing C++
+hostport:127.0.0.1, port:7788
+1th g_topic is music, g_content is Rain
+2th g_topic is book, g_content is Learing STL
+3th g_topic is programing, g_content is C++
+
+
+[root@192 deploy]# ./subClient 127.0.0.1:7788 music book sport programing
+hostport:127.0.0.1, port:7788
+1th topic is music
+2th topic is book
+3th topic is sport
+4th topic is programing
+topic:music content:Rain
+topic:book content:Learing STL
+topic:programing content:C++
+

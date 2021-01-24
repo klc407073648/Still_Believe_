@@ -1,0 +1,23 @@
+[root@192 zeromq]# ./simpleClient
+Connecting to hello world server...
+client Send I'm client Hello. 0
+client Received [server pthread_id: 139971776214784 send [I'm server Hello.]] 0
+client Send I'm client Hello. 1
+client Received [server pthread_id: 139971914864384 send [I'm server Hello.]] 1
+client Send I'm client Hello. 2
+client Received [server pthread_id: 139971906471680 send [I'm server Hello.]] 2
+client Send I'm client Hello. 3
+client Received [server pthread_id: 139971898078976 send [I'm server Hello.]] 3
+
+
+
+[root@192 zeromq]# ./mtserver
+server pthread_id: 139971776214784 Received request: [I'm client Hello.]
+server pthread_id: 139971776214784 send [I'm server Hello.]
+server pthread_id: 139971914864384 Received request: [I'm client Hello.]
+server pthread_id: 139971914864384 send [I'm server Hello.]
+server pthread_id: 139971906471680 Received request: [I'm client Hello.]
+server pthread_id: 139971906471680 send [I'm server Hello.]
+server pthread_id: 139971898078976 Received request: [I'm client Hello.]
+server pthread_id: 139971898078976 send [I'm server Hello.]
+

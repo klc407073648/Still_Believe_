@@ -1,0 +1,24 @@
+[root@192 C++]# ./peering1 DC1 DC2 DC3
+I: preparing broker at DC1...
+I: connecting to state backend at 'DC2'
+I: connecting to state backend at 'DC3'
+DC2 - 2 workers free
+DC2 - 7 workers free
+DC3 - 2 workers free
+
+[root@192 C++]# ./peering1 DC2 DC1 DC3
+I: preparing broker at DC2...
+I: connecting to state backend at 'DC1'
+I: connecting to state backend at 'DC3'
+DC1 - 6 workers free
+DC3 - 2 workers free
+DC1 - 7 workers free
+
+[root@192 C++]# ./peering1 DC3 DC1 DC2
+I: preparing broker at DC3...
+I: connecting to state backend at 'DC1'
+I: connecting to state backend at 'DC2'
+DC1 - 6 workers free
+DC2 - 2 workers free
+DC2 - 7 workers free
+DC1 - 7 workers free

@@ -1,0 +1,1 @@
+add_executable(Singleton_safe main.cpp Singleton.cpp )

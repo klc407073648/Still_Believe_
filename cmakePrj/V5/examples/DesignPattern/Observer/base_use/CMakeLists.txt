@@ -1,0 +1,1 @@
+add_executable(Observer_base main.cpp Observer.cpp Subject.cpp)

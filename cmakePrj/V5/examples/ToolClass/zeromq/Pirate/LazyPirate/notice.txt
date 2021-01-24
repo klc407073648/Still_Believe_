@@ -1,0 +1,54 @@
+客户端的可靠性设计（懒惰海盗模式）
+我们可以通过在客户端进行简单的设置，来实现可靠的请求-应答模式。我暂且称之为“懒惰的海盗”（Lazy Pirate）模式。
+
+在接收应答时，我们不进行同步等待，而是做以下操作：
+
+对REQ套接字进行轮询，当消息抵达时才进行接收；
+请求超时后重发消息，循环多次；
+若仍无消息，则结束当前事务。
+
+客户端为每次请求都加上了序列号，并检查收到的应答是否和序列号一致，以保证没有请求或应答丢失，
+同一个应答收到多次或乱序。多运行几次实例，看看是否真的能够解决问题。现实环境中你不需要使用到序列号，那只是为了证明这一方式是可行的。
+——————————————————————————————————————————————————
+[root@192 C++]# ./lpclient
+I: connecting to server...
+I: server replied OK (1)
+I: server replied OK (2)
+I: server replied OK (3)
+W: no response from server, retrying...
+I: connecting to server...
+W: no response from server, retrying...
+I: connecting to server...
+E: server seems to be offline, abandoning
+
+[root@192 C++]# ./lpserver
+I: normal request (1)
+I: normal request (2)
+I: normal request (3)
+I: simulating a crash
+
+
+
+——————————————————————————————————————————————————
+
+[root@192 C++]# ./lpclient
+I: connecting to server...
+W: no response from server, retrying...
+I: connecting to server...
+I: server replied OK (1)
+I: server replied OK (2)
+I: server replied OK (3)
+I: server replied OK (4)
+W: no response from server, retrying...
+I: connecting to server...
+W: no response from server, retrying...
+I: connecting to server...
+E: server seems to be offline, abandoning
+
+[root@192 C++]# ./lpserver
+I: normal request (1)
+I: normal request (1)
+I: normal request (2)
+I: normal request (3)
+I: normal request (4)
+I: simulating a crash

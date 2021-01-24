@@ -1,0 +1,10 @@
+#DesignPattern
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${DESIGNPATTERN_EXECUTABLE_OUTPUT_PATH})
+add_subdirectory(AbstractFactory/base_use)
+add_subdirectory(Factory/base_use)
+add_subdirectory(Observer/base_use)
+add_subdirectory(Singleton/base_use)
+add_subdirectory(Singleton/safe_use)
+add_subdirectory(Singleton/share_ptr_use)
+add_subdirectory(Strategy/base_use)
+add_subdirectory(Template/base_use)
