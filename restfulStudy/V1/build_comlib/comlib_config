@@ -1,0 +1,16 @@
+jsoncpp_tar_name=jsoncpp-src-0.5.0.tar.gz
+log4cpp_tar_name=log4cpp-1.1.3.tar.gz
+
+tinyxml_zip_name=tinyxml_2_6_2.zip
+zeromq_zip_name=libzmq-master.zip
+cppzmq_zip_name=cppzmq-master.zip
+
+jsoncpp_path=jsoncpp
+tinyxml_path=tinyxml
+log4cpp_path=log4cpp
+zeromq_path=zeromq
+
+log_path=logPath
+log_name=build_comlib.log
+
+build_list=jsoncpp

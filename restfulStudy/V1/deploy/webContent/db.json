@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "title": "hello world",
+      "author": "kkkk",
+      "id": 2
+    },
+    {
+      "title": "hello world",
+      "author": "json",
+      "id": 3
+    },
+    {
+      "title": "hello world",
+      "author": "json",
+      "id": 4
+    },
+    {
+      "title": "hello world",
+      "author": "json",
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "title": "hello world",
+    "author": "Still"
+  }
+}

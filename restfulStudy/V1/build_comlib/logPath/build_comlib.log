@@ -1,0 +1,76 @@
+2021-01-23 19:12:59 MAIN begin
+2021-01-23 19:12:59 parseConfigFile begin
+2021-01-23 19:12:59 parseConfigFile end
+2021-01-23 19:12:59 clearBuildPath begin
+2021-01-23 19:12:59 clearBuildPath end
+2021-01-23 19:12:59 buildComlib begin
+2021-01-23 19:12:59 build jsoncpp begin
+2021-01-23 19:12:59 jsoncpp .h and .so deal begin
+2021-01-23 19:12:59 jsoncpp .h and .so deal end
+2021-01-23 19:12:59 build jsoncpp end
+2021-01-23 19:12:59 buildComlib end
+2021-01-23 19:12:59 MAIN end
+2021-01-23 19:15:58 MAIN begin
+2021-01-23 19:15:58 parseConfigFile begin
+2021-01-23 19:15:58 parseConfigFile end
+2021-01-23 19:15:58 clearBuildPath begin
+2021-01-23 19:15:58 clearBuildPath end
+2021-01-23 19:15:58 buildComlib begin
+2021-01-23 19:15:58 build jsoncpp begin
+2021-01-23 19:16:02 jsoncpp .h and .so deal begin
+2021-01-23 19:16:02 jsoncpp .h and .so deal end
+2021-01-23 19:16:02 build jsoncpp end
+2021-01-23 19:16:02 buildComlib end
+2021-01-23 19:16:02 MAIN end
+2021-01-24 00:08:49 MAIN begin
+2021-01-24 00:08:49 parseConfigFile begin
+2021-01-24 00:08:49 parseConfigFile end
+2021-01-24 00:08:49 clearBuildPath begin
+2021-01-24 00:08:49 clearBuildPath end
+2021-01-24 00:08:49 buildComlib begin
+2021-01-24 00:08:49 build jsoncpp begin
+2021-01-24 00:10:13 jsoncpp .h and .so deal begin
+2021-01-24 00:10:26 jsoncpp .h and .so deal end
+2021-01-24 00:10:26 build jsoncpp end
+2021-01-24 00:10:26 buildComlib end
+2021-01-24 00:10:26 MAIN end
+2021-01-27 15:31:31 MAIN begin
+2021-01-27 15:31:31 parseConfigFile begin
+2021-01-27 15:31:31 parseConfigFile end
+2021-01-27 15:31:31 clearBuildPath begin
+2021-01-27 15:31:31 clearBuildPath end
+2021-01-27 15:31:31 buildComlib begin
+2021-01-27 15:31:31 build jsoncpp begin
+2021-01-27 15:31:40 jsoncpp .h and .so deal begin
+2021-01-27 15:31:40 jsoncpp .h and .so deal end
+2021-01-27 15:31:40 build jsoncpp end
+2021-01-27 15:31:40 buildComlib end
+2021-01-27 15:31:40 MAIN end
+2021-01-27 15:51:41 MAIN begin
+2021-01-27 15:51:41 parseConfigFile begin
+2021-01-27 15:51:41 parseConfigFile end
+2021-01-27 15:51:41 clearBuildPath begin
+2021-01-27 15:51:41 clearBuildPath end
+2021-01-27 15:51:41 buildComlib begin
+2021-01-27 15:51:41 build jsoncpp begin
+2021-01-27 15:51:46 jsoncpp .h and .so deal begin
+2021-01-27 15:51:46 jsoncpp .h and .so deal end
+2021-01-27 15:51:46 build jsoncpp end
+2021-01-27 15:51:46 buildComlib end
+2021-01-27 15:51:46 clearBuildPath begin
+2021-01-27 15:51:46 clearBuildPath end
+2021-01-27 15:51:46 MAIN end
+2021-01-27 15:54:21 MAIN begin
+2021-01-27 15:54:21 parseConfigFile begin
+2021-01-27 15:54:21 parseConfigFile end
+2021-01-27 15:54:21 clearBuildPath begin
+2021-01-27 15:54:21 clearBuildPath end
+2021-01-27 15:54:21 buildComlib begin
+2021-01-27 15:54:21 build jsoncpp begin
+2021-01-27 15:54:25 jsoncpp .h and .so deal begin
+2021-01-27 15:54:25 jsoncpp .h and .so deal end
+2021-01-27 15:54:25 build jsoncpp end
+2021-01-27 15:54:25 buildComlib end
+2021-01-27 15:54:25 clearBuildPath begin
+2021-01-27 15:54:25 clearBuildPath end
+2021-01-27 15:54:25 MAIN end
