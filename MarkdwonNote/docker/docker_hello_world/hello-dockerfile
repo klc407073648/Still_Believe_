@@ -1,0 +1,19 @@
+FROM codenvy/cpp_gcc 
+
+RUN mkdir /home/user/myapp
+
+ADD hello-world.cpp /home/user/myapp
+ADD cmakeTest.tar.gz /home/user/myapp
+ADD start.sh /home/user/myapp
+
+WORKDIR /home/user/myapp
+
+RUN g++ hello-world.cpp -o hello
+
+ENV LD_LIBRARY_PATH /home/user/myapp/cmakeTest/comlib/3part/jsoncpp/lib:$LD_LIBRARY_PATH
+ENV PATH /home/user/myapp/cmakeTest/comlib/3part/jsoncpp/lib:$PATH
+
+CMD ["./hello"]
+CMD ["./start.sh"]
+
+EXPOSE 9950

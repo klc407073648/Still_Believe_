@@ -1,0 +1,15 @@
+FROM codenvy/cpp_gcc 
+
+RUN mkdir /home/user/webapp
+
+ADD myweb.tar.gz /home/user/webapp
+ADD start.sh /home/user/webapp
+
+WORKDIR /home/user/webapp
+
+ENV LD_LIBRARY_PATH /home/user/webapp/myweb/comlib/3part/jsoncpp/lib:$LD_LIBRARY_PATHexi
+
+#CMD ["./start.sh"]
+ENTRYPOINT /home/user/webapp/start.sh
+
+EXPOSE 9950

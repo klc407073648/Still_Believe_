@@ -1,0 +1,1 @@
+cd ./myweb/deploy/ && ./myprj

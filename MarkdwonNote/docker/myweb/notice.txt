@@ -1,0 +1,13 @@
+镜像制作和执行：
+docker build -f ./myweb-dockerfile -t myweb_docker:v1.0 .
+
+docker run -it myweb_docker:v1.0 bash
+
+本地机上，访问资源：
+curl 172.17.0.7:9950/hostname
+
+
+删除镜像和退出的进程
+docker rmi myweb_docker:v1.0
+
+docker rm $(docker ps -q -f status=exited)

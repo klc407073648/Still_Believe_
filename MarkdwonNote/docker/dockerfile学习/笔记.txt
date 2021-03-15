@@ -1,0 +1,12 @@
+dockerfile学习：
+https://github.com/cmxiaocai/Dockerfile
+
+本地redis安装：
+https://www.cnblogs.com/heqiuyong/p/10463334.html
+
+https://www.cnblogs.com/marvinn/p/11081106.html
+
+https://www.cnblogs.com/huanxiyun/articles/5618011.html
+
+redis版本：
+https://redis.io/download

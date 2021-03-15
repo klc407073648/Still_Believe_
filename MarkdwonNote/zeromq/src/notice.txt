@@ -1,0 +1,3 @@
+将md链接全部换成./ ，就能显示图片
+https://github.com/anjuke/zguide-cn/raw/master/images/chapter2_2.png
+./images/chapter2_2.png

@@ -1,0 +1,1 @@
+cd ./cmakeTest/deploy/ && ./myprj
