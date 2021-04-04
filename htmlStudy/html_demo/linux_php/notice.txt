@@ -1,0 +1,10 @@
+测试时需要将文件放置/var/www/html/ 即apache服务器的路径下，才能打开。
+
+
+
+Linux 下mysql使用方法：
+mysql -u root -p  
+输入密码  进入命令行
+Show databases;
+Use html;
+Select * from user;

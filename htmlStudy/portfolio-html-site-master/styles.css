@@ -1,0 +1,143 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+/* grid 为网格布局,可以自己设定行列以及对应比例*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+/* flex 为弹性布局,justify-content 为元素在主轴（页面）上的排列方式,
+padding为填充属性（padding:10px 5px 15px 20px），写一个值默认四个填充均相同*/
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+/* > 表示子代元素  margin-right:右外边距，0.9rem  rem是一个相对大小的值，它相对于根元素<html> 默认 html｛font-size: 10px;}*/
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+/*border是画边框  1px solid（实线） transparent 宽度 类型 颜色 */
+/*过渡transition是一个复合属性，包括transition-property、transition-duration、transition-timing-function、transition-delay这四个子属性
+过渡属性(默认值为all),过渡持续时间(默认值为0s),过渡函数(默认值为ease函数),过渡延迟时间(默认值为0s)*/
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+/*CSS中class可以指定多个值,用空格隔开就可以了,多个样式定义最终会叠加在一起应用到当前元素。*/
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+/*!important 强制提高优先级 color: black !important color: red  生效的是black*/
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+/*hover 选择器: 当鼠标点击元素时，显示对应操作，即选择底边框时才显示*/
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+/*hover 选择器: 当鼠标点击a时，即对应的文字时，才显示黑色*/
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+/* grid 为网格布局,三列 1:1:1*/
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* 父级标签relative，子级标签position来做到无论浏览器如何改变，都是相对浏览器的定位*/
+.portfolio-item-wrapper {
+  position: relative;
+}
+
+/*cover：图片宽高比不变、铺满整个容器的宽高，而图片多出的部分则会被截掉；
+  contain:图片自身的宽高比不变，缩放至图片自身能完全显示出来，所以容器会有留白区域；
+  repeat:默认。背景图像将在垂直方向和水平方向重复;no-repeat:背景图像将仅显示一次。*/
+.portfolio-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+/*container一词通常用来表示包含多个元素的结构，wrapper则表示对某单个对象进行包装
+align-items：纵轴的对齐方式  text-align:文本的水平对齐方式
+*/
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+}
+
+/*滤镜：filter  blur:图像高斯模糊 brightness：线性乘法原始图像亮度 X k%*/
+.image-blur {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+/*font-weight：设置文本的粗细*/
+.img-text-wrapper:hover .subtitle {
+  color: lightseagreen;
+  font-weight: 600;
+}
+
+/*margin-bottom：下外边框*/
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+}
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  color: lightseagreen;
+}
